@@ -1,0 +1,13 @@
+{
+  "dataset": "dataset_v56",
+  "archive_sha256": "d280052267403770543fee13ca030627b92f6a3f645463d1d7abab10147be617",
+  "archive_members_verified": 943,
+  "relocated_frozen_dataset_verified": true,
+  "pending_images_included": false,
+  "accepted_images": 460,
+  "epochs_total": 70,
+  "gpu_colab_drive_main_training_executed": false,
+  "smoke_current_bundle_executed": false,
+  "previous_same_code_cpu_smoke": "verification/colab_bundle_v54.json",
+  "note": "Current v56 package hash and relocated dataset verified. Train-save-resume CPU smoke was executed on v54 with identical training code, not rerun on v56. No accuracy claim."
+}

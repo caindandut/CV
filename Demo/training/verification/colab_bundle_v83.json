@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "dataset": "dataset_v83",
+  "accepted_images": 517,
+  "target": 2000,
+  "target_achieved": false,
+  "archive_sha256": "ec4d5334a534a5d43f548ddfe35072569506977f85ef29a0f5387ea965f1b2d9",
+  "archive_members": 1058,
+  "all_extracted_member_hashes_verified": 1057,
+  "crc_verified": true,
+  "pending_media_excluded": true,
+  "packaged_code_imported_from": "d:\\Nam 4\\CV\\Demo\\training\\verification\\colab_bundle_v83_extract\\code\\train_colab.py",
+  "extracted_training_code_verified_dataset": true,
+  "extraction_root": "d:\\Nam 4\\CV\\Demo\\training\\verification\\colab_bundle_v83_extract",
+  "epochs_total": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "main_training_run": false,
+  "new_cpu_smoke_run": false,
+  "gpu_or_drive_runtime_test": false,
+  "previous_smoke_reference": "v54 CPU3total epochs, unchanged packaged training logic; not rerun for static dataset update."
+}

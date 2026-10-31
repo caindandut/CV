@@ -1,0 +1,8 @@
+{
+  "status": "failed_before_snapshot_creation",
+  "cause": "Manual ledger incorrectly assumed provider train directory for00345; actual member images/val/day_cam_24_00345.jpg.",
+  "clean_counter_unchanged": 495,
+  "failed_process_exit_code": 1,
+  "correction": "Use exact archive_entry from CRC-verified samples manifest for both candidates. Existing importer supports provider val member without assigning validation split.",
+  "no_failed_dataset_directory_exists": true
+}

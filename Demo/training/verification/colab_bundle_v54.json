@@ -1,0 +1,25 @@
+{
+  "dataset": "dataset_v54",
+  "archive_sha256": "23c8cc39f6c8d0007699f5b41bf5c99d0da725a7f74529568b107cfa7bc1b203",
+  "archive_members_verified": 933,
+  "relocated_frozen_dataset_verified": true,
+  "pending_images_included": false,
+  "smoke_return_code": 0,
+  "gpu_colab_drive_main_training_executed": false,
+  "smoke": {
+    "passed": true,
+    "note": "CPU technical test, random initialization, no quality claims; 3 TOTAL epochs",
+    "first_saved_epoch": 0,
+    "resumed_start_epoch": 1,
+    "final_epoch": 2,
+    "resumed": {
+      "start_epoch": 1,
+      "total": 3,
+      "optimizer_states": 386,
+      "optimizer_lr_restored": true,
+      "scheduler_last_epoch": 0,
+      "ema_updates": 1
+    },
+    "head_768_verified": true
+  }
+}

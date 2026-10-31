@@ -1,0 +1,12 @@
+{
+  "target_clean_images": 2000,
+  "accepted_clean_images": 548,
+  "completion_percent": 27.4,
+  "remaining_clean_images": 1452,
+  "frozen_dataset": "dataset_v101",
+  "unique_source_frames": 548,
+  "downloaded_candidates": 1379,
+  "metadata_candidates": 3009,
+  "target_achieved": false,
+  "note": "Candidate downloads and pending images are excluded from the clean count."
+}

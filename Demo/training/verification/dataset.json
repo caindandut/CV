@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_images_and_labels_unchanged": 1803,
+  "copied_images": 1796,
+  "removed_exact_duplicates": 7,
+  "near_duplicate_edges": 201,
+  "first_pass_reviews": 1803,
+  "review_note": "Contact sheet first pass; pending excluded, not certified exhaustive relabeling.",
+  "split_images": {
+    "pending": 1038,
+    "test": 31,
+    "train": 630,
+    "val": 97
+  },
+  "limitations": [
+    "Very few scene groups; predominantly one actor and background in parking frames.",
+    "No class-2 ground truth in independent test; cannot estimate class-2 test accuracy.",
+    "CUDA preflight and actual Colab Drive persistence not executed on this CPU machine."
+  ]
+}

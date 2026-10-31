@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "dataset": "dataset_v112",
+  "archive": "colab_bundles/dataset_v112/training_colab_70_v112.zip",
+  "sha256": "ddfb5116e3ef178e132e1d179436e7b572afb6959185050abe78fd88276a27ba",
+  "bytes": 136733210,
+  "zip_crc": true,
+  "internal_sha256_files": 1145,
+  "pending_media_excluded": true,
+  "training_images": 561,
+  "epochs_total": 70,
+  "split_images": {
+    "test": 68,
+    "train": 421,
+    "val": 72
+  },
+  "notebook_python_cells_compiled": 7,
+  "notebook": "Train_SCConv_Clean_70_v112_Colab.ipynb",
+  "metadata": {
+    "dataset": "dataset_v112",
+    "accepted_images": 561,
+    "target": 2000,
+    "target_achieved": false,
+    "split_images": {
+      "test": 68,
+      "train": 421,
+      "val": 72
+    },
+    "manifest_sha256": "0db68e40a86cb4f7259298160f5b037f4759e7c3b6af90c2d15e8b7e99753493",
+    "epochs_total": 70,
+    "pending_images_included": false,
+    "verification_scope": "packaging_and_frozen_training_integrity; not model accuracy"
+  }
+}

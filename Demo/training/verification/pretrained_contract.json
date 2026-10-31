@@ -1,0 +1,15 @@
+{
+  "classification_outputs": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "raw_score_channels": [
+    3,
+    3
+  ],
+  "custom_blocks": 2
+}

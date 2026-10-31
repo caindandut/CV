@@ -1,0 +1,19 @@
+{
+  "dataset": "dataset_v65",
+  "accepted_images": 485,
+  "id": "kaggle-huan-v2/day_cam_11_00550.png",
+  "camera_prefix": "day_cam_11",
+  "new_classes": {
+    "0": 2,
+    "1": 2,
+    "2": 0
+  },
+  "label_sha256": "5bdd58dcdaf435097dbffefc9a1ac264dfef9559cad3debea287e98653d6e1ad",
+  "exported_box_coordinates_match_manual": true,
+  "parent_test_ids_and_labels_identical": true,
+  "source_group": "kaggle:huanhuyle/vietnam-traffic-detection",
+  "train_only": true,
+  "source_sha256": "ec440c312a1b8cf3f0673a67a4712d07da14ec2c171f0de4926bffefd38f41d1",
+  "country_gate_sha256": "3dd6a1299b46da1d8923cb139773955cb91e0518e7ba76250063bb099120c27a",
+  "model_predictions_used_as_ground_truth": false
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "dataset": "dataset_v72",
+  "active_images": 498,
+  "external_vietnam_images": 121,
+  "kaggle_source_images": 26,
+  "noncommercial_source_images": 2,
+  "zenodo_vntraffic_images": 5,
+  "provider_attribution_and_usage_conditions_verified": true,
+  "original_images_and_labels_unchanged": 1803,
+  "unique_source_frames": true,
+  "cross_split_hash_group_and_phash_checks": true,
+  "old_test_images_and_labels_preserved": true,
+  "original_test_images": 7,
+  "current_test_images": 68,
+  "cropped_images": 178,
+  "commons_original_resolution_images": 0,
+  "original_supplemental_bytes_and_crop_pixels_verified": true,
+  "latest_parent_test_preserved": true,
+  "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+}

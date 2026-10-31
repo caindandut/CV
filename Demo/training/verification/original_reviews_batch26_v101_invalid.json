@@ -1,0 +1,59 @@
+[
+  {
+    "id": "train/Image11_JPG.rf.34a31e97fecfb2a270ef66389914e4f9.jpg",
+    "proposal": 312,
+    "image_sha256": "3c6748e7da69203fabf5267b9c860e594b03912ef7731fc5938aa4fd717235bf",
+    "label_sha256": "1b58aeb94c6fe0932a14ee83aa6176871363bbe463ed9a2f03fe4c2eef891bbc",
+    "status": "pending",
+    "visual_reviewed": true,
+    "reason": "Rà lại toàn khung, crop nguyên pixel [150,80,470,640] và vùng đầu. Mũ của người áo xanh nhìn rõ, nhưng vùng trước người tại tay lái và thân áo đen có dấu hiệu là một người ngồi trước bị che khuất; đầu người đó không quan sát được. Không thể xác nhận một hay hai rider và không thể gán trạng thái mũ cho từng người. Giữ nguyên cả ảnh chờ duyệt; không xuất crop và không dùng như nền âm tính.",
+    "evidence": "acquisition_2000/original_review/manual_batch07_review/Image11_rider_crop.png",
+    "supersedes": "original_reviews_batch09.json:pending_two_riders_head_obscured"
+  },
+  {
+    "id": "train/Image15_JPG.rf.0a59210d08ef6fb0295b22224a10ea49.jpg",
+    "proposal": 315,
+    "image_sha256": "daf7790113e8239f65c5912fbb9c0b009a971bbef6ba0d77ff84fe9cc344ab9c",
+    "label_sha256": "bf6d13532338013c5e94b4ddf83c916489b34b8c52db6fc695bc8b3d297045c3",
+    "status": "corrected",
+    "visual_reviewed": true,
+    "source_verified": true,
+    "labels": [
+      [
+        0,
+        0.51282051,
+        0.61904762,
+        0.94871795,
+        0.73015873
+      ],
+      [
+        1,
+        0.5,
+        0.41111111,
+        0.94871795,
+        0.7015873
+      ]
+    ],
+    "canvas": [
+      390,
+      630
+    ],
+    "source_canvas": [
+      1280,
+      720
+    ],
+    "crop": [
+      780,
+      20,
+      1170,
+      650
+    ],
+    "evidence": "acquisition_2000/original_review/manual_batch26_review/Image15_rider_overlay_final.png",
+    "overlay": "acquisition_2000/original_review/manual_batch26_review/Image15_rider_overlay_final.png",
+    "evidence_sha256": "fe306c15a0f0766023fea988a0071aa7ac44c7ccb024112ab266ec89a7c71820",
+    "crop_sha256": "94f8a1bf0515d0230929ffe8f5add7a2012f8cea1d022d359ab5028d19c13643",
+    "reason": "Rà ảnh gốc 1280×720, crop 390×630 nguyên pixel và vùng đầu phóng lớn. Crop [780,20,1170,650] cô lập một người ngồi lái xe tay ga, đội mũ bảo hiểm cứng màu đỏ nhìn rõ (class 1), cùng xe tương ứng (class 0). Box người bao đầu/mũ, áo khoác, hai tay và hai chân; box xe bao đuôi, bánh sau, thân, phần tay lái/gương còn nhìn thấy. SUV che một phần phía trước của xe; box được giới hạn theo phần xe nhìn thấy, không suy diễn bánh/khung bị che. Không có rider hay xe máy thứ hai trong crop; SUV là đối tượng nền không thuộc ba lớp. Nhãn được đo thủ công; detector không dùng làm ground truth. Khung gốc có biển số VN 99-G1 281.98 và xe bên cạnh biển 29-637 NN-45, cùng bối cảnh đường phố Việt Nam; không khẳng định thành phố. Chỉ crop được đưa vào train; toàn khung và các rider ngoài crop vẫn chờ duyệt.",
+    "supersedes": "original_reviews_batch09.json:pending_contact_sheet_only",
+    "batch_review": "acquisition_2000/original_review/manual_batch26_review/manual_batch26_reviews01.json"
+  }
+]

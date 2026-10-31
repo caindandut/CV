@@ -1,0 +1,19 @@
+{
+  "dataset": "dataset_v66",
+  "tests_passed": 113,
+  "lint_passed": true,
+  "reviewed_scope": [
+    "Strict VNTraffic-only identity;AICC22 rejected",
+    "Published ZIP MD5,archive/video/frame SHA256 and exact re-decoded pixels",
+    "Same frame or actor/view episode cannot produce multiple accepted crops",
+    "Source paths stay inside research_zenodo; video member fixed; decoded frame timestamp/index checked",
+    "Whole VNTraffic group restricted to train; no test labels altered",
+    "Separate provider module reuses lossless crop and normalization helpers"
+  ],
+  "original_bytes_unchanged": 1803,
+  "current_test_images": 68,
+  "readme_vietnamese_prefix_utf8_verified": true,
+  "current_clean_images": 486,
+  "target_clean_images": 2000,
+  "target_complete": false
+}

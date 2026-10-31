@@ -1,0 +1,26 @@
+{
+  "dataset": "dataset_v69",
+  "active_images": 493,
+  "new_manual_images": [
+    {
+      "id": "kaggle-maitam-v8/3067.png",
+      "canvas": [
+        240,
+        240
+      ],
+      "boxes_match_manual": true,
+      "exported_label_sha256": "05ae89a949b21cf130b154e7685dc5bb6a5b2fd2a3e3b27749b1eaf64e1c0679"
+    },
+    {
+      "id": "kaggle-maitam-v8/0798.png",
+      "canvas": [
+        240,
+        240
+      ],
+      "boxes_match_manual": true,
+      "exported_label_sha256": "696c24840346fdcb2a83f3e79787d04c686f93ed488301818929484bc8bf8c13"
+    }
+  ],
+  "test_68_exported_label_files_unchanged": true,
+  "dataset_verifier_passed": true
+}

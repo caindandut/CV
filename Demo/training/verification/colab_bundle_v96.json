@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "bundle": "colab_bundles\\dataset_v96\\training_colab_70_v96.zip",
+  "dataset": "dataset_v96",
+  "archive_bytes": 134277280,
+  "archive_sha256": "3d88b2f08a7fe07984fb25aa46a7264be213fc15a5581a68fb1b879416dd8379",
+  "members": 1110,
+  "crc_verified": true,
+  "files_sha256_verified": true,
+  "note": "Cryptographically verified clean Colab bundle for dataset_v96."
+}

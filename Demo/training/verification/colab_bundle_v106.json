@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "dataset": "dataset_v106",
+  "accepted_images": 557,
+  "pending_images": 1499,
+  "media_images_in_archive": 557,
+  "archive": "colab_bundles/dataset_v106/training_colab_70_v106.zip",
+  "archive_bytes": 136339247,
+  "archive_sha256": "9b6618fc63a7f967569b2715e1604cbb034de1c73c8e4b5c670b4abd8b1c596d",
+  "members": 1138,
+  "crc_verified": true,
+  "all_internal_sha256_verified": true,
+  "pending_media_excluded": true,
+  "notebook_code_compiles": true,
+  "training_budget_total_epochs": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "verification_scope": "bundle integrity and frozen dataset packaging; not model accuracy or training"
+}

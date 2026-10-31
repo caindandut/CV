@@ -1,0 +1,26 @@
+{
+  "dataset": "dataset_v68",
+  "new_id": "kaggle-maitam-v8/2405.png",
+  "new_split": "train",
+  "exported_manual_boxes_match": true,
+  "manual_boxes": [
+    [
+      0,
+      61,
+      68,
+      157,
+      232
+    ],
+    [
+      1,
+      73,
+      10,
+      158,
+      205
+    ]
+  ],
+  "label_sha256": "ae9c8db9e0cefc7bfabb2d57c6e4a70bdc00bcf4bd3a6066b6b8c2cca92ea82c",
+  "test_68_ids_and_actual_exported_label_hashes_unchanged_from_v67": true,
+  "dataset_verification": "verification/dataset_v68.json",
+  "active_images": 491
+}

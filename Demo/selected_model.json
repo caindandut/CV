@@ -1,0 +1,54 @@
+{
+  "checkpoint_path": "D:\\Nam 4\\CV\\Report\\helmet_yolo26s_scconv_768_dataset2\\weights\\best.pt",
+  "checkpoint_sha256": "f6b6b0ab4bfe794f52b446107cf2b79d548070641bb805440c3f4a976cbc8f39",
+  "model_type": "YOLO26s detection + custom SCConv",
+  "selection_status": "user_approved_80_channel_compatibility",
+  "usable_for_demo": true,
+  "imgsz": 768,
+  "confidence_threshold": 0.25,
+  "classes": {
+    "0": "motorcycle",
+    "1": "rider_with_helmet",
+    "2": "rider_without_helmet"
+  },
+  "actual_head_classes": 80,
+  "selection_basis": [
+    "Ứng viên ưu tiên từ Report/helmet_yolo26s_scconv_768_dataset2/weights/best.pt; args.yaml và checkpoint train_args xác nhận imgsz=768, task=detect, model=yolo26s.pt.",
+    "Checkpoint có hai C3k2_SCConv; custom lấy nguyên định nghĩa từ notebook huấn luyện.",
+    "data.yaml và model.names ghi ba lớp nhưng head.nc=80, cả sáu convolution phân loại có 80 đầu ra; raw forward hai nhánh trả scores [1,80,12096].",
+    "Người dùng chọn dùng checkpoint hiện tại cho demo. Giữ nguyên head 80 kênh và trọng số, chỉ suy luận/hiển thị nhãn 0,1,2. Ngoại lệ tương thích chỉ áp dụng đúng SHA256 đã xác nhận.",
+    "Lần SCConv còn lại có args.yaml imgsz=640, không phải 648. Không dùng Stage2 classifier hoặc ngưỡng 0.35.",
+    "Kiểm tra 8 ảnh validation ở imgsz=768, conf=0.25: 48 detection thuộc nhãn 0,1,2; không quan sát detection nhãn 3..79 vượt ngưỡng; lọc lớp giữ nguyên confidence/toạ độ của các detection mục tiêu trong mẫu."
+  ],
+  "unverified": [
+    "Chưa đánh giá đầy đủ hành vi của 77 kênh dư. Mẫu 8 ảnh chỉ kiểm tra tích hợp, không chứng minh các kênh này không bao giờ phát hiện và không thay thế đánh giá mAP.",
+    "Chưa có bằng chứng so sánh AP50-95 rider_without_helmet của các checkpoint trên cùng validation/cấu hình.",
+    "Chưa biết phiên bản PyTorch lúc huấn luyện; phiên bản bên dưới là môi trường đã dùng chẩn đoán.",
+    "Ngưỡng detector 0.25 là giá trị khởi đầu chưa tối ưu; chưa tìm thấy nguồn ngưỡng validation."
+  ],
+  "custom_source": "../Train3_YOLO26s_SCConv_768.ipynb",
+  "custom_source_sha256": "3bd535cee869f281b37c99e03237bf841398c94245690ea79594152a046dfa4a",
+  "versions": {
+    "python": "3.11.15",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "ultralytics": "8.4.155",
+    "opencv-python": "5.0.0.93",
+    "pillow": "12.3.0",
+    "fastapi": "0.143.0",
+    "starlette": "1.8.0",
+    "SQLAlchemy": "2.1.4",
+    "PyMySQL": "1.2.3",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "evidence_file": "checkpoint_inspection.json",
+  "allowed_class_ids": [
+    0,
+    1,
+    2
+  ],
+  "weights_modified": false,
+  "compatibility_policy": "Accept this exact checkpoint SHA256 with an 80-channel head; request classes=[0,1,2] and reject other IDs before labelling. No head slicing or training.",
+  "evaluation_reference": "evaluation/model_audit_20261013/REPORT.md",
+  "evaluation_note": "Đã đo AP trên 140 ảnh validation và P/R ở conf=0.25; phát hiện trùng train/val và lỗi nhãn, chưa chứng minh tổng quát hoá trên video độc lập. Metadata checkpoint có train_metrics nhưng epoch đã strip thành -1."
+}

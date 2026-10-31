@@ -1,0 +1,68 @@
+{
+  "dataset": "dataset_v64",
+  "accepted_images": 484,
+  "new_images": [
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00680.png",
+      "source_sha256": "36e97e9db1a06febfbb37b40a7b6f8a8e11863f5768e7054cb3af60c395dfd28",
+      "label_sha256": "92dced9c1dd528a4133ea70a01711be6e29e7e86d30bdc27891cb9545666c415",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00700.png",
+      "source_sha256": "8885df012056ab4901622af54c5e92c8c71018fe6bfa9204c43e6d59ba6a3dc0",
+      "label_sha256": "3f6ff8d11c4cd551884afeb67818b973fb6b61cd355272a7a12fdf52aab00ce6",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00760.png",
+      "source_sha256": "2fd879340c4b15e8237242d71c13f62008c869f7bc32f1284b9707205c1a8c11",
+      "label_sha256": "e94dd75678e3b71c9d52d9fd91d21ab6b4d5a2cb8c778d71faa64c39a8a15b8f",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00820.png",
+      "source_sha256": "e85409d912bffb90e0ed45309d7cbd23bfcaf812b113632b1b729d1977bb2664",
+      "label_sha256": "e7dfae086438e47d7f92979fe7d0e6d1e016fa61f636a3df138f7add88893fc8",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00860.png",
+      "source_sha256": "96a99b70cea75ab6c4675728075a9dd7006670614e228e07c0f9a4b2e8ea13d0",
+      "label_sha256": "c88e3f6ef0ec03c53a1dba1a954485f520ee70db38db6f027c095180de1e758e",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00900.png",
+      "source_sha256": "36371bd6cd80e7cd68bc9230aad2af79cd4092028b435137f52a0777ceadfa6f",
+      "label_sha256": "3c5808f61bcc3e0f3d819bf21f7897b0dc8ccedc86fcdc7ec96009cf16c1398b",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    }
+  ],
+  "parent_test_ids_and_labels_identical": true,
+  "new_classes": {
+    "0": 6,
+    "1": 9
+  },
+  "auxiliary_frames_not_admitted": [
+    "00661",
+    "00801",
+    "00839"
+  ],
+  "unresolved_cases_not_admitted": [
+    "00660",
+    "00720",
+    "00740",
+    "00780",
+    "00800",
+    "00840"
+  ],
+  "rejected_draft": "acquisition_2000/research_kaggle/huanhuyle_v2_cam24_review/batch03/rejected_drafts01.json",
+  "model_predictions_used_as_ground_truth": false
+}

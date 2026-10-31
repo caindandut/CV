@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "real_country23_and_reference24_zip_members_crc_and_hash_verified": true,
+  "native_proof_png_pixels_verified": true,
+  "gate_sha256": "99ee2f5bf76c878eec67cf012e2da314fcb51f205313b2917cd890ab964ce2da",
+  "reference_country_gate_sha256": "ed4054a2957917432922ae7bab83a504612c4342a0a00f3054c3f4f641c3e801",
+  "automated_tests": {
+    "red_camera23_positive_test_failed_before_change": true,
+    "focused_kaggle_tests_passed": 33,
+    "full_training_tests_passed": 122,
+    "full_training_tests_seconds": 9.91,
+    "full_training_tests_exit_code": 0,
+    "ruff_two_changed_files": "All checks passed!"
+  },
+  "dataset_unchanged": "dataset_v70",
+  "clean_count": 495,
+  "camera23_accepted": 0,
+  "main_training_run": false,
+  "existing_dataset_v70_reverified_after_code_change": {
+    "passed": true,
+    "dataset": "dataset_v70",
+    "active_images": 495,
+    "external_vietnam_images": 118,
+    "kaggle_source_images": 23,
+    "noncommercial_source_images": 2,
+    "zenodo_vntraffic_images": 5,
+    "provider_attribution_and_usage_conditions_verified": true,
+    "original_images_and_labels_unchanged": 1803,
+    "unique_source_frames": true,
+    "cross_split_hash_group_and_phash_checks": true,
+    "old_test_images_and_labels_preserved": true,
+    "original_test_images": 7,
+    "current_test_images": 68,
+    "cropped_images": 175,
+    "original_supplemental_bytes_and_crop_pixels_verified": true,
+    "latest_parent_test_preserved": true,
+    "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+  }
+}

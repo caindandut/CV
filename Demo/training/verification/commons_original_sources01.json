@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "scope": "Original-source selection and provenance verification only; these photos are still unannotated/unaccepted.",
+  "real_originals_verified": [
+    {
+      "pageid": 185652927,
+      "original_file": "D:\\Nam 4\\CV\\Demo\\training\\acquisition_2000\\commons_original_resolution_review\\commons_185652927_original_candidate.jpg",
+      "original_sha256": "08e191c669a4a35ee9c09b981b5394debcd4bd93c7a9d7952fe006077bade316",
+      "canvas": [
+        4080,
+        3060
+      ],
+      "thumbnail_file": "D:\\Nam 4\\CV\\Demo\\training\\acquisition_2000\\images\\commons_185652927.jpg",
+      "thumbnail_sha256_unchanged": "71426a5be5663bcf50ac415b670876f638fa24e069056eb206badcb66c68d7e8",
+      "metadata_url_receipt_and_bytes_verified": true,
+      "accepted_as_training_image": false
+    },
+    {
+      "pageid": 185835663,
+      "original_file": "D:\\Nam 4\\CV\\Demo\\training\\acquisition_2000\\commons_original_resolution_review\\commons_185835663_original_candidate.jpg",
+      "original_sha256": "1ac25910f069539be92114a103385881530821d387acf949a63c28bdc4d690f7",
+      "canvas": [
+        4080,
+        3060
+      ],
+      "thumbnail_file": "D:\\Nam 4\\CV\\Demo\\training\\acquisition_2000\\images\\commons_185835663.jpg",
+      "thumbnail_sha256_unchanged": "6341828639671570657cf9024dbcf6b359fca8544e4f5482edac4b54011c8b0c",
+      "metadata_url_receipt_and_bytes_verified": true,
+      "accepted_as_training_image": false
+    }
+  ],
+  "focused_tests": 19,
+  "full_training_tests": 141,
+  "full_training_tests_seconds": 9.7,
+  "ruff": "All checks passed!",
+  "tdd_red_before_implementation": true,
+  "legacy_commons_compatibility_regression_red_then_green": true,
+  "current_dataset_verification": {
+    "passed": true,
+    "dataset": "dataset_v72",
+    "active_images": 498,
+    "external_vietnam_images": 121,
+    "kaggle_source_images": 26,
+    "noncommercial_source_images": 2,
+    "zenodo_vntraffic_images": 5,
+    "provider_attribution_and_usage_conditions_verified": true,
+    "original_images_and_labels_unchanged": 1803,
+    "unique_source_frames": true,
+    "cross_split_hash_group_and_phash_checks": true,
+    "old_test_images_and_labels_preserved": true,
+    "original_test_images": 7,
+    "current_test_images": 68,
+    "cropped_images": 178,
+    "commons_original_resolution_images": 0,
+    "original_supplemental_bytes_and_crop_pixels_verified": true,
+    "latest_parent_test_preserved": true,
+    "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+  },
+  "accepted_clean_images": 498,
+  "new_clean_images": 0
+}

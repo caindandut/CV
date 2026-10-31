@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "dataset": "dataset_v147",
+  "archive": "colab_bundles/dataset_v147/training_colab_70_v147.zip",
+  "archive_sha256": "fe19296c150bb345529b94db8afc4e85b0dfe4862cdfa807450dd522d73552cb",
+  "archive_crc": "passed",
+  "member_hashes_checked": 1249,
+  "zip_members": 1250,
+  "manifest_sha256": "0baa2eaa5edc2fff7526c71abe9db820ce0ef7de796bd3b329e37c6cdd41b463",
+  "accepted_images": 613,
+  "split_images": {
+    "test": 68,
+    "train": 469,
+    "val": 76
+  },
+  "box_counts_by_split": {
+    "train": {
+      "0": 878,
+      "2": 169,
+      "1": 343
+    },
+    "val": {
+      "0": 139,
+      "1": 119,
+      "2": 24
+    },
+    "test": {
+      "0": 92,
+      "1": 59,
+      "2": 9
+    }
+  },
+  "epochs_total": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "notebook_python_cells_parsed": 7,
+  "pending_media_included": false,
+  "dataset_verifier_passed": true,
+  "scope": "package integrity only; not training or model accuracy"
+}

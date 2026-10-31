@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "source_images_and_labels_unchanged": 1803,
+  "copied_images": 1796,
+  "removed_exact_duplicates": 7,
+  "near_duplicate_edges": 201,
+  "first_pass_reviews": 1803,
+  "review_note": "Contact sheet first pass; pending excluded, not certified exhaustive relabeling.",
+  "split_images": {
+    "pending": 1038,
+    "test": 31,
+    "train": 630,
+    "val": 97
+  },
+  "limitations": [
+    "Very few scene groups; predominantly one actor and background in parking frames.",
+    "No class-2 ground truth in independent test; cannot estimate class-2 test accuracy.",
+    "CUDA preflight and actual Colab Drive persistence not executed on this CPU machine."
+  ],
+  "automated_tests_passed": 32,
+  "notebook_code_cells_compiled": 7,
+  "bundle_verified": true,
+  "original_demo_checkpoint_unchanged": true,
+  "frontend_http": 200,
+  "backend_health_http": 200,
+  "smoke": {
+    "passed": true,
+    "note": "CPU technical test, random initialization, no quality claims; 3 TOTAL epochs",
+    "first_saved_epoch": 0,
+    "resumed_start_epoch": 1,
+    "final_epoch": 2,
+    "resumed": {
+      "start_epoch": 1,
+      "total": 3,
+      "optimizer_states": 386,
+      "optimizer_lr_restored": true,
+      "scheduler_last_epoch": 0,
+      "ema_updates": 1
+    },
+    "head_768_verified": true
+  },
+  "pretrained_contract": {
+    "classification_outputs": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "raw_score_channels": [
+      3,
+      3
+    ],
+    "custom_blocks": 2
+  },
+  "bundle": {
+    "path": "training_colab_70.zip",
+    "bytes": 188669807,
+    "sha256": "4b6e50d204f33dec9a7f01cc620b58407a06f3ea5a5a171159765930708c02ff",
+    "files": 1530,
+    "pending_images_included": false
+  }
+}

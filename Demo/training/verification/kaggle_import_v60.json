@@ -1,0 +1,22 @@
+{
+  "dataset": "dataset_v60",
+  "passed": true,
+  "new_imported_images": 2,
+  "imported_ids": [
+    "kaggle-maitam-v8/1953.png",
+    "kaggle-maitam-v8/2022.png"
+  ],
+  "split": "train",
+  "source_groups": 1,
+  "archive_member_and_metadata_hash_preflight_passed": true,
+  "full_dataset_verifier": "verification/dataset_v60.json",
+  "training_tests_passed": 78,
+  "new_provider_tests": 15,
+  "ruff_passed": true,
+  "current_clean_count": 469,
+  "current_downloaded_kaggle_candidates": 3216,
+  "downloaded_candidates_are_not_clean_count": true,
+  "test_images_unchanged": 68,
+  "colab_main_training_executed": false,
+  "note": "Provider unit tests use small fixtures; real 793MB archive, two manual native crops, source attribution and complete dataset were separately verified."
+}

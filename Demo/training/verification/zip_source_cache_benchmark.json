@@ -1,0 +1,10 @@
+{
+  "archive": "huanhuyle_vietnam_traffic_v2.zip",
+  "member": "images/train/day_cam_24_00892.jpg",
+  "reads": 6,
+  "uncached_seconds": 3.6248,
+  "cached_seconds": 0.6028,
+  "member_sha256": "0fc40a37d5431fcf8249eb95fc94d7eeadd45b184507ad46cf187793f96efa15",
+  "member_bytes_identical": true,
+  "scope": "Central-directory reuse only; full provenance checks remain in dataset verifier"
+}

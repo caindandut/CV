@@ -1,0 +1,73 @@
+{
+  "dataset": "dataset_v67",
+  "accepted_images": 490,
+  "new_images": [
+    {
+      "id": "zenodo-vntraffic/frame_000225.png",
+      "canvas": [
+        260,
+        260
+      ],
+      "source_track_id_hint": 53,
+      "review_episode": "vehicle-track-53",
+      "frame_sha256": "6cdc6b7d65b133eb3747ec35c26d1079b6256d82aeb4ea61f28d64b3c94f7dd0",
+      "label_sha256": "34607b307de201e40d62f4c81cfb3214d61523ec3a26266205435a07dccd7d95",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "zenodo-vntraffic/frame_000318.png",
+      "canvas": [
+        246,
+        256
+      ],
+      "source_track_id_hint": 46,
+      "review_episode": "vehicle-track-46",
+      "frame_sha256": "af749c8e50d179ac86a874d360ad92ed402fc94c8fd0bdf71697a3112b200a40",
+      "label_sha256": "bd3dad5942e6d212e2cc48c18b29adfb76083b7beda5ad554a0cffff9d578ac9",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "zenodo-vntraffic/frame_000381.png",
+      "canvas": [
+        260,
+        260
+      ],
+      "source_track_id_hint": 54,
+      "review_episode": "vehicle-track-54",
+      "frame_sha256": "073108064d3789ad66c58d10e66673e2530280826b9f580bba85e44a62267676",
+      "label_sha256": "9f1211a88df3132cd0e8400105cffb9beda54ac6f812d0e76a88fa47635df793",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "zenodo-vntraffic/frame_000274.png",
+      "canvas": [
+        260,
+        250
+      ],
+      "source_track_id_hint": 51,
+      "review_episode": "vehicle-track-51",
+      "frame_sha256": "6b6e7e94645888e2908661d548e66cf18961bac24913e3367d7a713b66f51cff",
+      "label_sha256": "b27eee81c84e141f385012fd2b763536064a79beb50b70ee6dc9554ed598300a",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    }
+  ],
+  "new_classes": {
+    "0": 4,
+    "1": 5
+  },
+  "parent_test_ids_and_labels_identical": true,
+  "source_tracking_used_as_helmet_ground_truth": false,
+  "minimum_crop_edge_pixels": 240,
+  "crop_native_pixels_preserved": true,
+  "actor_episode_frames_not_independently_admitted": {
+    "track53": [
+      190,
+      254
+    ]
+  },
+  "all_source_video_group_kept_in_train": true
+}

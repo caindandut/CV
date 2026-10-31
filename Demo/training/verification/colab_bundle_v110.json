@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "dataset": "dataset_v110",
+  "accepted_images": 560,
+  "pending_images": 1499,
+  "media_images_in_archive": 560,
+  "manual_crops_reviewed": {
+    "image_0": "original_crops/image_0_jpg.rf.72b6723ed6f7afeacc23c5876490ff1c.png",
+    "image_41": "original_crops/image_41_jpg.rf.88b39da04c197a1cb914d3135477dd34.png",
+    "image_236": "original_crops/image_236_jpg.rf.9b6161696d16736803ca9d944b766699.png"
+  },
+  "archive": "colab_bundles/dataset_v110/training_colab_70_v110.zip",
+  "archive_bytes": 136587393,
+  "archive_sha256": "500f52b4f829c9daf2a14e0e41914032c458087db71e6edd508adf9f83c8ad32",
+  "members": 1144,
+  "crc_verified": true,
+  "all_internal_sha256_verified": true,
+  "pending_media_excluded": true,
+  "notebook_code_compiles": true,
+  "training_budget_total_epochs": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "verification_scope": "bundle integrity and frozen dataset packaging; not model accuracy or training"
+}

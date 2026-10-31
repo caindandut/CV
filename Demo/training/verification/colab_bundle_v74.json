@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "dataset": "dataset_v74",
+  "accepted_images": 501,
+  "target": 2000,
+  "target_achieved": false,
+  "archive_sha256": "65bbb8ea4a7c0e3d1069fab6b09ed9ba8ea1b7c6f15e5033395f9f848e71d0b2",
+  "archive_members": 1026,
+  "all_extracted_member_hashes_verified": 1025,
+  "crc_verified": true,
+  "pending_media_excluded": true,
+  "packaged_code_imported_from": "D:\\Nam 4\\CV\\Demo\\training\\verification\\colab_bundle_v74_extract\\code\\train_colab.py",
+  "extracted_training_code_verified_dataset": true,
+  "extraction_root": "D:\\Nam 4\\CV\\Demo\\training\\verification\\colab_bundle_v74_extract",
+  "epochs_total": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "main_training_run": false,
+  "new_cpu_smoke_run": false,
+  "gpu_or_drive_runtime_test": false,
+  "previous_smoke_reference": "v54 CPU3total epochs, unchanged packaged training logic; not rerun for static dataset update.",
+  "first_verification_attempt": "ZIP extraction/hash checks succeeded; import from root failed because code lives under code/. Corrected import path; artifact unchanged."
+}

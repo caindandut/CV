@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "dataset": "dataset_v100",
+  "accepted_images": 547,
+  "archive": "colab_bundles/dataset_v100/training_colab_70_v100.zip",
+  "archive_bytes": 134790526,
+  "archive_sha256": "575ad14d58f0ea8af7141a7b6afaa923f2d7793223e7e4d92ef6cc97979484d4",
+  "members": 1118,
+  "member_sha256_verified": 1117,
+  "crc_verified": true,
+  "manifest_sha256": "c76b916d189330299244faa1446b8be3c6b68b61f3ad989f7d586a33a8e31b69",
+  "pending_media_excluded": true,
+  "epochs_total": 70,
+  "patience": 20,
+  "imgsz": 768,
+  "seed": 0,
+  "close_mosaic": 10,
+  "notebook_code_syntax": true,
+  "notebook_contract_checks": {
+    "dataset_v100": true,
+    "resumable_total_70": true,
+    "final_test_disabled": true,
+    "scconv_head3": true,
+    "resume_artifacts": true
+  },
+  "scope": "Portable package integrity and configuration; no Colab GPU training or model quality claim."
+}

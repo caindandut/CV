@@ -1,0 +1,52 @@
+{
+  "dataset": "dataset_v63",
+  "accepted_images": 478,
+  "new_images": [
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00254.png",
+      "source_sha256": "e2694438bd98b3d8476eb054ba23dcb44396a9111e96cec7e23fdec83877345f",
+      "label_sha256": "77dc0f1561cfd703f6666082f5b3df44c092792cd5491da872b234b742be03b0",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00301.png",
+      "source_sha256": "d7f35be8003c2e3077daae9cba9c543287d6393352575c8195d458550b2ee785",
+      "label_sha256": "6f8b05dcb263b45b76589d8888e05f14c02b6472947d98e9167ab9a0e9d3b9b7",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00403.png",
+      "source_sha256": "a93d1827eb579943baf98f9a38364c6f1cde496c9d678f51660a35fb09020e53",
+      "label_sha256": "1306ed992874a7e0d5171ee6289411f824f8295db6524ffcf210856ecf527a47",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_24_00452.png",
+      "source_sha256": "fe4487956efc2099095e239f4b51f2287a29a2c54a5e552ede0c49b0b6aad5af",
+      "label_sha256": "928716b6acc7df27669c2667fb70bd55a02bfdc01a4689aece3e99e692adb4e9",
+      "exported_box_coordinates_match_manual": true,
+      "split": "train"
+    }
+  ],
+  "parent_test_ids_and_labels_identical": true,
+  "new_classes": {
+    "0": 4,
+    "1": 4,
+    "2": 1
+  },
+  "near_actor_frames_not_admitted": [
+    "day_cam_24_00253",
+    "day_cam_24_00255"
+  ],
+  "unresolved_cases_not_admitted": [
+    "day_cam_24_00048",
+    "day_cam_24_00103",
+    "day_cam_24_00201",
+    "day_cam_24_00556",
+    "day_cam_24_00614"
+  ],
+  "model_predictions_used_as_ground_truth": false
+}

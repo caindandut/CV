@@ -1,0 +1,49 @@
+{
+  "dataset": "dataset_v74",
+  "accepted_images": 501,
+  "new_manual_images": [
+    {
+      "id": "commons/commons_185601493.jpg",
+      "canvas": [
+        4080,
+        3060
+      ],
+      "manual_boxes_match": true,
+      "exported_label_sha256": "84f44fd6f84136f5ca451d50367b4a60983607d631fd8d5216ce4313ae739e9f",
+      "evidence_hash_verified": true
+    },
+    {
+      "id": "commons/commons_59145562.png",
+      "canvas": [
+        260,
+        568
+      ],
+      "manual_boxes_match": true,
+      "exported_label_sha256": "5250145fb148579209ad34a6f8872165df5c07918ee0cee65cea589582c005d9",
+      "evidence_hash_verified": true
+    }
+  ],
+  "test_68_actual_exported_labels_unchanged": true,
+  "parked_helmet_and_jacket_are_not_rider": true,
+  "dataset_verifier": {
+    "passed": true,
+    "dataset": "dataset_v74",
+    "active_images": 501,
+    "external_vietnam_images": 124,
+    "kaggle_source_images": 26,
+    "noncommercial_source_images": 2,
+    "zenodo_vntraffic_images": 5,
+    "provider_attribution_and_usage_conditions_verified": true,
+    "original_images_and_labels_unchanged": 1803,
+    "unique_source_frames": true,
+    "cross_split_hash_group_and_phash_checks": true,
+    "old_test_images_and_labels_preserved": true,
+    "original_test_images": 7,
+    "current_test_images": 68,
+    "cropped_images": 180,
+    "commons_original_resolution_images": 3,
+    "original_supplemental_bytes_and_crop_pixels_verified": true,
+    "latest_parent_test_preserved": true,
+    "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+  }
+}

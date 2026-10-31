@@ -1,0 +1,67 @@
+{
+  "checkpoint_path": "D:\\Nam 4\\CV\\Report\\helmet_yolo26s_scconv_768_dataset2\\weights\\best.pt",
+  "sha256": "f6b6b0ab4bfe794f52b446107cf2b79d548070641bb805440c3f4a976cbc8f39",
+  "checkpoint_version": "8.4.155",
+  "training_imgsz": 768,
+  "model_names": {
+    "0": "motorcycle",
+    "1": "rider_with_helmet",
+    "2": "rider_without_helmet"
+  },
+  "model_nc_attribute": 3,
+  "head_nc": 80,
+  "classification_weights": {
+    "model.23.cv3.0.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ],
+    "model.23.cv3.1.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ],
+    "model.23.cv3.2.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ],
+    "model.23.one2one_cv3.0.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ],
+    "model.23.one2one_cv3.1.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ],
+    "model.23.one2one_cv3.2.2.weight": [
+      80,
+      128,
+      1,
+      1
+    ]
+  },
+  "raw_score_shapes": {
+    "one2many": [
+      1,
+      80,
+      12096
+    ],
+    "one2one": [
+      1,
+      80,
+      12096
+    ]
+  },
+  "custom_block_count": 2,
+  "matches_required_three_class_head": false,
+  "note": "Dataset and names describe three classes; head channels are checked separately against serialized weights and a raw forward pass.",
+  "demo_compatibility": "User approved unchanged checkpoint with fixed output class filter 0,1,2; native head remains 80 channels."
+}

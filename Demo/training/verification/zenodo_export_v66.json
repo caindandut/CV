@@ -1,0 +1,21 @@
+{
+  "dataset": "dataset_v66",
+  "accepted_images": 486,
+  "id": "zenodo-vntraffic/frame_000509.png",
+  "new_classes": {
+    "0": 1,
+    "1": 0,
+    "2": 1
+  },
+  "label_sha256": "0211c178871389aec070d2e50bbdf30c7d298bc2251201e997a714134a705a34",
+  "exported_box_coordinates_match_manual": true,
+  "parent_test_ids_and_labels_identical": true,
+  "source_group": "zenodo:18195750:VNTraffic",
+  "train_only": true,
+  "archive_sha256": "7fdfb05a02900402670310e4525575c55dfe39e8961e60e3c4533ca3fe16d89f",
+  "video_sha256": "7b4ee8eb6def9717d107d55b71b63fad265358d191c85051fc323c6fab290d57",
+  "frame_sha256": "e4f43ae76bcdc420fdd8dd1914f8e88a397e89a2a1da8674adc8350bedddee4b",
+  "exact_frame_redecode_verified": true,
+  "review_episode": "stationary-right-greyshirt",
+  "source_tracking_annotations_used_as_helmet_truth": false
+}

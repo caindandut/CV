@@ -1,0 +1,42 @@
+{
+  "dataset": "dataset_v73",
+  "accepted_images": 499,
+  "id": "commons/commons_185652927.png",
+  "new_split": "train",
+  "original_resolution": "original",
+  "native_source_canvas": [
+    4080,
+    3060
+  ],
+  "crop": [
+    1380,
+    2160,
+    1620,
+    2440
+  ],
+  "manual_boxes_match_export": true,
+  "exported_label_sha256": "6e349b8515f3b352051b1f1c9f64505b92fb77b113e513b3ed27613865ba6fa2",
+  "evidence_sha256_verified": true,
+  "test_68_actual_exported_label_bytes_unchanged": true,
+  "dataset_verifier": {
+    "passed": true,
+    "dataset": "dataset_v73",
+    "active_images": 499,
+    "external_vietnam_images": 122,
+    "kaggle_source_images": 26,
+    "noncommercial_source_images": 2,
+    "zenodo_vntraffic_images": 5,
+    "provider_attribution_and_usage_conditions_verified": true,
+    "original_images_and_labels_unchanged": 1803,
+    "unique_source_frames": true,
+    "cross_split_hash_group_and_phash_checks": true,
+    "old_test_images_and_labels_preserved": true,
+    "original_test_images": 7,
+    "current_test_images": 68,
+    "cropped_images": 179,
+    "commons_original_resolution_images": 1,
+    "original_supplemental_bytes_and_crop_pixels_verified": true,
+    "latest_parent_test_preserved": true,
+    "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+  }
+}

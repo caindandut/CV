@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_images_and_labels_unchanged": 1803,
+  "active_images": 158,
+  "external_vietnam_images": 12,
+  "exact_duplicate_and_group_leakage": false,
+  "cross_split_phash_distance_at_most_6": false,
+  "test_unchanged_from_v2": true,
+  "label_geometry_valid": true,
+  "limitation": "Heuristic near-duplicate detection cannot prove all unknown provenance is independent."
+}

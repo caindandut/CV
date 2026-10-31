@@ -1,0 +1,29 @@
+{
+  "dataset": "dataset_v72",
+  "active_images": 498,
+  "new_manual_id": "kaggle-huan-v2/day_cam_11_00750.png",
+  "archive_entry": "images/train/day_cam_11_00750.jpg",
+  "manual_boxes_match": true,
+  "exported_label_sha256": "a4419ede2973c382096fd47e3a20f5d9e664bc261c6e62fa7243310527ee8401",
+  "test_68_exported_labels_unchanged": true,
+  "dataset_verifier": {
+    "passed": true,
+    "dataset": "dataset_v72",
+    "active_images": 498,
+    "external_vietnam_images": 121,
+    "kaggle_source_images": 26,
+    "noncommercial_source_images": 2,
+    "zenodo_vntraffic_images": 5,
+    "provider_attribution_and_usage_conditions_verified": true,
+    "original_images_and_labels_unchanged": 1803,
+    "unique_source_frames": true,
+    "cross_split_hash_group_and_phash_checks": true,
+    "old_test_images_and_labels_preserved": true,
+    "original_test_images": 7,
+    "current_test_images": 68,
+    "cropped_images": 178,
+    "original_supplemental_bytes_and_crop_pixels_verified": true,
+    "latest_parent_test_preserved": true,
+    "note": "Heuristic duplicate checks do not prove all unknown provenance independent; counts are not model quality scores."
+  }
+}

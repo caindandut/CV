@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "dataset": "dataset_v117",
+  "accepted_images": 573,
+  "split_images": {
+    "train": 433,
+    "val": 72,
+    "test": 68
+  },
+  "pending_media_included": false,
+  "archive_sha256": "b45eeff3187b917620bc0e1824524c012d14129fe415e28420adda9083cd5974",
+  "manifest_sha256": "64960ac2322726d96e9208630ff321064fa1b4545f0bafd5085d7a8abde67983",
+  "archive_bytes": 137378658,
+  "archive_members": 1170,
+  "member_hashes_verified": 1169,
+  "zip_crc_check": "passed",
+  "notebook_code_cells_parsed": 7,
+  "training_config": {
+    "epochs_total": 70,
+    "imgsz": 768,
+    "patience": 20
+  },
+  "verification_scope": "bundle bytes, member hashes, frozen manifest, split media counts, pending exclusion, notebook syntax and training configuration; not model accuracy or a Colab training run"
+}

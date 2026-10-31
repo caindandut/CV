@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "dataset": "dataset_v104",
+  "accepted_images": 554,
+  "split_images": {
+    "train": 417,
+    "val": 69,
+    "test": 68
+  },
+  "target": 2000,
+  "target_achieved": false,
+  "archive": "colab_bundles/dataset_v104/training_colab_70_v104.zip",
+  "archive_bytes": 135914099,
+  "archive_sha256": "682e4ac9afdcb984e119bb4f10598377c875bc03a66e3b18ec37953bca6c6fa1",
+  "members": 1132,
+  "crc_verified": true,
+  "all_internal_sha256_verified": true,
+  "pending_media_excluded": true,
+  "notebook_code_compiles": true,
+  "training_budget_total_epochs": 70,
+  "imgsz": 768,
+  "patience": 20,
+  "verification_scope": "bundle integrity and frozen dataset packaging; not model accuracy or training"
+}
