@@ -1,0 +1,8 @@
+names:
+- motorcycle
+- rider_with_helmet
+- rider_without_helmet
+nc: 3
+path: D:\Nam 4\CV\Demo\evaluation\model_audit_20261013\standard_val_data
+train: D:\Nam 4\CV\DataSet2-20260927T023713Z-1-001\DataSet2\train\images
+val: valid/images

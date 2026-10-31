@@ -1,0 +1,46 @@
+{
+  "model_identifier": "YOLO26s-SCConv:f6b6b0ab4bfe794f52b446107cf2b79d548070641bb805440c3f4a976cbc8f39",
+  "images": 140,
+  "split": "validation only",
+  "candidate_confidence": 0.001,
+  "deployed_confidence_unchanged": 0.25,
+  "imgsz": 768,
+  "iou_nms": 0.7,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "class_filter": "ThreeClassValidator discards IDs outside 0,1,2 after native postprocess, matching demo policy.",
+  "metrics": {
+    "mAP50": 0.8863709121949563,
+    "mAP50_95": 0.7160766315316227
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "motorcycle",
+      "AP50": 0.9650421065644137,
+      "AP50_95": 0.748654738608389
+    },
+    {
+      "class_id": 1,
+      "class_name": "rider_with_helmet",
+      "AP50": 0.9359065882960687,
+      "AP50_95": 0.7904337123836933
+    },
+    {
+      "class_id": 2,
+      "class_name": "rider_without_helmet",
+      "AP50": 0.7581640417243866,
+      "AP50_95": 0.6091414436027855
+    }
+  ],
+  "speed": {
+    "preprocess": 1.3777142835481626,
+    "inference": 206.30196714233273,
+    "loss": 0.0019035722029262354,
+    "postprocess": 1.723287142730052
+  },
+  "warning": "Current validation has train overlap; these AP values do not establish independent-video generalization."
+}

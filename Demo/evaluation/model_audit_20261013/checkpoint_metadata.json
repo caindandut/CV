@@ -1,0 +1,16 @@
+{
+  "epoch": -1,
+  "best_fitness": null,
+  "date": "2026-09-26T15:46:50.320576+00:00",
+  "version": "8.4.155",
+  "train_metrics": {
+    "metrics/precision(B)": 0.91244,
+    "metrics/recall(B)": 0.83153,
+    "metrics/mAP50(B)": 0.9049,
+    "metrics/mAP50-95(B)": 0.7362,
+    "val/box_loss": 0.74482,
+    "val/cls_loss": 0.55502,
+    "val/l1_loss": 0.00734,
+    "fitness": 0.7362
+  }
+}

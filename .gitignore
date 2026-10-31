@@ -1,0 +1,53 @@
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/settings.local.json
+.aws/
+.ssh/
+
+# Python environments, bytecode, and tool caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.cache/
+**/.uv-cache*/
+**/node_modules/
+**/*.log
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# Raw datasets and image payloads
+/AI City/
+/DataSet2-*/
+/Helmet-Detection-Project.v5-version-2.1.yolo26/
+/NO Helmet NO Ride.v2i.yolov8/
+/Dataset3/
+/Stage2_Vietnam/
+/Stage2_Vietnam_Clean/
+
+# Training checkpoints and exported model artifacts
+**/weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training outputs and scratch work
+/dataset3_yolo26s_*/
+/helmet_yolo26s_*/
+/tmp/
+/work/
+/Demo/storage/
+/Demo/Ultralytics/
+/Demo/training/acquisition_*/
+/Report/helmet_yolo26s*/
+/.tmp_candidate_*
+
