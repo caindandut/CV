@@ -1,46 +1,22 @@
-# Dataset nh?n di?n xe m?y v? ng??i ??i m?
+# Chuẩn bị dữ liệu nhận diện xe máy và người đội mũ
 
-C?p nh?t ng?y 29/10/2026. M?c ti?u l? chu?n b? 2.000 ?nh giao th?ng Vi?t Nam c? nh?n ?? r? v? truy xu?t ???c ngu?n. D? li?u hu?n luy?n, notebook v? checkpoint g?c ???c gi? nguy?n; m?i l?n xu?t t?o m?t snapshot ri?ng.
+## Trạng thái hiện tại
 
-## Ti?n ?? hi?n t?i
+Snapshot dùng để tiếp tục trên GitHub là [dataset_v165](dataset_v165/). Có **690 ảnh đã được rà và chấp nhận** trên mục tiêu 5.000; còn **4.310 ảnh** cần bổ sung hoặc rà duyệt. Snapshot có thêm 1.497 ảnh đang chờ duyệt. Ảnh chờ duyệt không được tính vào mục tiêu sạch hoặc dùng để train cho tới khi được kiểm tra và ghi nguồn.
 
-Snapshot m?i nh?t [dataset_v137](dataset_v137/) c? **603/2.000 ?nh s?ch (30,15%)**; c?n thi?u **1.397 ?nh**. Manifest c? 1.499 ?nh ch? duy?t; c?c ?nh n?y kh?ng ???c t?nh v?o s? s?ch ho?c ??a v?o g?i train.
+Class ID: 0 = xe máy; 1 = người đi xe máy có đội mũ; 2 = người đi xe máy không đội mũ. Các box người phải tách riêng từng người ngồi trên xe. Người đi bộ không thuộc hai lớp rider. Xe máy đỗ vẫn được gán nếu nhìn rõ.
 
-| T?p | ?nh | Class 0: xe m?y | Class 1: ng??i ??i m? | Class 2: ng??i kh?ng ??i m? |
-|---|---:|---:|---:|---:|
-| Train | 463 | 869 | 341 | 163 |
-| Validation | 72 | 134 | 117 | 21 |
-| Test ?? kh?a | 68 | 92 | 59 | 9 |
+## Tiếp tục bằng Cloud Codex
 
-Trong 603 ?nh ???c ch?p nh?n c? 392 ?nh t? d? li?u g?c v? 211 ?nh b? sung t? ngu?n giao th?ng Vi?t Nam ?? x?c minh: 100 Wikimedia Commons, 104 Kaggle, 2 NCpedia v? 5 Zenodo VNTraffic. Xem [ATTRIBUTION.md](dataset_v137/ATTRIBUTION.md) v? [usage_restrictions.json](dataset_v137/usage_restrictions.json) ?? bi?t ghi c?ng v? ?i?u ki?n s? d?ng theo t?ng ?nh.
+1. Mở [CLOUD_CODEX_5000.md](CLOUD_CODEX_5000.md) và dùng nó làm chỉ dẫn công việc.
+2. Đảm bảo các ảnh Git LFS đã tải xuống: chạy git lfs install rồi git lfs pull trong bản clone.
+3. Chạy python Demo/training/cloud_handoff/prepare_portable_manifest.py để tạo manifest với đường dẫn tương đối, phù hợp Linux và Codespaces.
+4. Chỉ tăng bộ đếm ảnh sạch khi nhãn, nguồn, giấy phép, bằng chứng giao thông Việt Nam và kiểm tra trùng đã được ghi nhận.
 
-## R? so?t g?n nh?t
+## Những gì được đưa lên GitHub
 
-Trong batch37, frame g?c `IMG_5290_mp4-3` ???c r? ? ?? ph?n gi?i g?c, crop v? chi ti?t ??u. Crop nguy?n pixel `[680,120,1190,640]` (510?520) c? m?t ng??i ?ang ng?i l?i xe, ??u t?c tr?n nh?n r?, c?ng m?t xe m?y; hai box ???c v? th? c?ng. H?p ?en c?m tr?n tay kh?ng n?m tr?n ??u. Crop c? nhi?u h?t r?, ?? gi? nguy?n pixel v? ghi nh?n gi?i h?n n?y; ?nh ngu?n to?n c?nh ti?p t?c ch? duy?t, ch? crop ???c nh?n v?o train c?a group_0585. B?i c?nh Vi?t Nam ???c k? th?a t? b?ng ch?ng bi?n s? 90-B6 trong c?ng nh?m c?nh; kh?ng kh?ng ??nh ??a ch? c? th?.
+Snapshot v165 được lưu bằng Git LFS để Codex trên cloud có ảnh và nhãn hiện tại. Manifest, nhật ký rà nhãn, thống kê, attribution, giới hạn sử dụng và báo cáo kiểm chứng đi cùng snapshot. File dataset_v165/manifest.json là bản lưu nguyên trạng và còn chứa đường dẫn máy Windows; cloud dùng manifest portable do script tạo.
 
-Nh?t k?: [ledger batch35](acquisition_2000/original_reviews_batch35.json), [overlay v? b?ng ch?ng ?nh](acquisition_2000/manual_original_review_batch37/evidence/), [screening batch37](acquisition_2000/manual_original_review_batch37/screening.json). C? 58 ?ng vi?n ???c s?ng tr?n contact sheet; 1 crop ???c nh?n sau r? ??y ??, 56 c?n ch? duy?t v? 1 ?ng vi?n b? lo?i v? g?n tr?ng. ?nh ch?a r? ??y ?? kh?ng ???c t?nh v?o s? s?ch.
+Archive tải nguồn, thư mục dữ liệu gốc, checkpoint, kết quả huấn luyện, .env và mật khẩu không được commit. Bộ dữ liệu có hai ảnh bị giới hạn phi thương mại; xem dataset_v165/usage_restrictions.json và attribution trước khi tái sử dụng.
 
-## Ki?m ch?ng dataset
-
-- [Manifest](dataset_v137/manifest.json), [th?ng k?](dataset_v137/statistics.json), [split lock](dataset_v137/split_lock.json), [nh?t k? nh?n](dataset_v137/review_audit_2000.json), [changes](dataset_v137/changes.json).
-- [Ti?n ??](acquisition_2000/progress.json), [b?o c?o dataset](verification/dataset_v137.json), [b?o c?o g?i Colab](verification/colab_bundle_v137.json).
-- Dataset verifier ??t: 1.803 ?nh v? nh?n g?c kh?ng ??i; 211 ?nh ngo?i c? ngu?n/gi?y ph?p v? b?ng ch?ng Vi?t Nam; hash, nh?m ngu?n, split v? ki?m tra pHash ??t; test tr??c ?? ???c gi? nguy?n. pHash l? ph?p d? g?n tr?ng heuristic, kh?ng ch?ng minh m?i ngu?n ??c l?p.
-- Ch?a ch?y train ch?nh, ch?a ?o mAP/precision/recall v? ch?a k?t lu?n ch?t l??ng m? h?nh.
-
-## G?i hu?n luy?n SCConv tr?n Colab
-
-- [T?i ZIP](colab_bundles/dataset_v137/training_colab_70_v137.zip) ? SHA-256: 4a3a4cb4e6aba643f9326faea7524cd8a349de321e767b49ce25cced8dae598c.
-- [Notebook](colab_bundles/dataset_v137/Train_SCConv_Clean_70_v137_Colab.ipynb), [README trong g?i](colab_bundles/dataset_v137/README.md), [bundle info](colab_bundles/dataset_v137/bundle_info.json).
-- C?u h?nh: Ultralytics 8.4.155, t?i ?a 70 epoch t?ng c?ng k? c? resume, patience=20, imgsz=768, seed=0, close_mosaic=10. G?i g?m 463/72/68 ?nh train/validation/test; ?nh ch? duy?t kh?ng n?m trong ZIP.
-- Bundle verifier ??t: CRC, 1.229 hash th?nh vi?n, 7 ? Python trong notebook, c?u h?nh 70 epoch; 1.230 th?nh vi?n trong ZIP v? kh?ng c? media pending. ??y l? ki?m tra t?nh to?n v?n g?i, kh?ng ph?i ??nh gi? ch?t l??ng model.
-
-## Ch?y ki?m tra l?i b?ng PowerShell
-
-~~~powershell
-Set-Location 'D:/Nam 4/CV/Demo/training'
-../.venv/Scripts/python.exe verify_dataset_2000.py
-../.venv/Scripts/python.exe verification/verify_colab_bundle.py --dataset dataset_v137
-../.venv/Scripts/python.exe -m unittest verification.test_current_bundle_rendering
-~~~
-
-M?c ti?u 2.000 ?nh ch?a ??t. Ch? ??a ?nh v?o snapshot sau khi ?? r? nh?n, ngu?n v? tr?ng l?p; kh?ng ghi ?? snapshot c?.
+Các notebook và bundle SCConv cũ trong colab_bundles/ là lịch sử, chưa cập nhật để train từ mục tiêu 5.000. Không chạy train và không thay checkpoint demo khi đang làm công việc làm sạch dữ liệu.

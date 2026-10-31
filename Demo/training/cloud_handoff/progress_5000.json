@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "goal_images": 5000,
+  "accepted_clean_images": 690,
+  "remaining_to_goal": 4310,
+  "pending_review_images": 1497,
+  "snapshot": "dataset_v165",
+  "accepted_split_counts": {
+    "train": 546,
+    "validation": 76,
+    "test_locked": 68
+  },
+  "classes": {
+    "0": "motorcycle",
+    "1": "rider_with_helmet",
+    "2": "rider_without_helmet"
+  },
+  "original_dataset_unchanged": true,
+  "test_split_locked": true,
+  "pending_counts_toward_goal": false,
+  "verification_report": "../verification/dataset_v165.json",
+  "notes": [
+    "Counts are image counts, not bounding-box counts.",
+    "Pending images must be reviewed before acceptance.",
+    "Preserve source URL, creator, license, Vietnam-context evidence, review history, and split group for every accepted external image."
+  ]
+}
