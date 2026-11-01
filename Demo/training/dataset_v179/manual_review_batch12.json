@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v176",
+  "parent_manifest_sha256": "5afe52e0b1fd63affb84200df8313e0fa5ea9fca78a379ae2ea6ad2773a03c35",
+  "review_method": "Manual review of source pixels and final overlays; no model-generated labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "id": "kaggle-huan-v2/day_cam_14_00150_rider_manual_v177.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_14_00150",
+      "source_sha256": "68edd956d158ae9567f7434fc5c3469a513a982149723043aa6ac3aa4d4110d4",
+      "image_sha256": "f0a3c7e1c445cafd2e6020f92b7ce2c486c02089a51cb510d61ca5f67104d0bd",
+      "label_sha256": "2af9b4c54144a0bad925ccadfc6fd10df3f78faed9fc6df2c5b67c6301c2d50b",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.497917,
+          0.460417,
+          0.354167,
+          0.2875
+        ],
+        [
+          1,
+          0.502083,
+          0.377083,
+          0.179167,
+          0.279167
+        ]
+      ],
+      "crop_xyxy": [
+        850,
+        310,
+        1090,
+        550
+      ],
+      "review_evidence": "review_evidence/manual_batch_12/kaggle-huan-v2__day_cam_14_00150_rider_manual_v177_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi lái scooter đi chéo, đội mũ bảo hiểm xanh nhạt nhìn rõ; box class 1 phủ đầu/mũ, thân và chân nhìn thấy. Box class 0 phủ toàn xe từ tay lái đến cả bánh. Crop không chứa người/xe khác. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 16,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_24_00130.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera14 cùng cảnh có biển báo giao thông kiểu Việt Nam và cấu hình camera từ bộ dữ liệu. City cụ thể và tác giả video không được nêu."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "archive_entry": "images/train/day_cam_14_00050.jpg",
+      "status": "excluded",
+      "reason": "Only distant/crowded traffic in sampled view; no clear isolated label target."
+    },
+    {
+      "archive_entry": "images/train/day_cam_14_00200.jpg",
+      "status": "excluded",
+      "reason": "Riders too small or far in the sampled view to classify and box confidently."
+    },
+    {
+      "archive_entry": "images/train/day_cam_14_00300.jpg",
+      "status": "excluded",
+      "reason": "Multiple riders overlap the intersection; possible foreground rider too small for confident full labels."
+    },
+    {
+      "archive_entry": "images/train/day_cam_14_00400.jpg",
+      "status": "excluded",
+      "reason": "Large vehicles obscure riders; no safely isolated crop selected."
+    },
+    {
+      "archive_entry": "images/train/day_cam_14_00250.jpg",
+      "status": "excluded",
+      "reason": "Broad intersection traffic; previously screened frame without a clear isolated rider crop."
+    }
+  ],
+  "source_license_note": "Kaggle v2 public metadata reports Apache 2.0; source frames, hashes, download URLs, metadata and manual crop overlays are retained."
+}
