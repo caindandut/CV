@@ -1,0 +1,109 @@
+{
+  "title": "File:Mother Child Motorbike Vietnam.jpg",
+  "pageid": 530295,
+  "timestamp": "2006-01-23T02:48:30Z",
+  "size": 2597206,
+  "width": 2496,
+  "height": 1664,
+  "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mother_Child_Motorbike_Vietnam.jpg/1280px-Mother_Child_Motorbike_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "thumbwidth": 1280,
+  "thumbheight": 853,
+  "responsiveUrls": {
+    "2": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mother_Child_Motorbike_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "thumbattribs": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mother_Child_Motorbike_Vietnam.jpg/1280px-Mother_Child_Motorbike_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "decoding": "async",
+    "loading": "lazy",
+    "width": 1280,
+    "height": 853,
+    "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mother_Child_Motorbike_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+  },
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mother_Child_Motorbike_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mother_Child_Motorbike_Vietnam.jpg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=530295",
+  "sha1": "4fa221b760497dcde8aac0571f18f35e292b7794",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2006-01-23 02:48:30",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Mother Child Motorbike Vietnam",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Files with no machine-readable source|Self-published work|Assumed own work|White motorcycles|Mothers and children in Vietnam|People wearing hats|Motor scooter riding by pairs|Women on motor scooters|Motorcycles in Ho Chi Minh City|SYM Attila",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p>A mother and child share a ride on a motorbike in Ho Chi Minh City, Vietnam. The motorbike is an SYM \"Attila\" but I do not know which model (maybe the Attila Victoria). <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.cholien.com/dsp_product.php?ProductID=1552&amp;BrandID=29&amp;CategoryID=164\">[1]</a>\n</p>\nTaken Jun 2005. Photographer Roderick Divilbiss <a rel=\"nofollow\" class=\"external free\" href=\"http://www.rodsdot.com/\">http://www.rodsdot.com/</a>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "23 January 2006 (original upload date)",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Rdivilbiss\" title=\"User:Rdivilbiss\">Rdivilbiss</a> assumed (based on copyright claims).",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.5",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.5",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.5",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "mime": "image/jpeg",
+  "provenance": [
+    "Category:Motorcycles in Ho Chi Minh City",
+    "search:Vietnam motorbike",
+    "search:Vietnam scooter"
+  ],
+  "review_status": "unreviewed",
+  "download_error": "403 Forbidden"
+}

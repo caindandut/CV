@@ -1,0 +1,119 @@
+{
+  "title": "File:Mark on scooter, Hanoi (6923055468).jpg",
+  "pageid": 105761425,
+  "timestamp": "2021-05-23T17:14:33Z",
+  "size": 1554005,
+  "width": 2592,
+  "height": 1461,
+  "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg/1280px-Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "thumbwidth": 1280,
+  "thumbheight": 721,
+  "responsiveUrls": {
+    "2": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "thumbattribs": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg/1280px-Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "decoding": "async",
+    "loading": "lazy",
+    "width": 1280,
+    "height": 721,
+    "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+  },
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mark_on_scooter%2C_Hanoi_%286923055468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mark_on_scooter,_Hanoi_(6923055468).jpg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=105761425",
+  "sha1": "bb292c39a8f3974688d65e50f01523c045b876ab",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2021-05-23 17:14:33",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Mark on scooter, Hanoi (6923055468)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Lý Nam Đế Street, Hanoi",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "21.038166",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "105.841500",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p><b>&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/T%C3%A2y_H%E1%BB%93_District\">https://en.wikipedia.org/wiki/Tây_Hồ_District</a>\" rel=\"nofollow\"&gt;Tây Hồ&lt;/a&gt;</b> is an urban district (quận) located on the north side of central <b>&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/Hanoi\">https://en.wikipedia.org/wiki/Hanoi</a>\" rel=\"nofollow\"&gt;Hanoi&lt;/a&gt;</b>, the capital city of Vietnam. The name of the district means West Lake, which is named after the West Lake located within the district.\n</p>\nThanks to its close proximity to central Hanoi and scenery of the West Lake, <b>&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/T%C3%A2y_H%E1%BB%93_District\">https://en.wikipedia.org/wiki/Tây_Hồ_District</a>\" rel=\"nofollow\"&gt;Tây Hồ&lt;/a&gt;</b> is a high-end residential area, housing a large population of expatriates. Many streets in the district are named after renowned Vietnamese poets, artists and music composers, such as Xuân Diệu, Tô Ngọc Vân, Trịnh Công Sơn, Nguyễn Đình Thi and Đặng Thai Mai. <b>&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/T%C3%A2y_H%E1%BB%93_District\">https://en.wikipedia.org/wiki/Tây_Hồ_District</a>\" rel=\"nofollow\"&gt;en.wikipedia.org&lt;/a&gt;</b>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2012-03-03 14:19",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dgmckelvey/6923055468/\">Mark on scooter, Hanoi</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94735786@N00\">David McKelvey</a> from Brisbane, Australia",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "mime": "image/jpeg",
+  "provenance": [
+    "search:Vietnam scooter"
+  ],
+  "review_status": "unreviewed"
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v167",
+  "parent_manifest_sha256": "bd36e6c7027804f25d2f01c019cef87740133747ae2928747d68c077613695f9",
+  "review_method": "manual visual review of source pixels and final crop overlays; no model labels",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "pageid": 11921651,
+      "title": "Viettri16.jpeg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Viettri16.jpeg",
+      "artist": "Hungvuongking",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_sha256": "8ae986cf99d0d63f939c6e69d9bcfe79e3ac42f1f2a3e02392d416d94982ea78",
+      "source_image": "Demo/training/dataset_v168/source_originals/commons_11921651.jpg",
+      "metadata_file": "Demo/training/dataset_v168/source_metadata/commons_11921651.json",
+      "status": "accepted_crop",
+      "accepted_image_id": "commons_crops/Viettri16_center_rider_manual_v168.png",
+      "crop": [
+        275,
+        395,
+        480,
+        768
+      ],
+      "location_evidence": "Commons page title Viettri16.jpeg, image description “Street - Viet Tri”, and Category:Motorcycles in Vietnam; Viet Tri, Vietnam."
+    },
+    {
+      "pageid": 17350778,
+      "title": "Tourists with xe om in Da Lat.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Tourists_with_xe_om_in_Da_Lat.jpg",
+      "artist": "letsgoeverywhere",
+      "credit": "Flickr",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_sha256": "7f3b054b1763d81f8f7d724048c7998f7d9b92c8a7f0d25c19b8c366d18d7788",
+      "source_image": "Demo/training/dataset_v168/source_originals/commons_17350778.jpg",
+      "metadata_file": "Demo/training/dataset_v168/source_metadata/commons_17350778.json",
+      "status": "accepted_crop",
+      "accepted_image_id": "commons_crops/DaLat_xe_om_riders_manual_v168.png",
+      "crop": [
+        0,
+        0,
+        1185,
+        960
+      ],
+      "location_evidence": "Commons page title “Tourists with xe om in Da Lat”, image description “Tourists in Da Lat”, and Category:Motorcycle taxis in Vietnam; Da Lat, Vietnam."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "pageid": 2994204,
+      "title": "Motorbike taxi drivers in Cat Ba town.JPG",
+      "status": "pending",
+      "reason": "Crowded event scene; verify every small rider and motorcycle before labeling."
+    },
+    {
+      "pageid": 4539541,
+      "title": "Russian motor bike.jpg",
+      "status": "excluded",
+      "reason": "Unoccupied motorcycle; title/description conflicts with Vietnam-only scope and exact location is unverified."
+    },
+    {
+      "pageid": 6373843,
+      "title": "Red Motorcycle in Vietnam.jpg",
+      "status": "pending",
+      "reason": "Prominent headwear is ambiguous between protective helmet and fabric hat; keep all objects pending."
+    },
+    {
+      "pageid": 12254113,
+      "title": "Ain-Shimura Ken Motorcycle taxi—Hồ Chí Minh ...",
+      "status": "excluded",
+      "reason": "Person is posing; no motorcycle is visible and seated-rider status is not established."
+    },
+    {
+      "pageid": 24817609,
+      "title": "Vietnam & Cambodia (3336758253).jpg",
+      "status": "pending",
+      "reason": "Rider is partly cropped and helmet status cannot be established clearly."
+    },
+    {
+      "pageid": 24817670,
+      "title": "Vietnam & Cambodia (3336746177).jpg",
+      "status": "pending",
+      "reason": "Kept pending after final crop review: although the central scooter and two helmeted riders are clear, a separate turquoise-clad background rider intrudes at the right edge; no crop retains all target objects while excluding the partial rider."
+    },
+    {
+      "pageid": 24817856,
+      "title": "022209 saigon2 1484 (3301632768).jpg",
+      "status": "pending_duplicate_candidate",
+      "reason": "Near-identical lower-resolution duplicate of pending page 24817670; neither image is counted. Revisit only if a crop can remove the partial background rider and retain all target objects."
+    },
+    {
+      "pageid": 33735658,
+      "title": "Trần Hưng Đạo Street - Phan Thiết, Bình Thuận 1967 ...",
+      "status": "pending",
+      "reason": "Crowded historical street scene; rider identity and helmet status are too small for confident labels."
+    },
+    {
+      "pageid": 88773152,
+      "title": "Hồ Chí Minh Taxi Driver 2010.jpg",
+      "status": "excluded",
+      "reason": "Same taxi-driver photo session as page 12254113; no visible motorcycle or seated rider."
+    }
+  ]
+}
