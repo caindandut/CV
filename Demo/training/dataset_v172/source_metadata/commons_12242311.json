@@ -1,0 +1,91 @@
+{
+  "pageid": 12242311,
+  "title": "File:Bike Taxi-Ho Chi Minh City PB300013.jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bike_Taxi-Ho_Chi_Minh_City_PB300013.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bike_Taxi-Ho_Chi_Minh_City_PB300013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bike_Taxi-Ho_Chi_Minh_City_PB300013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "mime": "image/jpeg",
+  "size": [
+    1280,
+    960
+  ],
+  "provenance": [
+    "Category:Road transport in Ho Chi Minh City"
+  ],
+  "extmetadata": {
+    "DateTime": {
+      "value": "2010-12-07 15:55:57",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Bike Taxi-Ho Chi Minh City PB300013",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|License migration redundant|Road transport in Ho Chi Minh City|Self-published work|Motorcycles in Ho Chi Minh City|Motorcycles in motion",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Bike Taxi \nHo Chi Minh City",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2010-11-30",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a href=\"https://ja.wikipedia.org/wiki/user:%E5%85%B5%E5%BA%AB%E8%83%A1%E5%BF%97%E6%98%8E%E5%80%B6%E6%A5%BD%E9%83%A8\" class=\"extiw\" title=\"ja:user:兵庫胡志明倶楽部\">兵庫胡志明倶楽部</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:%E5%85%B5%E5%BA%AB%E8%83%A1%E5%BF%97%E6%98%8E%E5%80%B6%E6%A5%BD%E9%83%A8&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:兵庫胡志明倶楽部 (page does not exist)\">兵庫胡志明倶楽部</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "download_sha256": "c2d6c08b5963dc6eb9008f5e8859a91aec1f35d24afb6f00fbd82463798145cf"
+}
