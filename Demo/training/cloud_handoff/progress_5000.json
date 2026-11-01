@@ -2,13 +2,13 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 753,
-  "remaining_to_goal": 4247,
+  "accepted_clean_images": 754,
+  "remaining_to_goal": 4246,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v198",
+  "snapshot": "dataset_v199",
   "accepted_split_counts": {
     "train": 601,
-    "validation": 84,
+    "validation": 85,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 1,
@@ -17,18 +17,18 @@
     "1": 1
   },
   "total_class_box_counts": {
-    "0": 1259,
-    "1": 653,
+    "0": 1260,
+    "1": 654,
     "2": 230
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v198.json",
+  "verification_report": "../verification/dataset_v199.json",
   "notes": [
     "Counts are individually reviewed images, not boxes.",
     "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
-    "One additional crop from a Vietnam-verified DataSet2 video frame were added to existing train-only group_0072; no model-generated labels were used.",
+    "One additional crop from a Vietnam-verified DataSet2 video frame was added to existing validation-only group_1128; no model-generated labels were used.",
     "The source manifest provides no public URL, named author, standard license terms, or raw-video checksum; this is documented and no open license is asserted."
   ]
 }

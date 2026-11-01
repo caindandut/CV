@@ -1,0 +1,17 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5032-2",
+  "source_row_id": "train/IMG_5032-2_MOV-4_jpg.rf.ce2e296684913036398fe1d290b8d574.jpg",
+  "source_frame_id": "IMG_5032-2_MOV-4",
+  "source_image_sha256": "e4e8ddaab0a447426fabbc884cd4255e0ccfce103ce95d61b3c0e56d507f9463",
+  "source_size": [
+    1280,
+    720
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country_evidence": "Parent dataset_v197 row marks this source verified for Vietnam; the full frame also shows Vietnamese-language business signage and the campus_gate scene.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on the user-confirmed ownership or permission recorded above.",
+  "recorded_at": "2026-11-01"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "File:Art of Transportation (6161289029).jpg",
+  "pageid": 35410109,
+  "timestamp": "2014-09-16T13:00:46Z",
+  "size": 421589,
+  "width": 1024,
+  "height": 759,
+  "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Art_of_Transportation_%286161289029%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "thumbwidth": 1280,
+  "thumbheight": 949,
+  "thumbattribs": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Art_of_Transportation_%286161289029%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "decoding": "async",
+    "loading": "lazy",
+    "width": 1280,
+    "height": 949
+  },
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Art_of_Transportation_%286161289029%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Art_of_Transportation_(6161289029).jpg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35410109",
+  "sha1": "ef31cb710f00668d6602543124c462b56e57a742",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2014-09-16 13:00:46",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Art of Transportation (6161289029)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Nikon D90|Images with watermarks|Personality rights warning|Overloading (transport)|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Women on motor scooters|Motorcycles in Ho Chi Minh City|Riding by groups|Families riding motor scooters|Files from Staffan Scherz Flickr stream|Children riding motor scooters without helmets|Honda Air Blade (2007)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "10.724116",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "106.694841",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The thing was made for just two people, but this “can do” family in Ho Chi Minh City really likes togetherness. There’s nothing like riding around Vietnam’s largest city on a motorcycle, especially when you are only 3 feet tall and get to stand up front. Perhaps they’re on their way to buy two more helmets.\nCommonly know as Saigon, Ho Chi Minh City owes its wide boulevards and western-styled buildings to its years under French rule, which lasted from the mid-1800s to 1945. It then became the capitol of South Vietnam and had a good run as a capitalist, anti-communist state until April 30, 1975, when it fell to North Vietnam, thus ending the Vietnam War. Today, Saigon is an increasingly popular destination for tourists from around the world.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2011-02-02 17:30",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/staffanscherz/6161289029/\">Art of Transportation</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31638323@N08\">Staffan Scherz</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "mime": "image/jpeg",
+  "provenance": [
+    "Category:Motorcycles in Ho Chi Minh City"
+  ],
+  "review_status": "unreviewed",
+  "download_size": [
+    1024,
+    759
+  ],
+  "local_image": "images/commons_35410109.jpg",
+  "download_sha256": "9e1ed5572ba715a88a560c8c1f75de83a94a4adda8a112f5f89b92987ef39920",
+  "downloaded_at_utc": "2026-11-01T12:53:08.544735+00:00"
+}
