@@ -1,0 +1,45 @@
+{
+  "snapshot": "dataset_v188",
+  "passed": true,
+  "parent_manifest_rows": 2229,
+  "rows_total": 2232,
+  "accepted_clean_images": 735,
+  "remaining_to_5000": 4265,
+  "pending_review_images": 1497,
+  "new_images": 3,
+  "new_box_counts": {
+    "0": 3,
+    "1": 2
+  },
+  "split_counts": {
+    "train": 591,
+    "val": 76,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "crops_match_source_pixels": true,
+  "source_and_label_hashes_verified": true,
+  "manual_overlays_present": true,
+  "unique_source_pages": true,
+  "source_metadata_and_license_present": true,
+  "group_splits_train_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distances": [
+    [
+      20,
+      "kaggle-huan-v2/day_cam_24_00548.png"
+    ],
+    [
+      null,
+      null
+    ],
+    [
+      24,
+      "commons/commons_185835663.png"
+    ]
+  ],
+  "portable_manifest_rows": 2232
+}

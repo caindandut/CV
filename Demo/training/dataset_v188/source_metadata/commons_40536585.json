@@ -1,0 +1,129 @@
+{
+  "provider": "wikimedia_commons",
+  "pageid": 40536585,
+  "title": "File:Hanoi Vietnam Transport-in-Hanoi-03.jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hanoi_Vietnam_Transport-in-Hanoi-03.jpg",
+  "downloaded_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hanoi_Vietnam_Transport-in-Hanoi-03.jpg",
+  "mime": null,
+  "size": [
+    3703,
+    2645
+  ],
+  "description": "Hanoi, Vietnam: A man, carrying a blue barrel on his motobike.",
+  "artist": "CEphoto, Uwe Aranas",
+  "credit": "Photo by CEphoto, Uwe Aranas",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "categories": [
+    "People of Hanoi",
+    "Personality rights warning",
+    "Self-published work",
+    "Images by Cccefalon",
+    "Files with coordinates missing SDC location of creation",
+    "Vietnam photographs taken on 2011-05-11",
+    "Motorcycles in Hanoi",
+    "Images of Vietnam by User:Cccefalon"
+  ],
+  "extmetadata": {
+    "DateTime": {
+      "value": "2015-05-28 15:31:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Hanoi Vietnam Transport-in-Hanoi-03",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "People of Hanoi|Personality rights warning|Self-published work|Images by Cccefalon|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2011-05-11|Motorcycles in Hanoi|Images of Vietnam by User:Cccefalon",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "21.020238",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "105.821353",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Hanoi, Vietnam: A man, carrying a blue barrel on his motobike.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2011-05-11",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cccefalon\" title=\"User:Cccefalon\">CEphoto, Uwe Aranas</a>",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "<div style=\"border:1px solid green; background-color:#eaeeed;\">\n<table cellpadding=\"3px\">\n<tbody><tr>\n<td align=\"center\">\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:LOGO-CEphotoUweAranas.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/4b/LOGO-CEphotoUweAranas.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"80\" class=\"mw-file-element\" data-file-width=\"80\" data-file-height=\"80\"></a></span>\n</p>\n</td>\n<td valign=\"top\" colspan=\"2\">\n<p>This photo was created by <a href=\"//commons.wikimedia.org/wiki/User:Cccefalon/Profile\" title=\"User:Cccefalon/Profile\">Uwe Aranas</a>. It is protected by law and is <u>not</u> in the <a href=\"https://en.wikipedia.org/wiki/Public_Domain\" class=\"extiw\" title=\"w:Public Domain\">Public Domain</a>. However, it can be used free of charge by everyone under the terms of the license stated below. \n</p>\n<ul><li><b>The requirements to comply with the terms of licence are:</b></li></ul>\n<dl><dd>- The image is credited with <b>\"Photo by CEphoto, Uwe Aranas\"</b> or alternatively with <b>\"© CEphoto, Uwe Aranas\"</b> in close relation to the image. If this is not possible due to shortage of space, please contact me <u>first</u>.</dd>\n<dd>- You are required to release the image under the same license.</dd></dl>\n<ul><li><b>Not required by the license but highly appreciated:</b></li></ul>\n<dl><dd>- Set up a weblink to the original image when you use the image in online media: <a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg\">https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg</a></dd>\n<dd>- Send me a specimen copy or a pdf when used in print media or the URL of the website where the image is used.</dd></dl>\n<p>Please write an email to spam@aranas.de <small>(where you substitute the word <i>spam</i> by <i>cephoto2020</i>)</small>, if you\n</p>\n<ul><li>need the image in a higher resolution</li>\n<li>need my postal address for sending a specimen copy</li>\n<li>have further questions to the terms of licence</li></ul>\n</td>\n</tr>\n</tbody></table>\n</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "Photo by CEphoto, Uwe Aranas <b>or alternatively</b> © CEphoto, Uwe Aranas",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "download_sha256": "3b404476d4e776af2ae554baab155b44b1fc07ab0e661028264670102c0efc35",
+  "retrieved_date_utc": "2026-11-01",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&titles=File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg&format=json"
+}
