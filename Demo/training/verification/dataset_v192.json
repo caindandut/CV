@@ -1,0 +1,41 @@
+{
+  "snapshot": "dataset_v192",
+  "passed": true,
+  "parent_manifest_rows": 2238,
+  "rows_total": 2240,
+  "accepted_clean_images": 743,
+  "remaining_to_5000": 4257,
+  "pending_review_images": 1497,
+  "new_images": 2,
+  "new_box_counts": {
+    "0": 2,
+    "1": 2
+  },
+  "split_counts": {
+    "train": 594,
+    "val": 81,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "crops_match_source_pixels": true,
+  "source_and_label_hashes_verified": true,
+  "manual_overlays_present": true,
+  "user_permission_basis_recorded": true,
+  "no_open_license_asserted": true,
+  "group_1128_remains_validation_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distances": [
+    [
+      20,
+      "user_provided/video_5137/IMG_5137_MOV-59_rider_manual_v191.png"
+    ],
+    [
+      20,
+      "original_crops/Image01_JPG.rf.6de136df9b26ce8cae718fe986d8e35c.png"
+    ]
+  ],
+  "portable_manifest_rows": 2240
+}

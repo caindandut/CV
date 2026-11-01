@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v170",
+  "parent_manifest_sha256": "47961326770dcffa690b329b209f723f32d4b1bd5d88d269a850fa4a74319ed6",
+  "review_method": "Manual review of native source frame and final crop overlay; class/status and boxes checked from pixels; no model labels.",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "id": "original_crops/campus_forecourt_image_176_manual_v171.png",
+      "source_image_id": "train/image_176_jpg.rf.34976c8591a2abbdc17ae191b6b6a7e1.jpg",
+      "source": "scene:campus_forecourt",
+      "source_group": "group_0072",
+      "original_source": "image:image_176",
+      "source_sha256": "5d810689ea5db816740c1264d398436df20c0ebf7871d53d78d8e1f7fb6879ef",
+      "source_snapshot_label_sha256": "e1ec1acb26b7af7e4a2ed5a3fa5fc3caa1ae12f1ac536c1c6af35a39ca4da36a",
+      "crop": [
+        570,
+        190,
+        980,
+        720
+      ],
+      "labels": [
+        [
+          0,
+          0.496341,
+          0.664151,
+          0.885366,
+          0.615094
+        ],
+        [
+          1,
+          0.428049,
+          0.490566,
+          0.729268,
+          0.883019
+        ]
+      ],
+      "review_evidence": "review_evidence/manual_batch_06/campus_forecourt_image_176_manual_v171_overlay.png",
+      "status": "accepted_manual_crop",
+      "location_evidence": "Biển/biển quảng cáo tiếng Việt và biển ô tô định dạng Việt Nam 30F trong chính khung hình; nguồn dataset gốc đã đánh dấu source_verified=true.",
+      "license_basis": "Inherited user-provided parent dataset; no new external download or license claim."
+    },
+    {
+      "id": "original_crops/campus_forecourt_image_232_manual_v171.png",
+      "source_image_id": "train/image_232_jpg.rf.125963c7c9c8bedfa0a95591455f14b3.jpg",
+      "source": "scene:campus_forecourt",
+      "source_group": "group_0072",
+      "original_source": "image:image_232",
+      "source_sha256": "e1c985d76c8b2d15d912c69299d5811e4c3ac9338f8e104cc8a4a6d9de685958",
+      "source_snapshot_label_sha256": "263bb0e2744bfde4f64bc38509e0ba7d2f560edb2618e4634521f96564165eb3",
+      "crop": [
+        910,
+        145,
+        1200,
+        690
+      ],
+      "labels": [
+        [
+          0,
+          0.527586,
+          0.7,
+          0.655172,
+          0.46422
+        ],
+        [
+          1,
+          0.448276,
+          0.427523,
+          0.896552,
+          0.748624
+        ]
+      ],
+      "review_evidence": "review_evidence/manual_batch_06/campus_forecourt_image_232_manual_v171_overlay.png",
+      "status": "accepted_manual_crop",
+      "location_evidence": "Biển ô tô 30F-435.41 và biển/biển quảng cáo tiếng Việt trong khung; nguồn dataset gốc đã đánh dấu source_verified=true.",
+      "license_basis": "Inherited user-provided parent dataset; no new external download or license claim."
+    },
+    {
+      "id": "original_crops/campus_forecourt_image_279_manual_v171.png",
+      "source_image_id": "train/image_279_jpg.rf.2139a6b5fcd54b169680b694c8c77390.jpg",
+      "source": "scene:campus_forecourt",
+      "source_group": "group_0072",
+      "original_source": "image:image_279",
+      "source_sha256": "aa12feec4734d5070b1a1ef9d75b7ac6ef446c8e78d397373a64d409103e4501",
+      "source_snapshot_label_sha256": "69be7da0877cd56a2b6d618e8483bc563cb8851cf7a10ff315233b8689353bbf",
+      "crop": [
+        250,
+        130,
+        600,
+        720
+      ],
+      "labels": [
+        [
+          0,
+          0.662857,
+          0.733051,
+          0.674286,
+          0.513559
+        ],
+        [
+          1,
+          0.507143,
+          0.513559,
+          0.985714,
+          0.935593
+        ]
+      ],
+      "review_evidence": "review_evidence/manual_batch_06/campus_forecourt_image_279_manual_v171_overlay.png",
+      "status": "accepted_manual_crop",
+      "location_evidence": "Biển số xe máy 18-G1 309.75 và biển/biển quảng cáo tiếng Việt; nguồn dataset gốc đã đánh dấu source_verified=true.",
+      "license_basis": "Inherited user-provided parent dataset; no new external download or license claim."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "source_image_id": "train/image_228_jpg.rf.5e5409d1451f95fa8f5b6122a0575540.jpg",
+      "original_source": "image:image_228",
+      "status": "kept_pending_near_duplicate",
+      "reason": "Rà ảnh native: rider áo tối có cùng ba lô xanh phối cam, xe và phông nền với mẫu đã được nhận từ image:image_227. Đây có vẻ là khung liền kề của cùng người/sự kiện; không tính thêm để tăng số lượng.",
+      "source_sha256": "e912937303cf17b09ab94c3a09cbbf2c9f58cf8d282d201627b2cf9e15fd2034"
+    }
+  ]
+}
