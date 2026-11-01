@@ -1,0 +1,46 @@
+{
+  "snapshot": "dataset_v195",
+  "passed": true,
+  "parent_manifest_rows": 2243,
+  "rows_total": 2246,
+  "accepted_clean_images": 749,
+  "remaining_to_5000": 4251,
+  "pending_review_images": 1497,
+  "new_images": 3,
+  "new_box_counts": {
+    "0": 3,
+    "2": 2,
+    "1": 1
+  },
+  "split_counts": {
+    "train": 597,
+    "val": 84,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "crops_match_source_pixels": true,
+  "source_and_label_hashes_verified": true,
+  "manual_overlays_present": true,
+  "user_permission_basis_recorded": true,
+  "no_open_license_asserted": true,
+  "group_0585_remains_train_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distances": [
+    [
+      20,
+      "kaggle-huan-v2/day_cam_18_00880_rider_manual_v176.png"
+    ],
+    [
+      16,
+      "user_provided/video_5290/IMG_5290_mp4-5_rider_manual_v190.png"
+    ],
+    [
+      22,
+      "commons/commons_105762826.png"
+    ]
+  ],
+  "portable_manifest_rows": 2246
+}

@@ -1,0 +1,92 @@
+{
+  "provider": "wikimedia_commons",
+  "pageid": 142953256,
+  "title": "File:On the motorbike (1347329234).jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:On_the_motorbike_(1347329234).jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/On_the_motorbike_%281347329234%29.jpg",
+  "downloaded_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/On_the_motorbike_%281347329234%29.jpg",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2023-12-27 03:05:18",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "On the motorbike (1347329234)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "2007 in Huế|Flickr images reviewed by FlickreviewR 2|Vietnam photographs taken on 2007-08-29|Motorcycles in Huế",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "On the motorbike",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2007-08-29 21:32:06",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/thalling/1347329234/\">https://www.flickr.com/photos/thalling/1347329234/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "thalling55",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "download_sha256": "7bcce743514340e243f34e5744c21f6a94e08c42ee389cf3569dbc9d310b2286",
+  "status": "pending_external_candidate",
+  "pending_reason": "Giữ ngoài manifest ở trạng thái chờ: crop gần cho thấy một người đội mũ ngồi sau xe, nhưng có vật thể giống vai/thân của người thứ hai cắt sát mép trái. Không thể xác định đầy đủ người thứ hai và trạng thái mũ; không nhận nhãn hoặc tính ảnh này.",
+  "oriented_crop_xyxy": [
+    1377,
+    901,
+    1640,
+    1412
+  ]
+}

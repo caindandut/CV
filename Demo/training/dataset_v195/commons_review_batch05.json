@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v181",
+  "parent_manifest_sha256": "abccd5c947ad9c58d927945a55e5ad0d586addc2c0685d5014c08cc0d368cd66",
+  "review_method": "Manual review of source images and crop overlays; uncertain riders excluded.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "pageid": 6373843,
+      "title": "Red Motorcycle in Vietnam.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Red_Motorcycle_in_Vietnam.jpg",
+      "artist": "Andrew Kneebone",
+      "credit": "originally posted to   Flickr   as  Saigon Travel #2",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_sha256": "45c1813a644e453f507bc37034fd1fa3bb61894c571cee5adad75a6c55c0cefa",
+      "source_image": "Demo/training/dataset_v182/source_originals/commons_6373843.jpg",
+      "metadata_file": "Demo/training/dataset_v182/source_metadata/commons_6373843.json",
+      "status": "accepted_crop",
+      "accepted_image_id": "commons_vietnam/Red_Motorcycle_in_Vietnam_riders_manual_v182.png",
+      "crop": [
+        212,
+        30,
+        930,
+        655
+      ],
+      "labels": [
+        [
+          0,
+          0.478412,
+          0.6448,
+          0.956825,
+          0.7008
+        ],
+        [
+          2,
+          0.167131,
+          0.4392,
+          0.314763,
+          0.7504
+        ],
+        [
+          2,
+          0.418524,
+          0.4528,
+          0.332869,
+          0.864
+        ]
+      ],
+      "location_evidence": "Wikimedia Commons title “Red Motorcycle in Vietnam”; image description “Honda Future?”; categories include “Motorcycles in Vietnam” and “Honda Future”. The page credits the original Flickr item “Saigon Travel #2”.",
+      "nearest_active_phash_distance": 30,
+      "nearest_active_id": "commons/commons_134030465.png"
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "pageid": 24817670,
+      "status": "not_accepted",
+      "reason": "A separate background rider enters the right side of useful crops; prior review evidence retained in parent dataset_v181, no image count added."
+    },
+    {
+      "pageid": 12242665,
+      "status": "not_accepted",
+      "reason": "The source shows a man holding a notebook beside/over a motorcycle; seated-rider status remains ambiguous."
+    }
+  ]
+}

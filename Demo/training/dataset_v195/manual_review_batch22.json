@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v186",
+  "parent_manifest_sha256": "b8a698a8083cf17836011f3cc6bd609c366fffc22b45aeb360a96dd763a3b42d",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch22",
+      "id": "commons_vietnam/Motorcyclist_Cement_Bags_Downtown_Hanoi_manual_v187.png",
+      "source_image_id": "commons:80522495",
+      "source": "wikimedia_commons:80522495",
+      "source_group": "commons:80522495",
+      "source_sha256": "6e389cd5f8522ac44064b3ef63bf9cb88e0a52ad3186eb0d84a182e09844592e",
+      "crop": [
+        250,
+        0,
+        2736,
+        3648
+      ],
+      "image_sha256": "393f88156aa1a973d1b1e49eda964b18e8e8c751a007f033e5d494a33d3700a8",
+      "label_sha256": "113944983fec4f54f5e9694dec326a82dada4331194cdd920fda2a675ee36d11",
+      "labels": [
+        [
+          0,
+          0.559131,
+          0.659265,
+          0.876911,
+          0.633224
+        ],
+        [
+          2,
+          0.591311,
+          0.54386,
+          0.724055,
+          0.912281
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Motorcyclist_with_Cement_Bags_-_Downtown_Hanoi_-_Vietnam_(48072170431).jpg",
+      "artist": "Adam Jones from Kelowna, BC, Canada",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "review_evidence": "review_evidence/manual_batch_22/commons_vietnam__Motorcyclist_Cement_Bags_Downtown_Hanoi_manual_v187_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc đã áp dụng EXIF orientation và overlay crop cuối. Một người ngồi trên xe máy chở các bao xi măng; người đội mũ vành rộng kiểu nón che nắng, không phải mũ bảo hiểm xe máy, nên gán class 2. Class 0 bao thân xe, hai bánh và phần chở hàng gắn liền với xe. Crop bỏ người đi bộ ở mép trái; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 14,
+      "nearest_active_id": "commons/commons_80522495.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch22",
+      "id": "commons_vietnam/Mark_on_scooter_Hanoi_manual_v187.png",
+      "source_image_id": "commons:105761425",
+      "source": "wikimedia_commons:105761425",
+      "source_group": "commons:105761425",
+      "source_sha256": "b70e1127978f4773cbc1823350467bc13809af85bcec6efc453e3474f17c69e4",
+      "crop": [
+        990,
+        150,
+        1790,
+        1370
+      ],
+      "image_sha256": "12527b49641a5678b4478e1af26bce0cdc94d5321d788a7c0d7e6086850d0e20",
+      "label_sha256": "9316d36e4fef0012192e9b4ef8452ecdc9100bb4c7f59e74784c986bda11542b",
+      "labels": [
+        [
+          0,
+          0.46875,
+          0.672131,
+          0.9375,
+          0.639344
+        ],
+        [
+          1,
+          0.44375,
+          0.52459,
+          0.8375,
+          0.868852
+        ],
+        [
+          0,
+          0.909375,
+          0.596311,
+          0.18125,
+          0.512295
+        ],
+        [
+          0,
+          0.146875,
+          0.893443,
+          0.29375,
+          0.213115
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Mark_on_scooter,_Hanoi_(6923055468).jpg",
+      "artist": "David McKelvey from Brisbane, Australia",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_22/commons_vietnam__Mark_on_scooter_Hanoi_manual_v187_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop. Box class 1 bao người đang ngồi, hai tay nắm ghi-đông và đội mũ bảo hiểm có vỏ cứng/dây cằm; box class 0 bao xe tay ga đỏ. Hai box class 0 khác ghi nhận phần xe tay ga phía sau và cụm tay lái/gương xe máy tiền cảnh còn nhìn thấy trong crop. Người đi bộ ngoài crop; không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "commons/commons_31951085.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch22",
+      "id": "commons_vietnam/Tran_Hung_Dao_Street_Phan_Thiet_1967_manual_v187.png",
+      "source_image_id": "commons:33735658",
+      "source": "wikimedia_commons:33735658",
+      "source_group": "commons:33735658",
+      "source_sha256": "c6f20fef71a5e4496da9dcd0bf1932bd3a6760ec903a96d9be9ec4f283df0eed",
+      "crop": [
+        0,
+        0,
+        1024,
+        683
+      ],
+      "image_sha256": "cd2f948ccd813a22317be407a2f433c9fc5fb029aff08fafbc14b84b07245fde",
+      "label_sha256": "9ea7d85d56872c493eb062befdaf935b3033bd3074790dd8299691ff07a97b26",
+      "labels": [
+        [
+          0,
+          0.089844,
+          0.688141,
+          0.179688,
+          0.190337
+        ],
+        [
+          0,
+          0.540039,
+          0.666911,
+          0.294922,
+          0.235725
+        ],
+        [
+          0,
+          0.976562,
+          0.641288,
+          0.046875,
+          0.1347
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o_Street_-_Phan_Thi%E1%BA%BFt,_B%C3%ACnh_Thu%E1%BA%ADn_1967_-_Photo_by_Bob_Kelly_(9946635873).jpg",
+      "artist": "tommy japan",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_22/commons_vietnam__Tran_Hung_Dao_Street_Phan_Thiet_1967_manual_v187_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay toàn khung. Ba xe máy được gán class 0: xe tay ga cắt ở cạnh trái, xe máy sáng màu ở giữa, và phần xe máy bị cắt ở cạnh phải. Người trong ảnh đang đi bộ/đứng ở cửa hàng, không có người ngồi trên các xe; không gán class 1 hoặc 2. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 22,
+      "nearest_active_id": "commons/commons_63784305.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Three new, individually reviewed Wikimedia Commons source groups in Hanoi and Phan Thiet, with per-image credit, source page, license terms, and stored metadata snapshots; all groups are train-only."
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v189",
+  "parent_manifest_sha256": "212d71ed3dbd9e497a46b1d42bb2dbbd4d3a7f68dfeaa72c3842573c88180f2d",
+  "review_method": "Manual visual review of DataSet2 frames and final crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch28",
+      "id": "user_provided/video_5143/IMG_5143_MOV-22_rider_manual_v193.png",
+      "source_image_id": "video:img_5143#IMG_5143_MOV-22",
+      "source": "user_provided_DataSet2:img_5143",
+      "source_group": "group_1128",
+      "source_sha256": "76b6830d3ff1f133e23166777b2bbbf26658af65051b6ee3fe5088d223810a4a",
+      "source_row_id": "train/IMG_5143_MOV-22_jpg.rf.37b4ab42f0b442b974b90f8133c13332.jpg",
+      "crop": [
+        656,
+        175,
+        960,
+        711
+      ],
+      "image_sha256": "bcf9eb8ffffb1325ef3969a8379ad43eaad4800fb4034a274b6d5d925e070750",
+      "label_sha256": "a2f6691b1e97b240dc85a43d462149cbb9f4c75a4c7f99d51bcbced67dc902e8",
+      "labels": [
+        [
+          0,
+          0.561773,
+          0.677393,
+          0.544712,
+          0.38967
+        ],
+        [
+          1,
+          0.559899,
+          0.484535,
+          0.668484,
+          0.715022
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.645921,
+          0.747337,
+          0.129369,
+          0.290088
+        ],
+        [
+          1,
+          0.645476,
+          0.603765,
+          0.158765,
+          0.532294
+        ],
+        [
+          1,
+          0.824274,
+          0.576138,
+          0.124546,
+          0.518616
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_28/user_provided__video_5143__IMG_5143_MOV-22_rider_manual_v193_overlay.jpg",
+      "reason": "Rà thủ công toàn khung 1280×720 và overlay crop cuối. Người mặc áo vàng đội mũ bảo hiểm rõ, đang ngồi/lái xe; xe máy và người được khoanh riêng. Giảm mép phải của crop để loại phần xe và người đi cạnh; giữ nhóm validation, không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "commons_vietnam/Saigon_men_riding_scooter_manual_v185.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. One additional frame was individually reviewed from existing Vietnam-verified validation-only source group group_1128. The source manifest has no public page, named author, standard license terms, or raw-video checksum; this limitation is preserved in source_metadata and attribution."
+}
