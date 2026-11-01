@@ -2,12 +2,12 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 704,
-  "remaining_to_goal": 4296,
+  "accepted_clean_images": 706,
+  "remaining_to_goal": 4294,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v172",
+  "snapshot": "dataset_v173",
   "accepted_split_counts": {
-    "train": 560,
+    "train": 562,
     "validation": 76,
     "test_locked": 68
   },
@@ -17,18 +17,18 @@
     "1": 2
   },
   "total_class_box_counts": {
-    "0": 1202,
-    "1": 609,
+    "0": 1204,
+    "1": 611,
     "2": 216
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v172.json",
+  "verification_report": "../verification/dataset_v173.json",
   "notes": [
-    "Counts are manually reviewed unique image samples, not bounding boxes.",
-    "Two new samples are native pixel crops from distinct, previously uncounted Kaggle VNTS v8 originals; both riders and motorcycles were checked against source frames and overlays.",
-    "Source group group_2023 remains train-only; no model predictions were used as ground truth.",
-    "The CC BY-SA 4.0 license and source metadata are retained per image."
+    "Counts are manually reviewed unique image samples, not boxes.",
+    "Two native pixel crops from distinct, previously unused Huanhuyle v2 Vietnam traffic frames were manually labeled and reviewed.",
+    "Source group group_2029 remains train-only; no model predictions were used as ground truth.",
+    "Apache 2.0 source metadata and per-image attribution are retained."
   ]
 }
