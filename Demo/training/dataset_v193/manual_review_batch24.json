@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v188",
+  "parent_manifest_sha256": "8a39752b9ac1fa6787c4e698994d12dd7c09929bb848556dedf512042ef04808",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch24",
+      "id": "commons_vietnam/Hue_Rural_Motorbike_Rider_manual_v189.png",
+      "source_image_id": "commons:142953256",
+      "source": "wikimedia_commons:142953256",
+      "source_group": "commons:142953256",
+      "source_sha256": "7bcce743514340e243f34e5744c21f6a94e08c42ee389cf3569dbc9d310b2286",
+      "crop": [
+        1370,
+        850,
+        1640,
+        1450
+      ],
+      "image_sha256": "37272d1114a3cceeca917ddd5657dc31f1fb318a4aadc42b346187ffac2f1159",
+      "label_sha256": "4f9d43f137403a8ee2e2377d2f6bff78ec95f5e0b781f8b75d75816dd202e517",
+      "labels": [
+        [
+          0,
+          0.62963,
+          0.675,
+          0.703704,
+          0.45
+        ],
+        [
+          1,
+          0.555556,
+          0.433333,
+          0.814815,
+          0.666667
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:On_the_motorbike_(1347329234).jpg",
+      "artist": "thalling55",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_24/commons_vietnam__Hue_Rural_Motorbike_Rider_manual_v189_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop cuối. Crop giữ người đang ngồi trên xe cùng phần xe nhìn thấy, loại người đi bộ hai bên đường và gương xe của người chụp ở tiền cảnh. Mũ vỏ cứng màu sáng nhìn rõ; class 0 bao xe và class 1 bao riêng người lái. Ảnh hơi nhòe do chuyển động nhưng tư thế và hai đối tượng vẫn phân biệt được; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "commons/commons_59145562.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "One new, individually reviewed Wikimedia Commons source groups in Hanoi and Phan Thiet, with per-image credit, source page, license terms, and stored metadata snapshots; all groups are train-only."
+}

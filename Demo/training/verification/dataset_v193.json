@@ -1,0 +1,37 @@
+{
+  "snapshot": "dataset_v193",
+  "passed": true,
+  "parent_manifest_rows": 2240,
+  "rows_total": 2241,
+  "accepted_clean_images": 744,
+  "remaining_to_5000": 4256,
+  "pending_review_images": 1497,
+  "new_images": 1,
+  "new_box_counts": {
+    "0": 1,
+    "1": 1
+  },
+  "split_counts": {
+    "train": 594,
+    "val": 82,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "crops_match_source_pixels": true,
+  "source_and_label_hashes_verified": true,
+  "manual_overlays_present": true,
+  "user_permission_basis_recorded": true,
+  "no_open_license_asserted": true,
+  "group_1128_remains_validation_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distances": [
+    [
+      24,
+      "commons_vietnam/Saigon_men_riding_scooter_manual_v185.png"
+    ]
+  ],
+  "portable_manifest_rows": 2241
+}

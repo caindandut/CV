@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v183",
+  "parent_manifest_sha256": "698aeb13148863d0b269c99c96ba40d5c3bfa231f8139a17661fe0fec8ebd75a",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch19",
+      "id": "commons_vietnam/Ho_Chi_Minh_City_Cholon_family_riders_manual_v184.png",
+      "source_image_id": "commons:6373654",
+      "source": "wikimedia_commons:6373654",
+      "source_group": "commons:6373654",
+      "source_sha256": "f4e162042f8d50ba64285771a01e89f3fa7b75e3c8eca4e5cb1060d1bc52549f",
+      "crop": [
+        140,
+        0,
+        720,
+        590
+      ],
+      "image_sha256": "dd2dcffa38f1f939e79b8752374bfbf1a3822ddfe71bd4b5566c77f787307f01",
+      "label_sha256": "d664e7d794cb1df644b5f7f1f95c594743da00ad357245c88f471ff214cd3ab2",
+      "labels": [
+        [
+          0,
+          0.5,
+          0.618644,
+          0.931034,
+          0.728814
+        ],
+        [
+          0,
+          0.178448,
+          0.367797,
+          0.281034,
+          0.227119
+        ],
+        [
+          1,
+          0.625,
+          0.372881,
+          0.281034,
+          0.745763
+        ],
+        [
+          1,
+          0.902586,
+          0.364407,
+          0.194828,
+          0.728814
+        ],
+        [
+          1,
+          0.776724,
+          0.498305,
+          0.191379,
+          0.488136
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Motorcycle_1.jpg",
+      "artist": "Jos Dielis",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_19/commons_vietnam__Ho_Chi_Minh_City_Cholon_family_riders_manual_v184_overlay.png",
+      "reason": "Đã rà thủ công ảnh Commons gốc và overlay crop. Một xe tay ga tiền cảnh cùng hai xe máy/người lái nền nhìn thấy được gán class 0. Người lái mặc áo sọc, đội mũ trắng và người ngồi sau đội mũ xanh được gán riêng class 1; trẻ ngồi giữa đội mũ bảo hiểm hồng có dây dưới cằm, gán class 1. Người mặc áo xám phía nền không gán vì đang đứng/không thấy rõ tư thế trên xe. Crop giữ nguyên pixel nguồn; không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 18,
+      "nearest_active_id": "commons/commons_30491978.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch19",
+      "id": "commons_vietnam/Ho_Chi_Minh_City_Mummed_Woman_on_Moped_manual_v184.png",
+      "source_image_id": "commons:768967",
+      "source": "wikimedia_commons:768967",
+      "source_group": "commons:768967",
+      "source_sha256": "97fa524ca993b7b88545f5911010b54127716c12676cb2a6db6eb94dc63a2b3f",
+      "crop": [
+        70,
+        80,
+        655,
+        800
+      ],
+      "image_sha256": "aa1c41d16dc27af78002250580504f918166ed227d65d4187881ee6f309cde42",
+      "label_sha256": "5543a5f5c546f3153cda61728f5a2f1e206bd30b92856caaf34b75e3ef9ef98b",
+      "labels": [
+        [
+          0,
+          0.5,
+          0.678472,
+          1.0,
+          0.643056
+        ],
+        [
+          2,
+          0.487179,
+          0.508333,
+          0.803419,
+          0.983333
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Mummed_Woman_on_Moped_Vietnam.jpg",
+      "artist": "Thomas Schoch",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "review_evidence": "review_evidence/manual_batch_19/commons_vietnam__Ho_Chi_Minh_City_Mummed_Woman_on_Moped_manual_v184_overlay.png",
+      "reason": "Đã rà thủ công ảnh Commons gốc và overlay crop. Một phụ nữ đang ngồi lái xe tay ga, hai tay nắm tay lái; đầu đội mũ vải/khăn che nắng, không có mũ bảo hiểm cứng nên gán class 2. Box class 0 bao phần xe nhìn thấy, dừng ở biên crop nơi xe bị cắt. Crop pixel-faithful; không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/image_238_jpg.rf.a9de13806d96dfeb8e7e718f0b0808c6.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Two new Wikimedia Commons sources in Ho Chi Minh City, with per-image authors, source pages, license terms, and stored metadata snapshots; both groups train-only."
+}
