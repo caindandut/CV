@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v184",
+  "parent_manifest_sha256": "dd06e06cdcc5a5901550c6ef88de5f16b06faf322f196ff2e5c93b94b96b4e7d",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch20",
+      "id": "commons_vietnam/Motorcycle_in_Vietnam_pair_riders_manual_v185.png",
+      "source_image_id": "commons:113561496",
+      "source": "wikimedia_commons:113561496",
+      "source_group": "commons:113561496",
+      "source_sha256": "123a8dff1233def9cdc87facce1145ffad48b6068e9a16d6b18a6ca2e9c969e7",
+      "crop": [
+        650,
+        400,
+        4850,
+        4000
+      ],
+      "image_sha256": "28c27acbcaa6e48a7f79a21744a01dd5badbcc618fc36474628a37995a809118",
+      "label_sha256": "06c26071d32b9cbfa7edfaaff3112e956c1b8b270bce82fe996d9b51cdc2cd95",
+      "labels": [
+        [
+          0,
+          0.339286,
+          0.68125,
+          0.678571,
+          0.634722
+        ],
+        [
+          1,
+          0.339286,
+          0.519167,
+          0.630952,
+          0.960556
+        ],
+        [
+          1,
+          0.767857,
+          0.517778,
+          0.416667,
+          0.963333
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Motorcycle_in_Vietnam_(27834499599).jpg",
+      "artist": "Vinnie Cartabiano",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_20/commons_vietnam__Motorcycle_in_Vietnam_pair_riders_manual_v185_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop: một xe máy màu xanh bị cắt một phần ở mép trái ảnh gốc, box class 0 ôm phần xe nhìn thấy. Hai người đang ngồi trên xe: người lái áo khoác nâu và người ngồi sau áo đen đều đội mũ bảo hiểm vỏ cứng; mỗi người có box class 1 riêng, kể cả tay/đùi nhìn thấy. Không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 28,
+      "nearest_active_id": "commons/commons_98773040.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch20",
+      "id": "commons_vietnam/Saigon_men_riding_scooter_manual_v185.png",
+      "source_image_id": "commons:24817856",
+      "source": "wikimedia_commons:24817856",
+      "source_group": "commons:24817856",
+      "source_sha256": "d5491c7be5a97ad699a872ad000c414840b97358677f003906e3e0ba03f83787",
+      "crop": [
+        235,
+        40,
+        530,
+        605
+      ],
+      "image_sha256": "2fc4cb8efcaee0f4924d686c51ac109651ac862d909ee79a73c71a2a43c2ea9d",
+      "label_sha256": "16c93a68023ffbccab38f5c59c114448e32d7f7bc9194940e394af6676868c7d",
+      "labels": [
+        [
+          0,
+          0.59322,
+          0.654867,
+          0.745763,
+          0.672566
+        ],
+        [
+          1,
+          0.340678,
+          0.400885,
+          0.471186,
+          0.720354
+        ],
+        [
+          1,
+          0.666102,
+          0.409735,
+          0.518644,
+          0.738053
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:022209_saigon2_1484_(3301632768).jpg",
+      "artist": "Christopher Michel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_20/commons_vietnam__Saigon_men_riding_scooter_manual_v185_overlay.jpg",
+      "reason": "Rà thủ công crop cuối từ ảnh Commons gốc: một xe tay ga và hai người đàn ông đang ngồi trên xe, mỗi người đội mũ bảo hiểm. Gán một box class 0 cho xe và hai box class 1 riêng cho người ngồi sau và người lái. Crop loại các người/xe nền không liên quan; không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "commons_crops/Viettri16_center_rider_manual_v168.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Two new Wikimedia Commons sources in Vietnam, with per-image authors, source pages, license terms, and stored metadata snapshots; both groups train-only."
+}
