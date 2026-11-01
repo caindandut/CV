@@ -1,0 +1,17 @@
+{
+  "noncommercial_image_ids": [
+    "ncpedia/ncpedia_101.png",
+    "ncpedia/ncpedia_34.png"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "scope": "listed_source_images_crops_and_associated_annotations",
+  "note": "Các mục được liệt kê chỉ dùng phi thương mại, giữ ghi công và điều kiện chia sẻ tương tự. Không đổi giấy phép dữ liệu gốc hoặc các nguồn khác. New Wikimedia Commons crop derivatives retain their per-image attribution and share-alike terms in attribution.json.",
+  "share_alike_sources": [
+    {
+      "image_id": "commons_crops/Viettri16_center_rider_manual_v168.png",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "scope": "source image crop and associated manual annotations"
+    }
+  ]
+}

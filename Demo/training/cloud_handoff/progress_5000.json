@@ -2,34 +2,33 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 695,
-  "remaining_to_goal": 4305,
+  "accepted_clean_images": 697,
+  "remaining_to_goal": 4303,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v167",
+  "snapshot": "dataset_v168",
   "accepted_split_counts": {
-    "train": 551,
+    "train": 553,
     "validation": 76,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 2,
   "new_batch_class_box_counts": {
-    "0": 2,
-    "1": 2
+    "0": 3,
+    "1": 4
   },
   "total_class_box_counts": {
-    "0": 1192,
-    "1": 599,
+    "0": 1195,
+    "1": 603,
     "2": 215
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v167.json",
+  "verification_report": "../verification/dataset_v168.json",
   "notes": [
-    "Counts are unique dataset image rows, not bounding boxes.",
-    "Two existing source photos in train group_0072 were manually reviewed and cropped; original frames and labels remain pending and unchanged.",
-    "Manual review only; no model-generated pseudo-labels were used.",
-    "The checkout contains fewer than 5,000 source images, so completing the goal requires additional source photos.",
-    "The prior source inventory records 2,438 image files in the checkout and 2,187 manifest rows in dataset_v165; even accepting every existing pending row cannot supply 5,000 distinct source photos."
+    "Counts are accepted unique dataset image rows, not bounding boxes.",
+    "Two manually reviewed crops from openly licensed Wikimedia Commons photographs were added; source originals, page metadata, attribution, license terms and overlays are included in this snapshot.",
+    "Both source crops are separate photos from different Vietnam locations; source pages are retained for attribution and reproducibility.",
+    "The existing source inventory is below 5,000 images; additional source photographs and manual reviews are still required."
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "snapshot": "dataset_v168",
+  "passed": true,
+  "parent_manifest_rows": 2192,
+  "rows_total": 2194,
+  "accepted_clean_images": 697,
+  "pending_review_images": 1497,
+  "remaining_to_5000": 4303,
+  "new_images": 2,
+  "new_box_counts": {
+    "0": 3,
+    "1": 4
+  },
+  "split_counts": {
+    "train": 553,
+    "val": 76,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_assets_and_labels_byte_identical": true,
+  "locked_test_ids_unchanged": true,
+  "new_crops_match_source_pixels": true,
+  "new_image_and_label_hashes_match": true,
+  "attribution_license_metadata_present": true,
+  "duplicate_scan_passed": true,
+  "portable_manifest_rows": 2194
+}
