@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v181",
+  "parent_manifest_sha256": "abccd5c947ad9c58d927945a55e5ad0d586addc2c0685d5014c08cc0d368cd66",
+  "review_method": "Manual review of Commons source pixels and final crop overlay; labels drawn from pixels, no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_commons_batch05",
+      "id": "commons_vietnam/Red_Motorcycle_in_Vietnam_riders_manual_v182.png",
+      "source_image_id": "commons:6373843",
+      "image_sha256": "b21ed379188e878eb36b1b0e01fa91c278ab3c23e89ec82799fe28a2752003e6",
+      "label_sha256": "9b7997f421368e3501d6e3ac7b9f8f40a9f95fda4a6a22dc740dda1aab9098ae",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.478412,
+          0.6448,
+          0.956825,
+          0.7008
+        ],
+        [
+          2,
+          0.167131,
+          0.4392,
+          0.314763,
+          0.7504
+        ],
+        [
+          2,
+          0.418524,
+          0.4528,
+          0.332869,
+          0.864
+        ]
+      ],
+      "reason": "Rà thủ công ảnh Commons gốc 1024x683 và overlay crop cuối: một xe Honda Future màu đỏ cùng hai người đang ngồi trên xe. Người ngồi sau đội mũ vải và người lái đội mũ kiểu bucket, không phải mũ bảo hiểm; cả hai gán class 2. Box xe bao toàn bộ phần xe nhìn thấy, gồm gương và bánh; hai box người bao đúng từng người. Crop giữ nguyên cả xe và hai người, loại người đi xe ở rìa trái khỏi khung. Không dùng nhãn dự đoán của mô hình.",
+      "evidence": "review_evidence/manual_batch_17/commons_vietnam__Red_Motorcycle_in_Vietnam_riders_manual_v182_overlay.png",
+      "crop_xyxy": [
+        212,
+        30,
+        930,
+        655
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 30,
+      "nearest_active_id": "commons/commons_134030465.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Full Commons original, source metadata and per-image license are retained. The image and its single source group are assigned to train."
+}
