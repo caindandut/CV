@@ -27,6 +27,8 @@ __pycache__/
 /training/verification/*/durable/
 /training/*.zip
 
-# Current reviewed snapshot is versioned for cloud continuation.
+# Reviewed snapshots are versioned for cloud continuation.
 !/training/dataset_v165/
 !/training/dataset_v165/**
+!/training/dataset_v166/
+!/training/dataset_v166/**
