@@ -1,0 +1,20 @@
+{
+  "dataset_title": "Vietnam traffic detection",
+  "dataset_ref": "huanhuyle/vietnam-traffic-detection",
+  "dataset_url": "https://www.kaggle.com/datasets/huanhuyle/vietnam-traffic-detection",
+  "version": 2,
+  "publisher": "huan huy le (huanhuyle)",
+  "original_video_author": "not supplied",
+  "license": "Apache 2.0",
+  "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+  "license_basis": "Kaggle public dataset metadata API, version 2.",
+  "dataset_description": "Vietnam traffic detection dataset; title and source collection context identify Vietnamese road footage.",
+  "archive_entry": "images/train/day_cam_18_00500.jpg",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/huanhuyle/vietnam-traffic-detection?datasetVersionNumber=2&fileName=images%2Ftrain%2Fday_cam_18_00500.jpg",
+  "source_sha256": "ba80e7ffdfbd0ca585224233fc5323c5df555f5c03897ff291976f72619738cb",
+  "source_size": [
+    1280,
+    720
+  ],
+  "retrieved_date_utc": "2026-11-01"
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v182",
+  "parent_manifest_sha256": "db2dcd81fd295ad0bb8862beed3d59b6a5e9ffbcebd9dfc2f2db0bb353044f1e",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch18",
+      "id": "commons_vietnam/Yen_Hoa_Parkview_Banyan_Alley_motorcycle_manual_v183.png",
+      "source_image_id": "commons:179841147",
+      "source": "wikimedia_commons:179841147",
+      "source_group": "commons:179841147",
+      "source_sha256": "87c40500ecf477bac9df038b6ebaa41c8f5c8bb14a6460e050c2adc965f4bc65",
+      "crop": [
+        350,
+        850,
+        1200,
+        1490
+      ],
+      "image_sha256": "edc8d771fc8a91f319079cc42cb05c06c983637aaa179fd8e741aa1584713821",
+      "label_sha256": "5da2649f66e60db02eba58544b839964d11c29d8bc7b683b7544b3b7775556a1",
+      "labels": [
+        [
+          0,
+          0.529412,
+          0.519531,
+          0.776471,
+          0.882812
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Highnoon_in_Banyan_Alley_of_Y%C3%AAn_H%C3%B2a_Parkview_City_14-10-2025.jpg",
+      "artist": "TungBeng.G586",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "review_evidence": "review_evidence/manual_batch_18/commons_vietnam__Yen_Hoa_Parkview_Banyan_Alley_motorcycle_manual_v183_overlay.png",
+      "reason": "Rà thủ công ảnh gốc và overlay crop cuối: một xe máy Honda đỗ ở lối đi; không có người trên xe. Box class 0 bao toàn bộ xe nhìn thấy, gồm hai bánh và gương. Crop giữ nguyên pixel của ảnh gốc và loại phần lớn nền không liên quan. Trang Commons ghi địa điểm Yên Hòa Parkview City, Hà Nội. Không dùng nhãn dự đoán của mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 26,
+      "nearest_active_id": "commons/commons_185601493.jpg",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch18",
+      "id": "commons_vietnam/Trung_Kinh_Alley_rider_manual_v183.png",
+      "source_image_id": "commons:185596274",
+      "source": "wikimedia_commons:185596274",
+      "source_group": "commons:185596274",
+      "source_sha256": "58a3ffa0fcb7e763b54e7b1d8c7f4f453132206d7b4559ba6333580782218775",
+      "crop": [
+        2300,
+        1850,
+        3000,
+        2360
+      ],
+      "image_sha256": "bb3c30382f66c745b9fea3c2e90b6ff1628fdffd08e96c1fa460c8f4f3b33e61",
+      "label_sha256": "3928b8a947ee08c6ed2cd2c4aa8ac4dda8349280d66a1693278c6f973f198e33",
+      "labels": [
+        [
+          0,
+          0.510714,
+          0.651961,
+          0.821429,
+          0.676471
+        ],
+        [
+          1,
+          0.432143,
+          0.583333,
+          0.221429,
+          0.813725
+        ],
+        [
+          0,
+          0.082143,
+          0.5,
+          0.164286,
+          0.294118
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:In_Alley_43_of_Trung_K%C3%ADnh_Street_06-03-2026._Motorcycle_girl.jpg",
+      "artist": "Baophucminh53G",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "review_evidence": "review_evidence/manual_batch_18/commons_vietnam__Trung_Kinh_Alley_rider_manual_v183_overlay.png",
+      "reason": "Rà thủ công ảnh gốc và overlay crop cuối: một phụ nữ đang ngồi trên xe máy, đội mũ bảo hiểm màu trắng; gán class 1. Box class 0 bao trọn xe chính. Có thêm một xe máy đỗ bị khung crop cắt ở mép trái nhưng vẫn nhận diện được, nên gán class 0 với box giới hạn đúng phần nhìn thấy. Không gán người đi bộ hoặc người đứng cạnh xe. Crop giữ nguyên pixel gốc; không dùng nhãn dự đoán của mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 22,
+      "nearest_active_id": "commons/commons_181139479.jpg",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Two new Wikimedia Commons sources in Hanoi, each with a per-image CC BY-SA 4.0 attribution and metadata snapshot; both train-only."
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_title": "Vietnam Traffic Signs",
+  "dataset_ref": "maitam/vietnamese-traffic-signs",
+  "dataset_url": "https://www.kaggle.com/datasets/maitam/vietnamese-traffic-signs",
+  "version": 8,
+  "publisher": "Mai Tam (maitam)",
+  "creator": "Data Palpating Team",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "license_basis": "Kaggle public dataset metadata API, version 8.",
+  "description_excerpt": "Vietnam Road Signs Dataset (VNTS), a collection of images containing traffic signs at various locations in Vietnam.",
+  "archive_entry": "archive/images/1100.jpg",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/maitam/vietnamese-traffic-signs?datasetVersionNumber=8&fileName=archive%2Fimages%2F1100.jpg",
+  "source_sha256": "8747f2918ee7ad35338b49078800f04850507fd2c5c67c3774fc9713bab6045e",
+  "source_size": [
+    960,
+    540
+  ],
+  "retrieved_date_utc": "2026-11-01"
+}
