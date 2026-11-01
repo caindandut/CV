@@ -1,0 +1,85 @@
+{
+  "noncommercial_image_ids": [
+    "ncpedia/ncpedia_101.png",
+    "ncpedia/ncpedia_34.png"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "scope": "listed_source_images_crops_and_associated_annotations",
+  "note": "Các mục được liệt kê chỉ dùng phi thương mại, giữ ghi công và điều kiện chia sẻ tương tự. Không đổi giấy phép dữ liệu gốc hoặc các nguồn khác. New Wikimedia Commons crop derivatives retain their per-image attribution and share-alike terms in attribution.json. One additional Wikimedia Commons crop is CC BY-SA 3.0; per-image attribution and share-alike terms are recorded in attribution.json. Kaggle VNTS v8 CC BY-SA 4.0 crop derivatives retain per-image attribution and share-alike terms in attribution.json. One full-resolution Commons image in dataset_v178 is CC BY-SA 3.0 and retains its exact required photographer credit. Its page also carries a personality-rights warning, recorded separately from copyright licensing. Two full-resolution Wikimedia Commons images added in dataset_v179 are CC BY-SA; per-image author, source page, and share-alike terms are in attribution.json. One crop added in dataset_v182 is CC BY-SA 2.0; attribution and share-alike terms are recorded per image.",
+  "share_alike_sources": [
+    {
+      "image_id": "commons_crops/Viettri16_center_rider_manual_v168.png",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "commons_crops/HoChiMinh_BikeTaxi_PB300013_rider_manual_v169.png",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "kaggle-maitam-v8/0900_rider_manual_v172.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "kaggle-maitam-v8/1100_rider_manual_v172.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_Transport-in-Hanoi-03_rider_manual_v178.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "scope": "source image and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_Police_motorcycle_2007_manual_v179.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "scope": "source image and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_traditional_soviet_motorbikes_manual_v179.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "scope": "source image and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Red_Motorcycle_in_Vietnam_riders_manual_v182.png",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Ho_Chi_Minh_City_Mummed_Woman_on_Moped_manual_v184.png",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Mother_Child_Motorbike_HCMC_manual_v186.png",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "scope": "source image crop and associated manual annotations"
+    },
+    {
+      "image_id": "commons_vietnam/Motorcyclist_Cement_Bags_Downtown_Hanoi_manual_v187.png",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "scope": "source image crop and associated manual annotations"
+    }
+  ],
+  "personality_rights_warnings": [
+    {
+      "image_id": "commons_vietnam/Hanoi_Transport-in-Hanoi-03_rider_manual_v178.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg",
+      "warning": "Wikimedia Commons category “Personality rights warning”; no individual release was found in the page metadata.",
+      "handling": "Use only for vehicle/rider object detection; do not infer identity or use for advertising or face recognition."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v171",
+  "parent_manifest_sha256": "183d7dbc7f9e567fa881d3bbc60ce61efda355364c4c685ea5676db103d5f2b8",
+  "review_method": "Manual visual review of original pixels and final overlays; no model-generated labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "id": "kaggle-maitam-v8/0900_rider_manual_v172.png",
+      "source_image_id": "kaggle:maitam/vietnamese-traffic-signs:v8:0900",
+      "source_sha256": "cfc5ee310db5811f107c528686316f7a74ebd499578d1d07ba286e2cd7e13694",
+      "image_sha256": "b799ec59901b97a5d0e3b1b95b026190a4d959cca3b2da8d1526d05806641c99",
+      "label_sha256": "f4f317475540c6e407a0fd08f314c6fa2a6af48498137c8dcf541a9d78950c92",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.418,
+          0.775,
+          0.492,
+          0.45
+        ],
+        [
+          1,
+          0.35,
+          0.533929,
+          0.62,
+          0.803571
+        ]
+      ],
+      "crop_xyxy": [
+        0,
+        260,
+        250,
+        540
+      ],
+      "review_evidence": "review_evidence/manual_batch_07/kaggle-maitam-v8__0900_rider_manual_v172_overlay.png",
+      "reason": "Rà thủ công khung JPEG gốc 960×540 và overlay crop cuối. Chỉ có một người ngồi lái xe máy trong crop; người đội mũ bảo hiểm tối màu. Box class 1 phủ người từ mũ qua thân và chân đang ngồi; box class 0 phủ xe tay ga nhìn thấy đến mép dưới ảnh. Không có xe/người đi đường nào khác trong crop. Biển số 75-C1 và biển cảnh báo giao thông Việt Nam nhìn thấy ở khung gốc; không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "kaggle-maitam-v8/1024.png",
+      "license": "CC BY-SA 4.0",
+      "location_evidence": "Kaggle VNTS v8 description says images show traffic signs at locations in Vietnam; the source frame itself shows Vietnamese-format plate 75-C1 446.17 and a Vietnam-style pedestrian warning sign. Exact city/video author not supplied."
+    },
+    {
+      "id": "kaggle-maitam-v8/1100_rider_manual_v172.png",
+      "source_image_id": "kaggle:maitam/vietnamese-traffic-signs:v8:1100",
+      "source_sha256": "8747f2918ee7ad35338b49078800f04850507fd2c5c67c3774fc9713bab6045e",
+      "image_sha256": "f868348444d1b7bcb021ae7e6fce950d812555e28f9f60ef5eb629eec8dcae5a",
+      "label_sha256": "2dff91e2b86fd5479c822ce5d43808ce37136c28c92047c404dbe41e519069d6",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.425,
+          0.622727,
+          0.55,
+          0.5
+        ],
+        [
+          1,
+          0.39375,
+          0.356818,
+          0.4375,
+          0.540909
+        ]
+      ],
+      "crop_xyxy": [
+        240,
+        270,
+        400,
+        490
+      ],
+      "review_evidence": "review_evidence/manual_batch_07/kaggle-maitam-v8__1100_rider_manual_v172_overlay.png",
+      "reason": "Rà thủ công khung JPEG gốc 960×540 và overlay crop cuối. Một người đang ngồi lái scooter hướng về máy ảnh, đội mũ bảo hiểm vàng; box class 1 phủ phần người quan sát được, box class 0 phủ thân và bánh trước xe. Crop loại các xe/người nhỏ ở xa để tránh đưa vật thể chưa gán nhãn vào ảnh sạch. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 22,
+      "nearest_active_id": "commons/commons_184722109.png",
+      "license": "CC BY-SA 4.0",
+      "location_evidence": "Kaggle VNTS v8 description states that source images contain traffic signs at locations in Vietnam. The source frame shows Vietnamese roadside traffic signage; exact city and original video author are not supplied."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "archive_entry": "archive/images/0001.jpg",
+      "status": "excluded_pending_review",
+      "reason": "Crowded foreground; crop includes additional partially visible riders that cannot be completely labeled in a small isolated crop."
+    },
+    {
+      "archive_entry": "archive/images/2500.jpg",
+      "status": "excluded_pending_review",
+      "reason": "High-density street scene; manual crop still includes other visible riders at the boundary."
+    },
+    {
+      "archive_entry": "archive/images/2700.jpg",
+      "status": "excluded_pending_review",
+      "reason": "High-density traffic with overlapping rider boxes; kept out until all visible riders can be labeled."
+    }
+  ],
+  "source_license_note": "Kaggle v8 public metadata reports CC BY-SA 4.0; both original frames, source hashes, page metadata, attribution, and cropped pixel evidence are included."
+}
