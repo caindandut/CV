@@ -2,32 +2,32 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 722,
-  "remaining_to_goal": 4278,
+  "accepted_clean_images": 724,
+  "remaining_to_goal": 4276,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v182",
+  "snapshot": "dataset_v183",
   "accepted_split_counts": {
-    "train": 578,
+    "train": 580,
     "validation": 76,
     "test_locked": 68
   },
-  "newly_accepted_this_batch": 1,
+  "newly_accepted_this_batch": 2,
   "new_batch_class_box_counts": {
-    "0": 1,
-    "2": 2
+    "0": 3,
+    "1": 1
   },
   "total_class_box_counts": {
-    "0": 1222,
-    "1": 627,
+    "0": 1225,
+    "1": 628,
     "2": 219
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v182.json",
+  "verification_report": "../verification/dataset_v183.json",
   "notes": [
-    "Counts are manually reviewed unique image rows, not boxes.",
-    "One distinct source-verified Wikimedia Commons crop was added with source original, per-image license and manual-review evidence.",
-    "The Commons source group remains train-only; no model predictions were used as ground truth."
+    "Counts are manually reviewed images, not boxes.",
+    "Two licensed Hanoi Commons image crops were annotated manually; original image files, metadata, and attribution are preserved.",
+    "New source groups are train-only; no model-generated labels were used."
   ]
 }
