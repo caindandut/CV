@@ -1,0 +1,32 @@
+{
+  "snapshot": "dataset_v169",
+  "passed": true,
+  "parent_manifest_rows": 2194,
+  "rows_total": 2195,
+  "accepted_clean_images": 698,
+  "pending_review_images": 1497,
+  "remaining_to_5000": 4302,
+  "new_images": 1,
+  "new_box_counts": {
+    "0": 1,
+    "1": 1
+  },
+  "split_counts": {
+    "train": 554,
+    "val": 76,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_assets_and_labels_byte_identical": true,
+  "locked_test_ids_unchanged": true,
+  "new_crop_matches_source_pixels": true,
+  "new_image_and_label_hashes_match": true,
+  "attribution_license_metadata_present": true,
+  "duplicate_scan_passed": true,
+  "portable_manifest_rows": 2195,
+  "v168_review_log_corrected_in_child_snapshot": true,
+  "uncertain_candidates_not_counted": true,
+  "new_image_phash": "0d66ece4c80e33f9",
+  "nearest_active_phash_distance": 26,
+  "nearest_active_id": "commons/commons_59145562.png"
+}

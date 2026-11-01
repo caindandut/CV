@@ -2,33 +2,33 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 697,
-  "remaining_to_goal": 4303,
+  "accepted_clean_images": 698,
+  "remaining_to_goal": 4302,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v168",
+  "snapshot": "dataset_v169",
   "accepted_split_counts": {
-    "train": 553,
+    "train": 554,
     "validation": 76,
     "test_locked": 68
   },
-  "newly_accepted_this_batch": 2,
+  "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
-    "0": 3,
-    "1": 4
+    "0": 1,
+    "1": 1
   },
   "total_class_box_counts": {
-    "0": 1195,
-    "1": 603,
+    "0": 1196,
+    "1": 604,
     "2": 215
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v168.json",
+  "verification_report": "../verification/dataset_v169.json",
   "notes": [
     "Counts are accepted unique dataset image rows, not bounding boxes.",
-    "Two manually reviewed crops from openly licensed Wikimedia Commons photographs were added; source originals, page metadata, attribution, license terms and overlays are included in this snapshot.",
-    "Both source crops are separate photos from different Vietnam locations; source pages are retained for attribution and reproducibility.",
-    "The existing source inventory is below 5,000 images; additional source photographs and manual reviews are still required."
+    "One manually reviewed crop from a CC BY-SA 3.0 Wikimedia Commons photograph was added with source original, metadata, attribution, license terms and crop overlay.",
+    "The v168 Commons review log was corrected in this child snapshot: the ambiguous image and its duplicate remain pending and are not counted.",
+    "The current accepted inventory remains far below 5,000; more source photographs and manual reviews are required."
   ]
 }

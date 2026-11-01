@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v165",
+  "parent_manifest_sha256": "a3c5054196d16cb34f672913af5d2bc6c8ec49181eb48903575deec376f1b79b",
+  "parent_lock_manifest_sha256_matches": false,
+  "review_method": "manual_visual_review of crop and annotation overlay; no model labels",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch01",
+      "id": "original_crops/campus_forecourt_image_95_manual_v166.png",
+      "source_image_id": "train/image_95_jpg.rf.4cf298c5a33d2e8e8295a4477d449bb7.jpg",
+      "image_sha256": "8ea859c05aa4a51d52681662875f29a3e17a3c4eac1164f903bb2813b7602796",
+      "label_sha256": "5dc768e79a393c38dba69d80a3f9020dd2c22f4e539191279300e09f74048054",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.495238,
+          0.72037,
+          0.614286,
+          0.448148
+        ],
+        [
+          1,
+          0.429762,
+          0.389815,
+          0.797619,
+          0.72037
+        ]
+      ],
+      "reason": "Rà trực quan crop và overlay: một người đang lái xe, mũ bảo hiểm thấy rõ; một xe máy. Bỏ các nhãn nháp sai của người/xe nền ngoài crop. Ảnh toàn khung và nhãn gốc vẫn pending, không sửa.",
+      "evidence": "review_evidence/manual_batch_01/image_95_overlay.jpg",
+      "crop_xyxy": [
+        820,
+        160,
+        1240,
+        700
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch01",
+      "id": "original_crops/campus_forecourt_image_196_manual_v166.png",
+      "source_image_id": "train/image_196_jpg.rf.83fbea718e5b83f91553a0c6854c1444.jpg",
+      "image_sha256": "1dbacff01a0ad59c62eabd0aec76fc824e313ecef4f9045b71ba84ded562f105",
+      "label_sha256": "c8656471b5ce0036e4df36606e18b5c92f018eb5385e7ce140c05b3fe5c349ce",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.546939,
+          0.630952,
+          0.889796,
+          0.7
+        ],
+        [
+          1,
+          0.520408,
+          0.458333,
+          0.820408,
+          0.740476
+        ]
+      ],
+      "reason": "Rà trực quan crop và overlay: một người ngồi trên xe, đội mũ bảo hiểm rõ; một xe máy. Mép phải chỉ có phần nhỏ ô tô, không có người/xe máy khác trong crop. Ảnh toàn khung và nhãn gốc vẫn pending, không sửa.",
+      "evidence": "review_evidence/manual_batch_01/image_196_overlay.jpg",
+      "crop_xyxy": [
+        815,
+        100,
+        1060,
+        520
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch01",
+      "id": "original_crops/campus_forecourt_image_249_manual_v166.png",
+      "source_image_id": "train/image_249_jpg.rf.bf97bc76c5df97dd923b34d9e701efbc.jpg",
+      "image_sha256": "8b669f4dd2ad5f24569e302a751d708438e7e5e2b0446185be004299b2798189",
+      "label_sha256": "9d697bdfd666da28cdc2c76ba59471fdb60a392f7e372073e2bb2b5954ab1084",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.495455,
+          0.6,
+          0.718182,
+          0.572973
+        ],
+        [
+          1,
+          0.468182,
+          0.47027,
+          0.709091,
+          0.567568
+        ]
+      ],
+      "reason": "Rà trực quan crop và overlay: một người ngồi trên xe; mũ cứng nửa đầu có vỏ sáng màu nhìn rõ; một xe máy. Không đưa xe/người nền ngoài crop vào ảnh. Ảnh toàn khung và nhãn gốc vẫn pending, không sửa.",
+      "evidence": "review_evidence/manual_batch_01/image_249_overlay.jpg",
+      "crop_xyxy": [
+        640,
+        100,
+        860,
+        470
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 22,
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "rejected": [
+    {
+      "source_image_id": "train/image_14_jpg.rf.0fb03d56b72251ca1318d29e222bae87.jpg",
+      "status": "pending",
+      "reason": "Crop contains a second partially visible rider and motorcycle; full labels and helmet state cannot be verified."
+    }
+  ],
+  "source_and_license_note": "Existing user-provided source frames; source_verified inherited from v165. No external images were added; no external license claim was introduced."
+}
