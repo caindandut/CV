@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v177",
+  "parent_manifest_sha256": "960207c01abd6328d9909957179a379859c5abee7efe8a3768ef6a433b2a9524",
+  "review_method": "Manual visual review of the original full-resolution image and final overlay; no model labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "pageid": 40536585,
+      "title": "Hanoi Vietnam Transport-in-Hanoi-03.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Transport-in-Hanoi-03.jpg",
+      "artist": "CEphoto, Uwe Aranas",
+      "required_credit": "Photo by CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_sha256": "3b404476d4e776af2ae554baab155b44b1fc07ab0e661028264670102c0efc35",
+      "image_sha256": "3b404476d4e776af2ae554baab155b44b1fc07ab0e661028264670102c0efc35",
+      "source_image": "Demo/training/dataset_v178/source_originals/commons_40536585.jpg",
+      "metadata_file": "Demo/training/dataset_v178/source_metadata/commons_40536585.json",
+      "status": "accepted_full_image",
+      "accepted_image_id": "commons_vietnam/Hanoi_Transport-in-Hanoi-03_rider_manual_v178.jpg",
+      "source_size": [
+        3703,
+        2645
+      ],
+      "labels": [
+        [
+          0,
+          0.430859,
+          0.584245,
+          0.614844,
+          0.695842
+        ],
+        [
+          1,
+          0.392578,
+          0.588621,
+          0.132031,
+          0.822757
+        ],
+        [
+          0,
+          0.872266,
+          0.480306,
+          0.255469,
+          0.496718
+        ]
+      ],
+      "source_boxes_xyxy": [
+        [
+          457,
+          625,
+          2734,
+          2466
+        ],
+        [
+          1209,
+          469,
+          1698,
+          2645
+        ],
+        [
+          2757,
+          614,
+          3703,
+          1927
+        ]
+      ],
+      "location_evidence": "Wikimedia Commons title “Hanoi Vietnam Transport-in-Hanoi-03”; page description says “Hanoi, Vietnam: A man, carrying a blue barrel on his motobike”; Commons categories include Motorcycles in Hanoi and Images of Vietnam; embedded GPS is 21.020238, 105.821353.",
+      "nearest_active_phash_distance": 28,
+      "nearest_active_id": "commons/commons_69181468.png",
+      "personality_rights_warning": "Commons category “Personality rights warning”; no model identity inference is performed."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "pageid": 23467064,
+      "status": "excluded",
+      "reason": "Several moving riders are clipped or motion-blurred; no safe complete set of boxes."
+    },
+    {
+      "pageid": 80522791,
+      "status": "pending",
+      "reason": "The rider appears to be posing or resting on the bike; seated riding status is not established."
+    },
+    {
+      "pageid": 80522966,
+      "status": "pending",
+      "reason": "Helmeted mother and child are visible, but the image does not show enough posture or vehicle to confirm each person is sitting on the motorcycle."
+    },
+    {
+      "pageid": 86056474,
+      "status": "excluded",
+      "reason": "Heavy traffic contains too many partially occluded riders for a complete confident manual annotation in this batch."
+    },
+    {
+      "pageid": 86056476,
+      "status": "excluded",
+      "reason": "Long traffic queue includes numerous tiny and overlapping rider/vehicle instances."
+    },
+    {
+      "pageid": 86056479,
+      "status": "excluded",
+      "reason": "The useful foreground crop clips most motorcycle bodies and would leave rider/vehicle status incomplete."
+    },
+    {
+      "pageid": 86056481,
+      "status": "excluded",
+      "reason": "Several overlapping foreground riders and motorcycles are cropped by image edges; complete annotation is uncertain."
+    }
+  ],
+  "personality_rights_warning": "Recorded in usage_restrictions.json; Commons copyright license does not itself grant an individual release."
+}
