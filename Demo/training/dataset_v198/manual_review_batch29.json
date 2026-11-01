@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v189",
+  "parent_manifest_sha256": "bedadec66b42735d4e077fc6709ebc6458b909f411db46769c5966a24b100e0e",
+  "review_method": "Manual visual review of DataSet2 frames and final crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch29",
+      "id": "user_provided/video_5126/IMG_5126_MOV-113_rider_manual_v194.png",
+      "source_image_id": "video:img_5126#IMG_5126_MOV-113",
+      "source": "user_provided_DataSet2:img_5126",
+      "source_group": "group_1128",
+      "source_sha256": "d134622b7c46b8967526f3962867814d35a656e0fc42309dceca10ce2a51a6fe",
+      "source_row_id": "train/IMG_5126_MOV-113_jpg.rf.a698bd124782e8121a3690946b6c88e4.jpg",
+      "crop": [
+        580,
+        12,
+        810,
+        525
+      ],
+      "image_sha256": "b2dcca00aa3d56a4ed61a4c23ead282006c1498fb57a6dc4a0f521e8933f4928",
+      "label_sha256": "31df91f9e66f8aa08e9b8181d082994c659f508c55e456083b514fe43ebe91f9",
+      "labels": [
+        [
+          0,
+          0.417174,
+          0.635182,
+          0.734152,
+          0.473046
+        ],
+        [
+          1,
+          0.393912,
+          0.455064,
+          0.767238,
+          0.656592
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.135033,
+          0.589342,
+          0.203334,
+          0.382663
+        ],
+        [
+          0,
+          0.352583,
+          0.521692,
+          0.159355,
+          0.324351
+        ],
+        [
+          0,
+          0.528086,
+          0.469234,
+          0.131918,
+          0.337045
+        ],
+        [
+          1,
+          0.133656,
+          0.384512,
+          0.159449,
+          0.586038
+        ],
+        [
+          1,
+          0.351237,
+          0.3389,
+          0.140122,
+          0.488227
+        ],
+        [
+          1,
+          0.523906,
+          0.3409,
+          0.137863,
+          0.467822
+        ],
+        [
+          1,
+          0.752122,
+          0.28313,
+          0.07934,
+          0.345121
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_29/user_provided__video_5126__IMG_5126_MOV-113_rider_manual_v194_overlay.jpg",
+      "reason": "Rà thủ công toàn khung 1280×720 và overlay crop cuối. Người đội mũ bảo hiểm tối màu đang ngồi/lái xe; xe và người được khoanh riêng. Crop loại phần người/xe lân cận bên trái; cột chắn chỉ che một phần nhỏ, không che mũ hay tư thế. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 26,
+      "nearest_active_id": "commons/commons_49057126.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch29",
+      "id": "user_provided/video_5137/IMG_5137_MOV-7_rider_manual_v194.png",
+      "source_image_id": "video:img_5137#IMG_5137_MOV-7",
+      "source": "user_provided_DataSet2:img_5137",
+      "source_group": "group_1128",
+      "source_sha256": "cb9b6f10666b25a7ca5fc27707f8d1b423305b19f74be4af013218ffe313e843",
+      "source_row_id": "train/IMG_5137_MOV-7_jpg.rf.a06f1a40772795429923cdee88aa730f.jpg",
+      "crop": [
+        447,
+        155,
+        777,
+        711
+      ],
+      "image_sha256": "35d22e6255454d3d26ecba96fbb5ac6d0c406bcff0f54dcff2d895e4145dab26",
+      "label_sha256": "7364fe67f565e136e8b86bb1340b8659a34cce40db3d8393789063d8657b1c52",
+      "labels": [
+        [
+          0,
+          0.500303,
+          0.645145,
+          0.569429,
+          0.454348
+        ],
+        [
+          1,
+          0.512672,
+          0.415326,
+          0.547592,
+          0.575988
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.478203,
+          0.713473,
+          0.146806,
+          0.350858
+        ],
+        [
+          0,
+          0.047298,
+          0.733317,
+          0.093428,
+          0.520668
+        ],
+        [
+          0,
+          0.730379,
+          0.614219,
+          0.098759,
+          0.247451
+        ],
+        [
+          1,
+          0.724217,
+          0.483722,
+          0.143516,
+          0.450178
+        ],
+        [
+          1,
+          0.481392,
+          0.536002,
+          0.141176,
+          0.444791
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_29/user_provided__video_5137__IMG_5137_MOV-7_rider_manual_v194_overlay.jpg",
+      "reason": "Rà thủ công toàn khung 1280×720 và overlay crop cuối. Người đang ngồi/lái xe và đội mũ bảo hiểm đen rõ; xe máy và người được khoanh riêng. Crop giữ xe/người, loại xe lân cận ngoài khung; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/IMG_5126_MOV-19_jpg.rf.032b43cd9a575ae2e5036614be10e15d.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. Two additional frames were individually reviewed from existing Vietnam-verified validation-only source group group_1128. The source manifest has no public page, named author, standard license terms, or raw-video checksum; this limitation is preserved in source_metadata and attribution."
+}

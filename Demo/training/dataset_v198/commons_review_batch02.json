@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v168",
+  "parent_manifest_sha256": "33609171454f2dffc605869b91603636d783b3c1021e6e6581413d3e6e65ec14",
+  "review_method": "manual visual review of source pixels and final crop overlays; no model labels",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "pageid": 12242311,
+      "title": "Bike Taxi-Ho Chi Minh City PB300013.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Bike_Taxi-Ho_Chi_Minh_City_PB300013.jpg",
+      "artist": "兵庫胡志明倶楽部",
+      "credit": "兵庫胡志明倶楽部",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_sha256": "c2d6c08b5963dc6eb9008f5e8859a91aec1f35d24afb6f00fbd82463798145cf",
+      "source_image": "Demo/training/dataset_v169/source_originals/commons_12242311.jpg",
+      "metadata_file": "Demo/training/dataset_v169/source_metadata/commons_12242311.json",
+      "status": "accepted_crop",
+      "accepted_image_id": "commons_crops/HoChiMinh_BikeTaxi_PB300013_rider_manual_v169.png",
+      "crop": [
+        940,
+        45,
+        1155,
+        570
+      ],
+      "location_evidence": "Commons page title “Bike Taxi-Ho Chi Minh City PB300013”, image description “Bike Taxi Ho Chi Minh City”, and categories Road transport in Ho Chi Minh City and Motorcycles in Ho Chi Minh City."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "pageid": 24817670,
+      "title": "Vietnam & Cambodia (3336746177).jpg",
+      "status": "pending",
+      "reason": "Central pair is clear, but a partial separate background rider intrudes at the right edge; crop cannot safely retain target and remove the ambiguity.",
+      "source_image": "Demo/training/dataset_v169/pending_source_originals/commons_24817670.jpg",
+      "source_sha256": "d294b0649b259470189a31f1c14f13fe822367bb2e2ab381b9556f1d3b7cd5e7",
+      "metadata_file": "Demo/training/dataset_v169/source_metadata/commons_24817670_pending.json",
+      "evidence": "review_evidence/manual_batch_04/commons_24817670_pending_crop.png"
+    },
+    {
+      "pageid": 24817856,
+      "title": "022209 saigon2 1484 (3301632768).jpg",
+      "status": "pending_duplicate_candidate",
+      "reason": "Lower-resolution near-identical duplicate of pending page 24817670; not counted and not treated as independently accepted."
+    },
+    {
+      "pageid": 12242665,
+      "title": "Bike Taxi-Ho Chi Minh City PB309773.jpg",
+      "status": "excluded",
+      "reason": "Man is posing while holding paper/helmet next to a motorcycle; seated-rider status is not established."
+    }
+  ],
+  "documentation_correction": "documentation_corrections.json"
+}

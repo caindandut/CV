@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v174",
+  "parent_manifest_sha256": "4cb0257130233994135f257dc348ac1d728494eb4262a33d8772cadc1c34d24c",
+  "review_method": "Manual review of source pixels and final overlays; no model-generated labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00850_rider_manual_v175.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00850",
+      "source_sha256": "181797113697a95a1f4c7a8d6492c24ec48c5b19335aabc06bf6d6db7bc16d50",
+      "image_sha256": "92f3b60bdd4ee281fd30cb0ff774556ac661cdc5f2176ec46f94a64e4c943767",
+      "label_sha256": "c33a42eac7fac457ad122d8ba38621f2b95a36a99a01aad561f0407e6398b4fe",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.472727,
+          0.641667,
+          0.654545,
+          0.666667
+        ],
+        [
+          1,
+          0.479545,
+          0.40625,
+          0.368182,
+          0.5875
+        ]
+      ],
+      "crop_xyxy": [
+        330,
+        390,
+        550,
+        630
+      ],
+      "review_evidence": "review_evidence/manual_batch_10/kaggle-huan-v2__day_cam_18_00850_rider_manual_v175_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi lái xe máy quay lưng, đội mũ bảo hiểm trắng; box người phủ đầu/mũ, thân, chân và bàn chân nhìn thấy, box xe phủ toàn xe máy đến cả hai đầu và bánh. Crop không chứa rider khác. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/image_264_jpg.rf.033c75a04cc3114ae3788fc6d845f298.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera18 cùng cảnh có biển hạn chế giao thông và giờ áp dụng kiểu Việt Nam. City cụ thể và tác giả video không được nêu."
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00950_rider_manual_v175.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00950",
+      "source_sha256": "4355c94f215c6a9a42a5e585ec9d41e444550f4e556726779a626ee0dd0f7cb2",
+      "image_sha256": "090c7d1b941d6a771f7f5507a9232cd27e436949ba8c612801df3590e927902d",
+      "label_sha256": "710ca11fcb73f0c004997a8e6d3fe20e7fbce1d9a78396abe24791b1d2b57f39",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.423913,
+          0.569565,
+          0.465217,
+          0.565217
+        ],
+        [
+          1,
+          0.423913,
+          0.3,
+          0.247826,
+          0.486957
+        ]
+      ],
+      "crop_xyxy": [
+        260,
+        230,
+        490,
+        460
+      ],
+      "review_evidence": "review_evidence/manual_batch_10/kaggle-huan-v2__day_cam_18_00950_rider_manual_v175_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi lái xe máy hướng về máy ảnh, đội mũ bảo hiểm xanh đậm nhìn thấy rõ; box người phủ mũ, thân, chân và bàn chân nhìn thấy; box xe phủ toàn xe máy đến bánh trước và sau. Crop không chứa rider khác. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_18_00750_rider_manual_v174.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera18 cùng cảnh có biển hạn chế giao thông và giờ áp dụng kiểu Việt Nam. City cụ thể và tác giả video không được nêu."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "archive_entry": "images/train/day_cam_18_00400.jpg",
+      "status": "excluded",
+      "reason": "Busy camera frame with several adjacent riders; a crop would not safely isolate one target."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00600.jpg",
+      "status": "excluded",
+      "reason": "No motorcycle is present in the sampled source frame."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00700.jpg",
+      "status": "excluded",
+      "reason": "Several riders overlap in the sampled camera frame; no safe isolated crop selected."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00800.jpg",
+      "status": "excluded",
+      "reason": "Candidate helmet status is ambiguous at source resolution."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00250.jpg",
+      "status": "excluded",
+      "reason": "Crowded same-camera frame; no crop safely isolates one target from all adjacent riders."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00100.jpg",
+      "status": "excluded",
+      "reason": "The near rider is clipped by the source image bottom edge, so the complete rider and motorcycle cannot be checked."
+    }
+  ],
+  "source_license_note": "Kaggle v2 public metadata reports Apache 2.0; source frames, hashes, download URLs, metadata and manual crop overlays are retained."
+}

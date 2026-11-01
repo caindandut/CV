@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v194",
+  "parent_manifest_sha256": "74eb96e0b3d42f7aeea906759b7e278d6a8195026722a46b65ab8f5cacc1ab99",
+  "review_method": "Manual visual review of DataSet2 frames and final crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch30",
+      "id": "user_provided/video_5076/IMG_5076_MOV-36_rider_manual_v195.png",
+      "source_image_id": "video:img_5076#IMG_5076_MOV-36",
+      "source": "user_provided_DataSet2:img_5076",
+      "source_group": "group_0585",
+      "source_sha256": "6018987b29ca3058b685ee7d98828c388fc77e973e13e80a2ac3bd7a476acd2a",
+      "source_row_id": "train/IMG_5076_MOV-36_jpg.rf.d0f0050d5b0dd6c78b5800fd804c1499.jpg",
+      "crop": [
+        113,
+        0,
+        829,
+        720
+      ],
+      "image_sha256": "1ae50114cf4fb50851eda159219dcb773006fe09098d4852159b177c548b12ba",
+      "label_sha256": "2d0de2bd380c9fd5ddae7590223114f5ec0e455d74f51ad4b775f5f31a23ea06",
+      "labels": [
+        [
+          0,
+          0.500156,
+          0.643845,
+          0.78981,
+          0.689177
+        ],
+        [
+          2,
+          0.416488,
+          0.451682,
+          0.554408,
+          0.898594
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.368056,
+          0.643845,
+          0.4418,
+          0.689177
+        ],
+        [
+          2,
+          0.321254,
+          0.451682,
+          0.310122,
+          0.898594
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_30/user_provided__video_5076__IMG_5076_MOV-36_rider_manual_v195_overlay.jpg",
+      "reason": "Rà thủ công toàn khung và overlay crop cuối. Người tóc đen, không đội mũ, đang ngồi/lái xe; hộp xe máy và hộp người được đặt riêng, đầy đủ trong khung. Mép crop được chặn đúng kích thước ảnh gốc; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_18_00880_rider_manual_v176.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch30",
+      "id": "user_provided/video_5288/IMG_5288_mp4-4_rider_manual_v195.png",
+      "source_image_id": "video:img_5288#IMG_5288_mp4-4",
+      "source": "user_provided_DataSet2:img_5288",
+      "source_group": "group_0585",
+      "source_sha256": "1b21f481549f451b27bd54666683d74964d8c64aee74c36e6625eb5d95bb51f9",
+      "source_row_id": "train/IMG_5288_mp4-4_jpg.rf.dbbff929664819f90898cfa30473f56c.jpg",
+      "crop": [
+        160,
+        45,
+        656,
+        598
+      ],
+      "image_sha256": "ddbc976febc3d53c41841199bd9f1751c3a64a9d6e358f16a13b54623cb4b119",
+      "label_sha256": "b48d021b32346e8135a54cc41d8006a0decda190a3f27fe9b89d7d79d5cd4d6f",
+      "labels": [
+        [
+          0,
+          0.500604,
+          0.59863,
+          0.716387,
+          0.547437
+        ],
+        [
+          1,
+          0.463801,
+          0.448619,
+          0.318467,
+          0.641317
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.318984,
+          0.522281,
+          0.2776,
+          0.420462
+        ],
+        [
+          1,
+          0.304723,
+          0.407064,
+          0.123406,
+          0.492567
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_30/user_provided__video_5288__IMG_5288_mp4-4_rider_manual_v195_overlay.jpg",
+      "reason": "Rà thủ công toàn khung và overlay crop cuối. Người đội mũ bảo hiểm vàng rõ ràng, đang ngồi/lái xe; hộp xe máy và hộp người được đặt riêng, đầy đủ trong khung. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 16,
+      "nearest_active_id": "user_provided/video_5290/IMG_5290_mp4-5_rider_manual_v190.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch30",
+      "id": "user_provided/video_5288/IMG_5288_mp4-5_rider_manual_v195.png",
+      "source_image_id": "video:img_5288#IMG_5288_mp4-5",
+      "source": "user_provided_DataSet2:img_5288",
+      "source_group": "group_0585",
+      "source_sha256": "9cf5c7ecb893dbc180957ce158576d42260bb6830f158d7965d3aa20ee01a265",
+      "source_row_id": "train/IMG_5288_mp4-5_jpg.rf.c3ece44f7b2ccd0dfa576471761365c2.jpg",
+      "crop": [
+        0,
+        53,
+        376,
+        518
+      ],
+      "image_sha256": "c0e2d25b4adc0b52f82c5ff04d1f22e0d861e1bedb85bc83e9ecb7ddde5c1618",
+      "label_sha256": "ba9e0dfff088a2796cfed48552f9240dde227dae57c0c124dc8c69d0de48bf92",
+      "labels": [
+        [
+          0,
+          0.433849,
+          0.58145,
+          0.685522,
+          0.580222
+        ],
+        [
+          2,
+          0.356994,
+          0.432786,
+          0.337699,
+          0.612029
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.127443,
+          0.449131,
+          0.201372,
+          0.374727
+        ],
+        [
+          2,
+          0.104867,
+          0.353119,
+          0.099199,
+          0.395269
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_30/user_provided__video_5288__IMG_5288_mp4-5_rider_manual_v195_overlay.jpg",
+      "reason": "Rà thủ công toàn khung và overlay crop cuối. Người tóc đen, không đội mũ, đang ngồi/lái xe; hộp xe máy và hộp người được đặt riêng. Khung có nhiễu nhẹ nhưng người, đầu không đội mũ và xe đều phân biệt rõ. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 22,
+      "nearest_active_id": "commons/commons_105762826.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. Three additional frames were individually reviewed from the existing Vietnam-verified train-only source group group_0585. The source manifest has no public page, named author, standard license terms, or raw-video checksum; this limitation is preserved in source_metadata and attribution."
+}

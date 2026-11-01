@@ -1,0 +1,17 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5031-2",
+  "source_row_id": "train/IMG_5031-2_MOV-36_jpg.rf.cf3a5884c5887425efef8cd45d2de34d.jpg",
+  "source_frame_id": "IMG_5031-2_MOV-36",
+  "source_image_sha256": "32a46f66bb975d3829499c11b5315d113610c128dafbbcc692a651e30fb8ba2f",
+  "source_size": [
+    1280,
+    720
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country_evidence": "Parent dataset_v195 row marks this source verified for Vietnam; scene source is campus_forecourt.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on the user-confirmed ownership or permission recorded above.",
+  "recorded_at": "2026-11-01"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "snapshot": "dataset_v169",
+  "parent_snapshot": "dataset_v168",
+  "corrections": [
+    {
+      "file": "commons_review_batch01.json",
+      "pageid": 24817670,
+      "before_status": "accepted_crop",
+      "after_status": "pending",
+      "reason": "The central two riders are clear, but a partial separate background rider remains at the right edge of any useful crop. No label row for this source was ever added to the manifest."
+    },
+    {
+      "file": "commons_review_batch01.json",
+      "pageid": 24817856,
+      "before_status": "excluded_duplicate",
+      "after_status": "pending_duplicate_candidate",
+      "reason": "This is a lower-resolution near-identical copy of the pending page 24817670; do not count it separately or treat the source as fully disposed while the primary remains pending."
+    }
+  ],
+  "review_evidence": "review_evidence/manual_batch_04/commons_24817670_pending_crop.png",
+  "parent_snapshot_unchanged": true
+}
