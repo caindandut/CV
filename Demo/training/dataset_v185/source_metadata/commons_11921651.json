@@ -1,0 +1,96 @@
+{
+  "pageid": 11921651,
+  "title": "File:Viettri16.jpeg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Viettri16.jpeg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Viettri16.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Viettri16.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "mime": "image/jpeg",
+  "size": [
+    1024,
+    768
+  ],
+  "provenance": [
+    "Category:Motorcycles in Vietnam"
+  ],
+  "extmetadata": {
+    "DateTime": {
+      "value": "2010-10-30 14:47:02",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Viettri16",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Taken with Canon PowerShot G9|Việt Trì|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Motorcycles in Vietnam|Self-published work",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Street - Viet Tri.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2010-10-30",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hungvuongking&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hungvuongking (page does not exist)\">Hungvuongking</a>",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=Template:Viettri16.jpeg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template:Viettri16.jpeg (page does not exist)\">Template:Viettri16.jpeg</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "download_sha256": "8ae986cf99d0d63f939c6e69d9bcfe79e3ac42f1f2a3e02392d416d94982ea78"
+}

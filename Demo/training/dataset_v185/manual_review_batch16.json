@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v180",
+  "parent_manifest_sha256": "c3319bf6ea36556f259d88c661036ffee7d92711f6531b8778c791ef7fa062ca",
+  "review_method": "Manual visual review of full source frame and crop overlay; no model-generated labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch16",
+      "id": "original_crops/campus_forecourt_image_166_rider_manual_v181.png",
+      "source_image_id": "train/image_166_jpg.rf.1528f96454df488bfd19f3e315e828ac.jpg",
+      "image_sha256": "7b125e0bd85b5e68879c7f4671eae25b6dd31946b6bfdc28d84c61011a2055a1",
+      "label_sha256": "0ce9f1f5c05e9d139bfb5681bc4ac78fab16057f7f5777720cd200b2be38a4fe",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.485938,
+          0.7,
+          0.809375,
+          0.52381
+        ],
+        [
+          1,
+          0.417187,
+          0.434524,
+          0.740625,
+          0.788095
+        ]
+      ],
+      "reason": "Rà trực quan khung gốc 1280x720 và overlay crop. Một người đang ngồi lái xe máy, mũ bảo hiểm đen nhìn rõ; box class 1 bao người và mũ, box class 0 bao xe máy nhìn thấy. Crop giữ xe/person chính và một phần người đứng ở nền bên trái nhưng không nhầm họ thành rider; không chứa xe máy khác. Ảnh toàn khung và nhãn gốc giữ nguyên trạng thái chờ; nhãn được vẽ lại từ pixel gốc, không dùng dự đoán mô hình.",
+      "evidence": "review_evidence/manual_batch_16/original_crops__campus_forecourt_image_166_rider_manual_v181_overlay.png",
+      "crop_xyxy": [
+        760,
+        180,
+        1080,
+        600
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 18,
+      "nearest_active_id": "original_crops/campus_forecourt_image_219_rider_manual_v180.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "reviewed_but_left_pending": [
+    {
+      "source_image_id": "train/image_255_jpg.rf.9381d0bec28c42707f08daa995e3e58e.jpg",
+      "reason": "A second passenger is visible behind the main rider; do not infer their boundaries from overlap."
+    },
+    {
+      "source_image_id": "train/image_277_jpg.rf.b47ecc5e7cad51db16f384683eb1d3c7.jpg",
+      "reason": "The rider and motorcycle are cut by the source frame edge."
+    }
+  ],
+  "source_note": "This is a manually reviewed crop from an existing user-provided, source-verified dataset frame. No external source or new license claim was introduced; the full source frame and labels remain pending and unchanged."
+}

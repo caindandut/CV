@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v166",
+  "parent_manifest_sha256": "77e249220d01713e968dbb1d14c6a94ceef534de50146f06683183a355e0838a",
+  "review_method": "manual review of existing source pixels and crop overlays; no model labels",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch02",
+      "id": "original_crops/campus_forecourt_image_188_manual_v167.png",
+      "source_image_id": "train/image_188_jpg.rf.b8a1d717644a00faaad82bbcce9c9a03.jpg",
+      "image_sha256": "ddb672c1cef8744188e94b63d9bb8de5bf03a988c2e366e99cd069bcdda62bc3",
+      "label_sha256": "cf6ef50e14670e943ccb96710825d25554d68c0379b3ce03e04edeabb782bd33",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.500067,
+          0.603653,
+          0.655656,
+          0.53781
+        ],
+        [
+          1,
+          0.531921,
+          0.4262,
+          0.434954,
+          0.595822
+        ]
+      ],
+      "reason": "Rà thủ công crop gốc và overlay cuối: một người ngồi lái xe máy, đội mũ cứng xanh; một xe máy riêng, hai box ôm phần nhìn thấy của người và xe. Mép xe con ở nền không phải xe máy; không có rider hay motorcycle khác trong vùng cắt. Giữ pixel gốc ở độ phân giải gốc. Ảnh toàn khung và nhãn nguồn vẫn pending, không sửa; không dùng dự đoán mô hình.",
+      "evidence": "review_evidence/manual_batch_02/image_188_overlay.png",
+      "crop_xyxy": [
+        743,
+        17,
+        1102,
+        499
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/image_170_jpg.rf.4c5d67e945438bbceae83e3cd7265ccf.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch02",
+      "id": "original_crops/campus_forecourt_image_240_manual_v167.png",
+      "source_image_id": "train/image_240_jpg.rf.9abe7714ca77d1cd02ce854d84df05bb.jpg",
+      "image_sha256": "f44d109ec684491306e88d625dfcaa0a9e6ea624762ded5d0a0de082575875e8",
+      "label_sha256": "2c28074c7135e611a0fe03a32ee705a1bde6760de125f3b6f2589a542840418f",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.558843,
+          0.653628,
+          0.471523,
+          0.438633
+        ],
+        [
+          1,
+          0.499741,
+          0.443559,
+          0.641841,
+          0.632636
+        ]
+      ],
+      "reason": "Rà thủ công crop gốc và overlay cuối: một người ngồi lái xe máy, đội mũ cứng hồng nhạt; một xe máy riêng, hai box ôm phần nhìn thấy của người và xe. Mép xe con ở nền không phải xe máy; không có rider hay motorcycle khác trong vùng cắt. Giữ pixel gốc ở độ phân giải gốc. Ảnh toàn khung và nhãn nguồn vẫn pending, không sửa; không dùng dự đoán mô hình.",
+      "evidence": "review_evidence/manual_batch_02/image_240_overlay.png",
+      "crop_xyxy": [
+        626,
+        64,
+        989,
+        571
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/Image04_JPG.rf.77119d36bd0f488cb128905ee97f0e16.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "rejected_or_left_pending": [
+    {
+      "source_image_id": "train/image_128_jpg.rf.5a07c679019d3de9869ac4d69f340b9b.jpg",
+      "status": "pending",
+      "reason": "Pronounced speckle and repetitive rear-view framing; kept pending."
+    },
+    {
+      "source_image_id": "train/image_163_jpg.rf.d0ed94a6f9b97a915945ade750129ef4.jpg",
+      "status": "pending",
+      "reason": "Pronounced speckle and repetitive rear-view framing; kept pending."
+    },
+    {
+      "source_image_id": "train/image_219_jpg.rf.3418b4b8caaf5a70472e56bc06a66fb2.jpg",
+      "status": "pending",
+      "reason": "Peripheral road user and pronounced speckle; kept pending."
+    },
+    {
+      "source_image_id": "train/IMG_5035-2_MOV-0_jpg.rf.439734e8cdd022c330b23e115ed91dce.jpg",
+      "status": "pending",
+      "reason": "Same short video sequence as neighboring candidate frames; avoid counting a repetitive frame."
+    }
+  ],
+  "source_and_license_note": "Existing user-provided images; source_verified inherited from v166. No external images or license claims were added."
+}

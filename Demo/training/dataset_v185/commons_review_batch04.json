@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v178",
+  "parent_manifest_sha256": "8d4b5087c07192a8d11458dfe2cf56fb8351b6bd301a4f23578e7683e7a67820",
+  "review_method": "Manual visual review of full-resolution Commons photographs and final overlays; no model labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "pageid": 4520292,
+      "title": "Vietnam Police motorcycle 2007.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Vietnam_Police_motorcycle_2007.jpg",
+      "artist": "Jame Healy",
+      "credit": "originally posted to   Flickr   as  Vietnam 2007 131",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_sha256": "66ab3fb3602c60a6f4c46eb61598a7315946e91e08c5b5490dde8e83c5b10fba",
+      "image_sha256": "66ab3fb3602c60a6f4c46eb61598a7315946e91e08c5b5490dde8e83c5b10fba",
+      "source_image": "Demo/training/dataset_v179/source_originals/commons_4520292.jpg",
+      "metadata_file": "Demo/training/dataset_v179/source_metadata/commons_4520292.json",
+      "status": "accepted_full_image",
+      "accepted_image_id": "commons_vietnam/Vietnam_Police_motorcycle_2007_manual_v179.jpg",
+      "source_size": [
+        3504,
+        2336
+      ],
+      "labels": [
+        [
+          0,
+          0.510156,
+          0.667447,
+          0.976562,
+          0.665105
+        ],
+        [
+          1,
+          0.467187,
+          0.616511,
+          0.384375,
+          0.766979
+        ],
+        [
+          1,
+          0.762891,
+          0.574356,
+          0.200781,
+          0.851288
+        ]
+      ],
+      "location_evidence": "Wikimedia Commons title “Vietnam Police motorcycle 2007”; description explains Vietnam traffic police and its motorcycle regulations; page categories include Police motorcycles in Vietnam and Traffic police of Vietnam.",
+      "nearest_active_phash_distance": 22,
+      "nearest_active_id": "commons/commons_113561587.jpg",
+      "review_evidence": "review_evidence/manual_batch_14/commons_vietnam__Vietnam_Police_motorcycle_2007_manual_v179_overlay.png",
+      "review_reason": "Rà thủ công ảnh gốc và overlay cuối: một xe máy cảnh sát cùng người lái và người ngồi sau, cả hai đều đội mũ CSGT rõ ràng. Class 0 bao khung xe nhìn thấy; mỗi người có box class 1 riêng. Xe và người bị cắt nhẹ ở mép dưới của ảnh gốc; box kết thúc ở đúng mép nhìn thấy. Không dùng nhãn mô hình."
+    },
+    {
+      "pageid": 188567792,
+      "title": "Vietnam - traditional soviet motorbikes.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Vietnam_-_traditional_soviet_motorbikes.jpg",
+      "artist": "FrogsLegs71",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_sha256": "ab7c2121a471439987ddd3c0e73144e52b42862fec6db08c60ce4f40a4ff85d8",
+      "image_sha256": "ab7c2121a471439987ddd3c0e73144e52b42862fec6db08c60ce4f40a4ff85d8",
+      "source_image": "Demo/training/dataset_v179/source_originals/commons_188567792.jpg",
+      "metadata_file": "Demo/training/dataset_v179/source_metadata/commons_188567792.json",
+      "status": "accepted_full_image",
+      "accepted_image_id": "commons_vietnam/Vietnam_traditional_soviet_motorbikes_manual_v179.jpg",
+      "source_size": [
+        4096,
+        3072
+      ],
+      "labels": [
+        [
+          0,
+          0.144531,
+          0.58125,
+          0.289062,
+          0.325
+        ],
+        [
+          1,
+          0.097656,
+          0.522917,
+          0.195312,
+          0.408333
+        ],
+        [
+          0,
+          0.584375,
+          0.658854,
+          0.83125,
+          0.682292
+        ],
+        [
+          1,
+          0.738281,
+          0.567188,
+          0.523438,
+          0.865625
+        ]
+      ],
+      "location_evidence": "Wikimedia Commons title “Vietnam - traditional soviet motorbikes”; page category Hanoi. The visible Vietnamese road and local motorcycles are consistent with the page location.",
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "original_crops/IMG_5126_MOV-114_jpg.rf.432bb72fbb589d2f6f90f95848eabb96.png",
+      "review_evidence": "review_evidence/manual_batch_14/commons_vietnam__Vietnam_traditional_soviet_motorbikes_manual_v179_overlay.png",
+      "review_reason": "Rà thủ công ảnh gốc và overlay cuối: hai người đang ngồi trên hai xe máy riêng, mỗi người đều đội mũ bảo hiểm nhìn rõ. Cả hai xe đủ nhận diện dù ảnh cắt một phần ở mép; có box class 0 và class 1 riêng cho từng xe/người. Không có người hoặc xe thứ ba trong ảnh; không dùng nhãn mô hình."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "pageid": 142953256,
+      "title": "On the motorbike (1347329234).jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:On_the_motorbike_(1347329234).jpg",
+      "status": "pending_external_candidate_not_in_manifest",
+      "reason": "Giữ ngoài manifest ở trạng thái chờ: crop gần cho thấy một người đội mũ ngồi sau xe, nhưng có vật thể giống vai/thân của người thứ hai cắt sát mép trái. Không thể xác định đầy đủ người thứ hai và trạng thái mũ; không nhận nhãn hoặc tính ảnh này.",
+      "source_sha256": "7bcce743514340e243f34e5744c21f6a94e08c42ee389cf3569dbc9d310b2286",
+      "source_image": "Demo/training/dataset_v179/pending_source_originals/commons_142953256.jpg",
+      "metadata_file": "Demo/training/dataset_v179/source_metadata/commons_142953256_pending.json",
+      "evidence": "review_evidence/manual_batch_14/commons_142953256_pending_crop.png"
+    }
+  ],
+  "note": "The retained pending external candidate is not in the manifest and does not change accepted or manifest-pending counts."
+}
