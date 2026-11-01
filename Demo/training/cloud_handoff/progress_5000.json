@@ -2,32 +2,32 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 721,
-  "remaining_to_goal": 4279,
+  "accepted_clean_images": 722,
+  "remaining_to_goal": 4278,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v181",
+  "snapshot": "dataset_v182",
   "accepted_split_counts": {
-    "train": 577,
+    "train": 578,
     "validation": 76,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
     "0": 1,
-    "1": 1
+    "2": 2
   },
   "total_class_box_counts": {
-    "0": 1221,
+    "0": 1222,
     "1": 627,
-    "2": 217
+    "2": 219
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v181.json",
+  "verification_report": "../verification/dataset_v182.json",
   "notes": [
-    "Counts are manually reviewed unique image samples, not boxes.",
-    "One distinct, source-verified campus_forecourt frame was manually cropped; the original and labels remain unchanged and pending.",
-    "Source group group_0072 remains train-only; no model predictions were used as ground truth."
+    "Counts are manually reviewed unique image rows, not boxes.",
+    "One distinct source-verified Wikimedia Commons crop was added with source original, per-image license and manual-review evidence.",
+    "The Commons source group remains train-only; no model predictions were used as ground truth."
   ]
 }
