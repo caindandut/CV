@@ -2,33 +2,33 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 698,
-  "remaining_to_goal": 4302,
+  "accepted_clean_images": 699,
+  "remaining_to_goal": 4301,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v169",
+  "snapshot": "dataset_v170",
   "accepted_split_counts": {
-    "train": 554,
+    "train": 555,
     "validation": 76,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
     "0": 1,
-    "1": 1
+    "2": 1
   },
   "total_class_box_counts": {
-    "0": 1196,
+    "0": 1197,
     "1": 604,
-    "2": 215
+    "2": 216
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v169.json",
+  "verification_report": "../verification/dataset_v170.json",
   "notes": [
-    "Counts are accepted unique dataset image rows, not bounding boxes.",
-    "One manually reviewed crop from a CC BY-SA 3.0 Wikimedia Commons photograph was added with source original, metadata, attribution, license terms and crop overlay.",
-    "The v168 Commons review log was corrected in this child snapshot: the ambiguous image and its duplicate remain pending and are not counted.",
-    "The current accepted inventory remains far below 5,000; more source photographs and manual reviews are required."
+    "Counts are accepted unique image samples, not boxes.",
+    "One manually reviewed crop from an existing user-provided Vietnam campus parking frame was added to train.",
+    "The original full frame and its inherited labels remain pending and unchanged; only the separately reviewed crop is counted.",
+    "No model predictions were used as ground truth."
   ]
 }
