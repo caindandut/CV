@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v173",
+  "parent_manifest_sha256": "4f894f94bc05fffc6ffb5a49b37125ad1a219ec3f4366d83164dee2ee3601d77",
+  "review_method": "Manual review of source pixels and final overlays; no model-generated labels.",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00350_rider_manual_v174.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00350",
+      "source_sha256": "26b41933d73c114cef5df700e8e753ee5c74108e7ebe78077dec835d3a274c41",
+      "image_sha256": "e45a5ce938ae275e9ff82b7bdfd864dc4d48f5b05264eac6457b56c0f93d5b22",
+      "label_sha256": "1a54733d52a6644b5ad1582d858111c9b9c7b97573dc43656e6db4c970f6cafa",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.5125,
+          0.45625,
+          0.375,
+          0.379167
+        ],
+        [
+          1,
+          0.533333,
+          0.35625,
+          0.266667,
+          0.5125
+        ]
+      ],
+      "crop_xyxy": [
+        230,
+        200,
+        470,
+        440
+      ],
+      "review_evidence": "review_evidence/manual_batch_09/kaggle-huan-v2__day_cam_18_00350_rider_manual_v174_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi lái xe máy hướng về máy ảnh, đội mũ bảo hiểm xanh; một xe máy nhìn rõ. Không có rider/xe khác trong crop. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 16,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_23_00668.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera18 cùng cảnh có biển hạn chế giao thông và giờ áp dụng kiểu Việt Nam. City cụ thể và tác giả video không được nêu."
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00750_rider_manual_v174.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00750",
+      "source_sha256": "cf46fe96daf875fb13bf2cd62b12f7a357bc73a1edcb0ec51271870f74a1a56b",
+      "image_sha256": "63b9b02e83970cea6fca5a2ca3bbdc70c10b13946211a2081e0a386f081009d6",
+      "label_sha256": "15922997283d34beb27614644977024c5e90fb134e79e1d2eea3048c2339f723",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.458333,
+          0.49375,
+          0.291667,
+          0.295833
+        ],
+        [
+          1,
+          0.458333,
+          0.339583,
+          0.2,
+          0.3375
+        ]
+      ],
+      "crop_xyxy": [
+        450,
+        160,
+        690,
+        400
+      ],
+      "review_evidence": "review_evidence/manual_batch_09/kaggle-huan-v2__day_cam_18_00750_rider_manual_v174_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi trên xe máy hướng về máy ảnh, đội mũ bảo hiểm tối màu; box người phủ mũ và phần thân nhìn thấy, box xe phủ xe máy riêng. Crop không chứa rider khác. Kiểm tra ứng viên perceptual hash gần nhất: khác người, áo đỏ, góc hướng đối diện, và cảnh nền so với frame camera14_00500. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 14,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_14_00500_rider_manual_v173.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera18 cùng cảnh có biển hạn chế giao thông và giờ áp dụng kiểu Việt Nam. City cụ thể và tác giả video không được nêu."
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00900_rider_manual_v174.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00900",
+      "source_sha256": "483adcb9f624424f437e26b203f69f16d0f7443ba0d6326f0f8ebd9065166190",
+      "image_sha256": "5674fc30d4cc62aeaf9b18239ee806b31d1ee41df44c4ee8c43f1173c2f98326",
+      "label_sha256": "efeef49bbf35355a85386c577c41357c16fac2a42743b9a853cf1881616e2577",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.545833,
+          0.566667,
+          0.333333,
+          0.366667
+        ],
+        [
+          1,
+          0.564583,
+          0.347917,
+          0.329167,
+          0.445833
+        ]
+      ],
+      "crop_xyxy": [
+        545,
+        290,
+        785,
+        530
+      ],
+      "review_evidence": "review_evidence/manual_batch_09/kaggle-huan-v2__day_cam_18_00900_rider_manual_v174_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi lái xe tay ga quay lưng, đội mũ bảo hiểm trắng; box class 1 theo người nhìn thấy, box class 0 phủ xe máy đến hết bánh sau. Không có rider khác trong crop. Kiểm tra các ứng viên perceptual hash: người/cảnh khác frame đã nhận; không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 12,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_10_00197.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung camera18 cùng cảnh có biển hạn chế giao thông và giờ áp dụng kiểu Việt Nam. City cụ thể và tác giả video không được nêu."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "archive_entry": "images/train/day_cam_18_00250.jpg",
+      "status": "excluded",
+      "reason": "Crowded same-camera frame; no crop safely isolates one target from all adjacent riders."
+    },
+    {
+      "archive_entry": "images/train/day_cam_18_00100.jpg",
+      "status": "excluded",
+      "reason": "The near rider is clipped by the source image bottom edge, so the complete rider and motorcycle cannot be checked."
+    }
+  ],
+  "source_license_note": "Kaggle v2 public metadata reports Apache 2.0; source frames, hashes, download URLs, metadata and manual crop overlays are retained."
+}

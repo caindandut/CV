@@ -2,32 +2,32 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 728,
-  "remaining_to_goal": 4272,
+  "accepted_clean_images": 729,
+  "remaining_to_goal": 4271,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v185",
+  "snapshot": "dataset_v186",
   "accepted_split_counts": {
-    "train": 584,
+    "train": 585,
     "validation": 76,
     "test_locked": 68
   },
-  "newly_accepted_this_batch": 2,
+  "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
-    "0": 2,
-    "1": 4
+    "0": 1,
+    "2": 2
   },
   "total_class_box_counts": {
-    "0": 1230,
+    "0": 1231,
     "1": 635,
-    "2": 220
+    "2": 222
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v185.json",
+  "verification_report": "../verification/dataset_v186.json",
   "notes": [
     "Counts are manually reviewed images, not boxes.",
-    "Two licensed Vietnam Commons image crops were annotated manually; original image files, metadata, and attribution are preserved.",
+    "One licensed Vietnam Commons image crop was annotated manually; the original image file, metadata, and attribution are preserved.",
     "New source groups are train-only; no model-generated labels were used."
   ]
 }
