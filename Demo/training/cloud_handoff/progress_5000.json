@@ -2,33 +2,34 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 718,
-  "remaining_to_goal": 4282,
+  "accepted_clean_images": 720,
+  "remaining_to_goal": 4280,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v179",
+  "snapshot": "dataset_v180",
   "accepted_split_counts": {
-    "train": 574,
+    "train": 576,
     "validation": 76,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 2,
   "new_batch_class_box_counts": {
-    "0": 3,
-    "1": 4
+    "0": 2,
+    "1": 1,
+    "2": 1
   },
   "total_class_box_counts": {
-    "0": 1218,
-    "1": 625,
-    "2": 216
+    "0": 1220,
+    "1": 626,
+    "2": 217
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v179.json",
+  "verification_report": "../verification/dataset_v180.json",
   "notes": [
-    "Counts are manually reviewed unique image rows, not boxes.",
-    "Two manually reviewed, attributed full-resolution Commons images were added; source groups are train-only.",
-    "One more Commons candidate is retained outside the manifest as pending due to a partly visible second person; it is not counted.",
-    "Accepted inventory is 718 of 5,000; 4,282 accepted unique images remain."
+    "Counts are manually reviewed unique image samples, not boxes.",
+    "Two distinct existing Vietnam campus_forecourt frames were manually cropped and labeled; full source frames and inherited labels remain unchanged and pending.",
+    "Source group group_0072 remains train-only; no model predictions were used as ground truth.",
+    "Four other visual candidates remained pending due to ambiguity or overlapping riders."
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v179",
+  "parent_manifest_sha256": "f3650b3fe32238d2bea6c4d1f05a0b5b5fe2e55789b6d7af33699a29e3f28a88",
+  "review_method": "Manual visual review of original pixels and final crop overlays; no model-generated labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "id": "original_crops/campus_forecourt_image_219_rider_manual_v180.png",
+      "source_image_id": "train/image_219_jpg.rf.3418b4b8caaf5a70472e56bc06a66fb2.jpg",
+      "source_sha256": "3411d15937a66f67a54778b37800570ebac3de078d2e98867f787726f4ec0c6f",
+      "source_label_sha256": "f3b488b03d49ae4ed22fd21bc0ebe0e985af72f5a125cc822e97e3834152599d",
+      "image_sha256": "2aa6d75db3375299d5fa32fb37afaca8cee852ec6eb39b1b6836db16a984bbd9",
+      "label_sha256": "765e90135194ea98892e87627c8ae1b060c4ad6d4df999a1e20261ffed7d759a",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.480882,
+          0.588043,
+          0.861765,
+          0.671739
+        ],
+        [
+          1,
+          0.382353,
+          0.426087,
+          0.588235,
+          0.704348
+        ]
+      ],
+      "crop_xyxy": [
+        670,
+        130,
+        1010,
+        590
+      ],
+      "review_evidence": "review_evidence/manual_batch_15/original_crops__campus_forecourt_image_219_rider_manual_v180_overlay.png",
+      "reason": "Rà trực quan khung gốc 1280x720 và overlay crop. Một người đang ngồi điều khiển xe tay ga, mũ bảo hiểm trắng/đen nhìn rõ; box class 1 bao người và mũ, box class 0 bao gương, thân và bánh xe. Crop không chứa xe máy hoặc người khác; ô tô đỗ ở nền không thuộc nhãn. Ảnh toàn khung và nhãn gốc giữ nguyên trạng thái chờ; box được vẽ lại từ pixel gốc, không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/image_170_jpg.rf.4c5d67e945438bbceae83e3cd7265ccf.png",
+      "source": "scene:campus_forecourt",
+      "source_group": "group_0072",
+      "location_evidence": "Inherited source verification for the Vietnam campus_forecourt group; the full frame contains Vietnamese signage and Hanoi-format 30-series vehicle plates. The source image and all background context remain in the parent snapshot."
+    },
+    {
+      "id": "original_crops/campus_forecourt_image_228_rider_manual_v180.png",
+      "source_image_id": "train/image_228_jpg.rf.5e5409d1451f95fa8f5b6122a0575540.jpg",
+      "source_sha256": "e912937303cf17b09ab94c3a09cbbf2c9f58cf8d282d201627b2cf9e15fd2034",
+      "source_label_sha256": "5fd980ab408d34a65c82f61281729628b3bb1741640b933a43d302616d6def8d",
+      "image_sha256": "7d095978f72b6b69e9d62f2735942e6f2f575efa2ff26bd84ced48cb9bb5c3de",
+      "label_sha256": "4ef763453a111b31f3a2b039a07806175e35ce51515fa94e7554b11fc5da8855",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.488889,
+          0.591089,
+          0.825397,
+          0.813861
+        ],
+        [
+          2,
+          0.512698,
+          0.478218,
+          0.784127,
+          0.865347
+        ]
+      ],
+      "crop_xyxy": [
+        600,
+        215,
+        915,
+        720
+      ],
+      "review_evidence": "review_evidence/manual_batch_15/original_crops__campus_forecourt_image_228_rider_manual_v180_overlay.png",
+      "reason": "Rà trực quan khung gốc 1280x720 và overlay crop. Một người ngồi điều khiển xe máy; đầu tóc ngắn nhìn rõ, không có mũ bảo hiểm, nên class 2. Box class 0 bao xe máy nhìn thấy riêng; xe và chân chạm mép dưới tại phần ảnh nguồn. Crop loại các xe đỗ và người đứng ở nền; ảnh toàn khung và nhãn gốc giữ nguyên trạng thái chờ. Nhãn được vẽ lại thủ công từ pixel gốc, không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "commons/commons_105751953.png",
+      "source": "scene:campus_forecourt",
+      "source_group": "group_0072",
+      "location_evidence": "Inherited source verification for the Vietnam campus_forecourt group; the full frame contains Vietnamese signage and Hanoi-format 30-series vehicle plates. The source image and all background context remain in the parent snapshot."
+    }
+  ],
+  "reviewed_but_left_pending": [
+    {
+      "source_image_id": "train/image_178_jpg.rf.213c5b43c5f6a615ef714edfbf3ac7ba.jpg",
+      "reason": "Possible second person/helmet partly visible behind the rider; keep full frame pending."
+    },
+    {
+      "source_image_id": "train/image_248_jpg.rf.c5dc02e61f3d72fb701e6502a85fabc4.jpg",
+      "reason": "Helmet state is not clear enough at source resolution."
+    },
+    {
+      "source_image_id": "train/image_202_jpg.rf.7d98b52a31cfd5de928e93e8544ce37d.jpg",
+      "reason": "Overlapping people and bikes prevent a clean crop with all labels confirmed."
+    },
+    {
+      "source_image_id": "train/image_205_jpg.rf.4e50c44525411a8a4c6ff983af8cabc6.jpg",
+      "reason": "Two overlapping riders; boundaries and helmet state are ambiguous."
+    },
+    {
+      "source_image_id": "train/image_207_jpg.rf.c845d0b6253a2727d594c3b98d01b6d6.jpg",
+      "reason": "Two overlapping riders; boundaries and helmet state are ambiguous."
+    }
+  ],
+  "source_note": "Both accepted items are manually reviewed crops from already user-provided, source-verified dataset frames. No external source or new license claim was introduced; source rows, labels and original full frames remain unchanged."
+}

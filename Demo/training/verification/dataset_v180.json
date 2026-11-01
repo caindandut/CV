@@ -1,0 +1,40 @@
+{
+  "snapshot": "dataset_v180",
+  "passed": true,
+  "parent_manifest_rows": 2215,
+  "rows_total": 2217,
+  "accepted_clean_images": 720,
+  "remaining_to_5000": 4280,
+  "pending_review_images": 1497,
+  "new_images": 2,
+  "new_box_counts": {
+    "0": 2,
+    "1": 1,
+    "2": 1
+  },
+  "split_counts": {
+    "train": 576,
+    "val": 76,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_image_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "new_crops_match_source_pixels": true,
+  "new_image_label_source_hashes_verified": true,
+  "manual_review_overlays_present": true,
+  "source_group_train_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distances": [
+    [
+      20,
+      "original_crops/image_170_jpg.rf.4c5d67e945438bbceae83e3cd7265ccf.png"
+    ],
+    [
+      20,
+      "commons/commons_105751953.png"
+    ]
+  ],
+  "portable_manifest_rows": 2217
+}
