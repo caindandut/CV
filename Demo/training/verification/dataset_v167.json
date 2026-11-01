@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "dataset": "dataset_v167",
+  "parent_dataset": "dataset_v166",
+  "active_images": 695,
+  "newly_accepted_images": 2,
+  "pending_images": 1497,
+  "accepted_split_counts": {
+    "train": 551,
+    "val": 76,
+    "test_locked": 68
+  },
+  "class_box_counts_active": {
+    "0": 1192,
+    "1": 599,
+    "2": 215
+  },
+  "class_box_counts_new_batch": {
+    "0": 2,
+    "1": 2
+  },
+  "parent_manifest_sha256": "77e249220d01713e968dbb1d14c6a94ceef534de50146f06683183a355e0838a",
+  "parent_lock_manifest_sha256_matches": true,
+  "locked_test_ids_unchanged": true,
+  "parent_rows_unchanged": true,
+  "exact_duplicate_check": "both new crop sha256 values differ from every active parent image",
+  "perceptual_duplicate_check": "minimum same-aspect pHash Hamming distance to any active parent image is greater than 6 for each crop",
+  "new_batch": [
+    {
+      "batch": "manual_review_2026-11-01_batch02",
+      "id": "original_crops/campus_forecourt_image_188_manual_v167.png",
+      "source_image_id": "train/image_188_jpg.rf.b8a1d717644a00faaad82bbcce9c9a03.jpg",
+      "image_sha256": "ddb672c1cef8744188e94b63d9bb8de5bf03a988c2e366e99cd069bcdda62bc3",
+      "label_sha256": "cf6ef50e14670e943ccb96710825d25554d68c0379b3ce03e04edeabb782bd33",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.500067,
+          0.603653,
+          0.655656,
+          0.53781
+        ],
+        [
+          1,
+          0.531921,
+          0.4262,
+          0.434954,
+          0.595822
+        ]
+      ],
+      "reason": "Rà thủ công crop gốc và overlay cuối: một người ngồi lái xe máy, đội mũ cứng xanh; một xe máy riêng, hai box ôm phần nhìn thấy của người và xe. Mép xe con ở nền không phải xe máy; không có rider hay motorcycle khác trong vùng cắt. Giữ pixel gốc ở độ phân giải gốc. Ảnh toàn khung và nhãn nguồn vẫn pending, không sửa; không dùng dự đoán mô hình.",
+      "evidence": "review_evidence/manual_batch_02/image_188_overlay.png",
+      "crop_xyxy": [
+        743,
+        17,
+        1102,
+        499
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/image_170_jpg.rf.4c5d67e945438bbceae83e3cd7265ccf.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch02",
+      "id": "original_crops/campus_forecourt_image_240_manual_v167.png",
+      "source_image_id": "train/image_240_jpg.rf.9abe7714ca77d1cd02ce854d84df05bb.jpg",
+      "image_sha256": "f44d109ec684491306e88d625dfcaa0a9e6ea624762ded5d0a0de082575875e8",
+      "label_sha256": "2c28074c7135e611a0fe03a32ee705a1bde6760de125f3b6f2589a542840418f",
+      "status": "corrected",
+      "source_verified": true,
+      "labels": [
+        [
+          0,
+          0.558843,
+          0.653628,
+          0.471523,
+          0.438633
+        ],
+        [
+          1,
+          0.499741,
+          0.443559,
+          0.641841,
+          0.632636
+        ]
+      ],
+      "reason": "Rà thủ công crop gốc và overlay cuối: một người ngồi lái xe máy, đội mũ cứng hồng nhạt; một xe máy riêng, hai box ôm phần nhìn thấy của người và xe. Mép xe con ở nền không phải xe máy; không có rider hay motorcycle khác trong vùng cắt. Giữ pixel gốc ở độ phân giải gốc. Ảnh toàn khung và nhãn nguồn vẫn pending, không sửa; không dùng dự đoán mô hình.",
+      "evidence": "review_evidence/manual_batch_02/image_240_overlay.png",
+      "crop_xyxy": [
+        626,
+        64,
+        989,
+        571
+      ],
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "original_crops/Image04_JPG.rf.77119d36bd0f488cb128905ee97f0e16.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "note": "Manual visual review only; no model pseudo-labels. The 5,000-image target is not reached because this checkout has fewer than 5,000 distinct source photos. The previous source inventory recorded 2,438 image files and 2,187 parent manifest rows; the available source set cannot reach 5,000 distinct photos.",
+  "all_images_opened": true,
+  "images_opened": 2192,
+  "labels_parse_and_match_manifest": true,
+  "new_label_hashes_match": true,
+  "parent_assets_and_labels_byte_identical": true,
+  "new_crops_match_source_pixels": true,
+  "manifest_hash_matches_lock": true,
+  "inherited_label_hash_note": "Original rows and label files are byte-identical to v166; inherited label_sha256 remains the source-file checksum. The portable manifest records the materialized snapshot label checksum separately."
+}
