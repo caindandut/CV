@@ -1,0 +1,17 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5126",
+  "source_row_id": "train/IMG_5126_MOV-113_jpg.rf.a698bd124782e8121a3690946b6c88e4.jpg",
+  "source_frame_id": "IMG_5126_MOV-113",
+  "source_image_sha256": "d134622b7c46b8967526f3962867814d35a656e0fc42309dceca10ce2a51a6fe",
+  "source_size": [
+    1280,
+    720
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country_evidence": "Parent dataset_v189 row marks this source verified for Vietnam; scene source is campus_parking.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on the user-confirmed ownership or permission recorded above.",
+  "recorded_at": "2026-11-01"
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v187",
+  "parent_manifest_sha256": "e8660946b1ea6b783308f1981939c4907ac4f6a03da7318c9839979743c2b6ba",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 3,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch23",
+      "id": "commons_vietnam/Motorbike_Egg_Delivery_HCMC_manual_v188.png",
+      "source_image_id": "commons:75820233",
+      "source": "wikimedia_commons:75820233",
+      "source_group": "commons:75820233",
+      "source_sha256": "10cb79db49ec2c8b0297e1090d1a9dcb5ffde822807e4f4c96f2d7cd4f9c4507",
+      "crop": [
+        640,
+        304,
+        1440,
+        1104
+      ],
+      "image_sha256": "d3d9d28de132b38d58b4a161a3cac3d5b18753c6870413d19a9969ac82973fab",
+      "label_sha256": "23b958ab31fa9853a0a34bcf7bf227839b1be5a5e5f747ba8ca4c49b163ac4ee",
+      "labels": [
+        [
+          0,
+          0.4775,
+          0.58625,
+          0.875,
+          0.6125
+        ],
+        [
+          1,
+          0.60625,
+          0.476875,
+          0.3325,
+          0.60125
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Motorbike_In_Hcmc_(239273231).jpeg",
+      "artist": "Wolfgang Weber",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "review_evidence": "review_evidence/manual_batch_23/commons_vietnam__Motorbike_Egg_Delivery_HCMC_manual_v188_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop cuối. Người giao trứng đang ngồi điều khiển xe và đội mũ bảo hiểm vỏ cứng; class 0 bao xe cùng giá chở trứng gắn với xe, class 1 bao riêng người lái. Crop cô lập xe trung tâm; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_24_00548.png",
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch23",
+      "id": "commons_vietnam/Motorcycle_Sleeping_Man_Nha_Trang_manual_v188.png",
+      "source_image_id": "commons:52066020",
+      "source": "wikimedia_commons:52066020",
+      "source_group": "commons:52066020",
+      "source_sha256": "a4b6521a91909c4d1289f57be5554eee421163f1116b812b76bcf6e2bdcb591e",
+      "crop": [
+        0,
+        180,
+        900,
+        640
+      ],
+      "image_sha256": "a1b3315ef05f5295cd1f1df61ff387388254f5ffaab66b855a492fcd4b00bca4",
+      "label_sha256": "e092a0a1d12a4ca3464084d6a6e996f29f0078d8b84fcf1ddc29c60d90923c3d",
+      "labels": [
+        [
+          0,
+          0.494444,
+          0.518478,
+          0.922222,
+          0.841304
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Motorcycle_sleep_guy_2012_(6806905451).jpg",
+      "artist": "John Gillespie",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "review_evidence": "review_evidence/manual_batch_23/commons_vietnam__Motorcycle_Sleeping_Man_Nha_Trang_manual_v188_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop cuối. Xe máy đỗ được gán class 0; người trong ảnh nằm ngủ ngang yên, không ở tư thế ngồi/lái nên không gán class người trên xe. Xe có phần bị người che khuất nhưng đường nét và hai bánh đủ rõ để xác định; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": null,
+      "nearest_active_id": null,
+      "reviewer": "Codex manual visual review"
+    },
+    {
+      "batch": "manual_review_2026-11-01_batch23",
+      "id": "commons_vietnam/Hanoi_Moto_Taxi_Rider_manual_v188.png",
+      "source_image_id": "commons:23467064",
+      "source": "wikimedia_commons:23467064",
+      "source_group": "commons:23467064",
+      "source_sha256": "a504c0d21cf47580393f8d469e6cb14f4b98db318e40ea0bf62f8d56ea875592",
+      "crop": [
+        275,
+        35,
+        370,
+        300
+      ],
+      "image_sha256": "43124976ede22f46293560d027b07ae49e046f70d037f4b35eefeca5156b5e6b",
+      "label_sha256": "7b4b29ed38acb8bc06c515ad6c3e74fa797d889f993dbfa8ebd73f46ac0900c6",
+      "labels": [
+        [
+          0,
+          0.489474,
+          0.639623,
+          0.915789,
+          0.660377
+        ],
+        [
+          1,
+          0.542105,
+          0.471698,
+          0.768421,
+          0.85283
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Vietnam_08_-_03_-_taking_the_motos_(3166779463).jpg",
+      "artist": "McKay Savage from London, UK",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_23/commons_vietnam__Hanoi_Moto_Taxi_Rider_manual_v188_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop cuối. Crop hẹp chỉ giữ người lái mũ bảo hiểm và xe tay ga màu xanh ở giữa, loại các xe giao thông liền kề trong cảnh đông. Class 0 bao xe, class 1 bao riêng người lái; không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "commons/commons_185835663.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "Three new, individually reviewed Wikimedia Commons source groups in Hanoi and Phan Thiet, with per-image credit, source page, license terms, and stored metadata snapshots; all groups are train-only."
+}
