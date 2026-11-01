@@ -1,0 +1,8 @@
+names:
+- motorcycle
+- rider_with_helmet
+- rider_without_helmet
+nc: 3
+test: test/images
+train: train/images
+val: val/images

@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v196",
+  "parent_manifest_sha256": "0a37ae3cef892ebd580f6c0479fae94eab12e8905f077c0c121102ebc7d8f295",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch32",
+      "id": "commons_vietnam/HCMC_Family_of_Five_on_Honda_Air_Blade_manual_v197.png",
+      "source_image_id": "commons:35410109",
+      "source": "wikimedia_commons:35410109",
+      "source_group": "commons:35410109",
+      "source_sha256": "9e1ed5572ba715a88a560c8c1f75de83a94a4adda8a112f5f89b92987ef39920",
+      "crop": [
+        0,
+        0,
+        1024,
+        759
+      ],
+      "image_sha256": "0b5a5c5e7284e5dfa552062d8d3a93be747d16a3041ff247abbfa8299045f81d",
+      "label_sha256": "ab49683907f14867c64d8558f2dfb51196efce1a1984eae696951950071fd86f",
+      "labels": [
+        [
+          0,
+          0.429688,
+          0.697628,
+          0.800781,
+          0.604743
+        ],
+        [
+          1,
+          0.198242,
+          0.50527,
+          0.224609,
+          0.98946
+        ],
+        [
+          1,
+          0.332031,
+          0.482213,
+          0.234375,
+          0.945982
+        ],
+        [
+          1,
+          0.519531,
+          0.492754,
+          0.402344,
+          0.938076
+        ],
+        [
+          2,
+          0.489258,
+          0.550725,
+          0.179688,
+          0.772069
+        ],
+        [
+          2,
+          0.602539,
+          0.547431,
+          0.234375,
+          0.802372
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Art_of_Transportation_(6161289029).jpg",
+      "artist": "Staffan Scherz",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "review_evidence": "review_evidence/manual_batch_32/commons_vietnam__HCMC_Family_of_Five_on_Honda_Air_Blade_manual_v197_overlay.jpg",
+      "reason": "Rà thủ công toàn ảnh gốc và overlay cuối. Có một xe máy đầy đủ và năm người đang ngồi/đứng khi đi trên xe: ba người lớn đội mũ bảo hiểm nhìn rõ, hai trẻ em không đội mũ. Mỗi người và xe có box riêng. Chiếc xe đạp-xích lô bị cắt ở mép phải không phải xe máy nên không gán class 0. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "commons/commons_179720844.jpg",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "One individually reviewed, full-resolution Wikimedia Commons image from Ho Chi Minh City was added to the train split with exact author credit, CC BY 2.0 license, source page, and stored metadata snapshot. The page carries a personality-rights warning; that restriction is recorded in usage_restrictions.json."
+}

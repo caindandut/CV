@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v185",
+  "parent_manifest_sha256": "2cc7a51eb7b97c10b078ff6c475eef3b0d7c7582befda6364b1ca847555beb6f",
+  "review_method": "Manual visual annotation of licensed Wikimedia Commons originals and final pixel-crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch21",
+      "id": "commons_vietnam/Mother_Child_Motorbike_HCMC_manual_v186.png",
+      "source_image_id": "commons:530295",
+      "source": "wikimedia_commons:530295",
+      "source_group": "commons:530295",
+      "source_sha256": "3aff9104c5bb9602b1e949525a7d26edcbb4e550c37de3419a11a7b866667c04",
+      "crop": [
+        820,
+        30,
+        1970,
+        1664
+      ],
+      "image_sha256": "497e6ed3807746463b6ce475577207bb35d6e1513e82696abc60953a199080a7",
+      "label_sha256": "214a113b060b6febd20739e36b6ab890fe1e0d5eb9aaa0f12ad6170a02fe9ce7",
+      "labels": [
+        [
+          0,
+          0.497826,
+          0.619339,
+          0.995652,
+          0.761322
+        ],
+        [
+          2,
+          0.204348,
+          0.599755,
+          0.373913,
+          0.771114
+        ],
+        [
+          2,
+          0.332609,
+          0.491126,
+          0.569565,
+          0.970012
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Mother_Child_Motorbike_Vietnam.jpg",
+      "artist": "Roderick Divilbiss (Commons description attribution; Commons machine-readable author lists Rdivilbiss as assumed)",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "review_evidence": "review_evidence/manual_batch_21/commons_vietnam__Mother_Child_Motorbike_HCMC_manual_v186_overlay.jpg",
+      "reason": "Rà thủ công ảnh Commons gốc và overlay crop cuối. Một xe tay ga màu trắng được gán class 0 theo phần xe nhìn thấy trong crop. Hai người đang ngồi trên xe: trẻ đội mũ lưỡi trai trắng và phụ nữ đội mũ vải màu be; cả hai không đội mũ bảo hiểm, mỗi người có một box class 2 riêng. Crop tập trung vào cặp người và xe, loại phần lớn các xe/người cạnh ảnh; không gán người đứng hoặc người đi bộ là rider. Không dùng nhãn dự đoán.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 24,
+      "nearest_active_id": "original_crops/image_179_jpg.rf.bc7b710a3ff7ceba8b9bf84eb358a4f7.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "One new Wikimedia Commons source in Vietnam, with per-image photographer credit, source page, license terms, and stored metadata snapshot; the group is train-only."
+}
