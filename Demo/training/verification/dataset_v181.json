@@ -1,0 +1,33 @@
+{
+  "snapshot": "dataset_v181",
+  "passed": true,
+  "parent_manifest_rows": 2217,
+  "rows_total": 2218,
+  "accepted_clean_images": 721,
+  "remaining_to_5000": 4279,
+  "pending_review_images": 1497,
+  "new_images": 1,
+  "new_box_counts": {
+    "0": 1,
+    "1": 1
+  },
+  "split_counts": {
+    "train": 577,
+    "val": 76,
+    "test": 68,
+    "pending": 1497
+  },
+  "parent_manifest_preserved_as_prefix": true,
+  "parent_image_assets_hardlinked": true,
+  "locked_test_ids_unchanged": true,
+  "new_crop_matches_source_pixels": true,
+  "new_source_image_and_label_hashes_verified": true,
+  "manual_review_overlay_present": true,
+  "source_group_train_only": true,
+  "near_duplicate_scan_passed": true,
+  "nearest_active_phash_distance": [
+    18,
+    "original_crops/campus_forecourt_image_219_rider_manual_v180.png"
+  ],
+  "portable_manifest_rows": 2218
+}

@@ -2,34 +2,32 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 720,
-  "remaining_to_goal": 4280,
+  "accepted_clean_images": 721,
+  "remaining_to_goal": 4279,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v180",
+  "snapshot": "dataset_v181",
   "accepted_split_counts": {
-    "train": 576,
+    "train": 577,
     "validation": 76,
     "test_locked": 68
   },
-  "newly_accepted_this_batch": 2,
+  "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
-    "0": 2,
-    "1": 1,
-    "2": 1
+    "0": 1,
+    "1": 1
   },
   "total_class_box_counts": {
-    "0": 1220,
-    "1": 626,
+    "0": 1221,
+    "1": 627,
     "2": 217
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v180.json",
+  "verification_report": "../verification/dataset_v181.json",
   "notes": [
     "Counts are manually reviewed unique image samples, not boxes.",
-    "Two distinct existing Vietnam campus_forecourt frames were manually cropped and labeled; full source frames and inherited labels remain unchanged and pending.",
-    "Source group group_0072 remains train-only; no model predictions were used as ground truth.",
-    "Four other visual candidates remained pending due to ambiguity or overlapping riders."
+    "One distinct, source-verified campus_forecourt frame was manually cropped; the original and labels remain unchanged and pending.",
+    "Source group group_0072 remains train-only; no model predictions were used as ground truth."
   ]
 }
