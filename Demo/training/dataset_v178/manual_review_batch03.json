@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v169",
+  "parent_manifest_sha256": "5c507d30b4f35fd807c4f15218738bd99b973c202a6193e14b50e7e843303e91",
+  "review_method": "manual pixel-level review of source frame and final crop overlay; no model labels",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "id": "original_crops/campus_parking_IMG_5076_MOV-39_manual_v170.png",
+      "source_image_id": "train/IMG_5076_MOV-39_jpg.rf.227f822ae455ca6d14532eb2b40ff451.jpg",
+      "source": "scene:campus_parking",
+      "source_group": "group_0585",
+      "source_video": "video:img_5076",
+      "source_sha256": "0067d09941bbe14490efd31c49ae7b48843aed775437ea2dbde732392737f99e",
+      "source_snapshot_label_sha256": "076ebbd1531aeee3575771ab56edd646eb7aca0c2195d688bc9219359cc3dfa5",
+      "crop": [
+        380,
+        35,
+        690,
+        620
+      ],
+      "labels": [
+        [
+          0,
+          0.483871,
+          0.673504,
+          0.903226,
+          0.601709
+        ],
+        [
+          2,
+          0.548387,
+          0.393162,
+          0.741935,
+          0.717949
+        ]
+      ],
+      "review_evidence": "review_evidence/manual_batch_05/campus_parking_IMG_5076_MOV-39_manual_v170_overlay.png",
+      "status": "accepted_manual_crop",
+      "location_evidence": "Existing user-provided dataset source row is marked source_verified=true; source scene is campus_parking."
+    }
+  ],
+  "pending_or_excluded": []
+}

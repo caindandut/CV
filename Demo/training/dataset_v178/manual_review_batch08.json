@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v172",
+  "parent_manifest_sha256": "85bf6d79a7a68c367cc7760e977968ed4e05e4fac7ef954dc5ee38288f66a34b",
+  "review_method": "Manual review of source pixels and final overlays; no model-generated labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "id": "kaggle-huan-v2/day_cam_14_00500_rider_manual_v173.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_14_00500",
+      "source_sha256": "0aed8d0f908092ffd2412860ba2f0b896a756e39ebfa6688c2d1095eb2bb1387",
+      "image_sha256": "2ee27dfd887c86134202caefa57d1fc061f2432f5b4c4085ac5670119e856a92",
+      "label_sha256": "99ab1fd258799bbe9b70b917814c945e5489d61299b4b3b069ceed5c540b635a",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.5125,
+          0.452083,
+          0.425,
+          0.295833
+        ],
+        [
+          1,
+          0.558333,
+          0.34375,
+          0.266667,
+          0.329167
+        ]
+      ],
+      "crop_xyxy": [
+        740,
+        420,
+        980,
+        660
+      ],
+      "review_evidence": "review_evidence/manual_batch_08/kaggle-huan-v2__day_cam_14_00500_rider_manual_v173_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối ở độ phân giải gốc. Một người ngồi lái xe máy quay ngang, đội mũ bảo hiểm đỏ; một xe máy nhìn rõ. Crop chỉ giữ rider và xe mục tiêu, không có rider khác trong vùng. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 14,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_24_00302.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; khung này có biển hiệu/biển báo đường phố Việt Nam. Camera/city cụ thể và tác giả video không được nêu."
+    },
+    {
+      "id": "kaggle-huan-v2/day_cam_18_00500_rider_manual_v173.png",
+      "source_image_id": "kaggle:huanhuyle/vietnam-traffic-detection:v2:day_cam_18_00500",
+      "source_sha256": "ba80e7ffdfbd0ca585224233fc5323c5df555f5c03897ff291976f72619738cb",
+      "image_sha256": "4beb1ee952ef7e40c90b7ee2f4a0d45f7b02f27d363142e793c60da332fee877",
+      "label_sha256": "9fe50d118b17f9008620618a6e49de6bc8432c96904bbda71cb2b43bbda6ab6c",
+      "status": "accepted_manual_crop",
+      "labels": [
+        [
+          0,
+          0.583333,
+          0.629167,
+          0.35,
+          0.325
+        ],
+        [
+          1,
+          0.6125,
+          0.425,
+          0.341667,
+          0.583333
+        ]
+      ],
+      "crop_xyxy": [
+        540,
+        300,
+        780,
+        540
+      ],
+      "review_evidence": "review_evidence/manual_batch_08/kaggle-huan-v2__day_cam_18_00500_rider_manual_v173_overlay.png",
+      "reason": "Rà thủ công khung camera gốc và overlay crop cuối. Một người ngồi trên xe tay ga, đội mũ bảo hiểm hồng; box class 1 theo người nhìn thấy, box class 0 theo xe nhìn thấy. Các rider khác ngoài crop; không có người/xe không nhãn lọt vào crop. Không dùng dự đoán mô hình.",
+      "nearest_active_phash_distance": 14,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_24_00702.png",
+      "license": "Apache 2.0",
+      "location_evidence": "Nguồn huanhuyle/vietnam-traffic-detection v2 là bộ khung hình giao thông Việt Nam; trong khung có biển hạn chế giao thông với khung giờ kiểu Việt Nam và biển hiệu đường phố. Camera/city cụ thể và tác giả video không được nêu."
+    }
+  ],
+  "pending_or_excluded": [
+    {
+      "archive_entry": "images/train/day_cam_04_00500.jpg",
+      "status": "excluded",
+      "reason": "High overhead angle; riders too small to determine helmet state reliably."
+    },
+    {
+      "archive_entry": "images/train/day_cam_09_00500.jpg",
+      "status": "excluded",
+      "reason": "High overhead angle; distant road users are too small for rider/helmet labels."
+    },
+    {
+      "archive_entry": "images/train/day_cam_07_00500.jpg",
+      "status": "excluded",
+      "reason": "Distant CCTV traffic; insufficient native detail for confident rider and helmet labels."
+    }
+  ],
+  "source_license_note": "Kaggle v2 public metadata reports Apache 2.0; source frames, hashes, download URLs, metadata and manual crop overlays are retained."
+}

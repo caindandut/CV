@@ -2,33 +2,33 @@
   "schema_version": 1,
   "as_of": "2026-11-01",
   "goal_images": 5000,
-  "accepted_clean_images": 715,
-  "remaining_to_goal": 4285,
+  "accepted_clean_images": 716,
+  "remaining_to_goal": 4284,
   "pending_review_images": 1497,
-  "snapshot": "dataset_v177",
+  "snapshot": "dataset_v178",
   "accepted_split_counts": {
-    "train": 571,
+    "train": 572,
     "validation": 76,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 1,
   "new_batch_class_box_counts": {
-    "0": 1,
+    "0": 2,
     "1": 1
   },
   "total_class_box_counts": {
-    "0": 1213,
-    "1": 620,
+    "0": 1215,
+    "1": 621,
     "2": 216
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v177.json",
+  "verification_report": "../verification/dataset_v178.json",
   "notes": [
-    "Counts are manually reviewed unique image samples, not boxes.",
-    "One native pixel crop from a previously unused Huanhuyle v2 Vietnam traffic frame were manually labeled and reviewed.",
-    "Source group group_2029 remains train-only; no model predictions were used as ground truth.",
-    "Apache 2.0 source metadata and per-image attribution are retained."
+    "Counts are manually reviewed unique images, not boxes.",
+    "One full-resolution, manually reviewed Wikimedia Commons image is added; original pixels are preserved and labels are separate.",
+    "Required attribution, CC BY-SA terms, source metadata, and personality-rights warning are recorded per image.",
+    "The accepted inventory is 716 of 5,000; 4,284 accepted unique images remain to meet the goal."
   ]
 }
