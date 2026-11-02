@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-01",
+  "parent": "dataset_v198",
+  "parent_manifest_sha256": "d4460f124e047580c93c4f764ea8860c45cd6c048767aeed765b151204a3e285",
+  "review_method": "Manual visual review of DataSet2 frames and final crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 1,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-01_batch34",
+      "id": "user_provided/video_5137/IMG_5137_MOV-21_rider_manual_v199.png",
+      "source_image_id": "video:img_5137#IMG_5137_MOV-21",
+      "source": "user_provided_DataSet2:img_5137",
+      "source_group": "group_1128",
+      "source_sha256": "24532599c6e376bc50701ca71b1e4946ff22cf1a7fec754e133ac507e6c19318",
+      "source_row_id": "train/IMG_5137_MOV-21_jpg.rf.25a884fb60ca648abb5138615f32c1e9.jpg",
+      "crop": [
+        475,
+        122,
+        829,
+        666
+      ],
+      "image_sha256": "15340f5a3916534e606a328d06e706b9487e9e5f069a7bebb84e8b28cfaf81f1",
+      "label_sha256": "8e762b9a94262d73783d7395865d889ac40f9825731d75665b8f6ae67b1215df",
+      "labels": [
+        [
+          0,
+          0.498673,
+          0.641849,
+          0.604138,
+          0.462178
+        ],
+        [
+          1,
+          0.549331,
+          0.464509,
+          0.510955,
+          0.673013
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.509008,
+          0.654397,
+          0.167082,
+          0.349201
+        ],
+        [
+          0,
+          0.714368,
+          0.650762,
+          0.101752,
+          0.249651
+        ],
+        [
+          1,
+          0.849557,
+          0.54259,
+          0.092164,
+          0.414328
+        ],
+        [
+          1,
+          0.523018,
+          0.520407,
+          0.141311,
+          0.508499
+        ],
+        [
+          1,
+          0.726581,
+          0.481785,
+          0.115175,
+          0.349268
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_34/user_provided__video_5137__IMG_5137_MOV-21_rider_manual_v199_overlay.jpg",
+      "reason": "Rà thủ công toàn khung 1280×720 và overlay crop cuối. Một người đang ngồi/lái xe, đội mũ bảo hiểm xanh đậm nhìn rõ; một xe máy riêng biệt nhìn rõ. Crop [475, 122, 829, 666] giữ trọn người và xe, loại hai người đi xe kế bên; cả hai hộp nguồn nằm trọn trong crop. Không dùng dự đoán mô hình.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "user_provided/video_5137/IMG_5137_MOV-59_rider_manual_v191.png",
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. One additional frame was individually reviewed from existing Vietnam-verified validation-only source group group_1128. The source manifest has no public page, named author, standard license terms, or raw-video checksum; this limitation is preserved in source_metadata and attribution."
+}

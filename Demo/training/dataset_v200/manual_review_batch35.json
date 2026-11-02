@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-02",
+  "parent": "dataset_v199",
+  "parent_manifest_sha256": "f09410f7272efc0cbcd3ef395168c2405f22872531e9c97de94e587804900dea",
+  "review_method": "Manual visual review of the full DataSet2 source frame; corrected labels and exclusion of transformed duplicates. No model pseudo-labels.",
+  "accepted_new_images": 1,
+  "excluded_duplicates": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-02_batch35",
+      "id": "user_provided/video_5126/IMG_5126_MOV-22_scene_manual_v200.jpg",
+      "source_image_id": "video:img_5126#IMG_5126_MOV-22",
+      "source": "user_provided_DataSet2:img_5126",
+      "source_group": "group_1128",
+      "source_sha256": "dcbc21028123f8b5a6963d22d1e85301c69f0e5f46493fc561a6e16250e51b28",
+      "source_row_id": "train/IMG_5126_MOV-22_jpg.rf.55550a4d6092f136e0973ae5860ab02b.jpg",
+      "crop": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "image_sha256": "dcbc21028123f8b5a6963d22d1e85301c69f0e5f46493fc561a6e16250e51b28",
+      "label_sha256": "ff2c148984f75a198a494d6fba44e694ddb023247b555e34e336f6bde60aa2b2",
+      "labels": [
+        [
+          0,
+          0.159766,
+          0.590278,
+          0.189844,
+          0.444444
+        ],
+        [
+          0,
+          0.349609,
+          0.550694,
+          0.171094,
+          0.393056
+        ],
+        [
+          0,
+          0.545312,
+          0.526389,
+          0.134375,
+          0.369444
+        ],
+        [
+          1,
+          0.147656,
+          0.434028,
+          0.207813,
+          0.545833
+        ],
+        [
+          1,
+          0.357031,
+          0.436806,
+          0.176563,
+          0.601389
+        ],
+        [
+          1,
+          0.55625,
+          0.413889,
+          0.128125,
+          0.522222
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.354229,
+          0.604118,
+          0.173834,
+          0.283415
+        ],
+        [
+          0,
+          0.166499,
+          0.577896,
+          0.175661,
+          0.467637
+        ],
+        [
+          0,
+          0.552147,
+          0.535282,
+          0.114413,
+          0.300115
+        ],
+        [
+          1,
+          0.17759,
+          0.42511,
+          0.166801,
+          0.518633
+        ],
+        [
+          1,
+          0.36328,
+          0.410182,
+          0.153115,
+          0.463595
+        ],
+        [
+          2,
+          0.60147,
+          0.321272,
+          0.059555,
+          0.185362
+        ],
+        [
+          1,
+          0.538439,
+          0.374138,
+          0.086544,
+          0.364622
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_35/user_provided__video_5126__IMG_5126_MOV-22_scene_manual_v200_overlay.svg",
+      "reason": "Rà thủ công toàn khung cổng trường 1280×720. Ba xe máy và ba người ngồi/lái đều nhìn rõ; mỗi xe và người có hộp riêng. Cả ba người đội mũ bảo hiểm nhìn rõ nên gán class 1; không có class 2. Người đi bộ/masked pedestrian ở tiền cảnh không được gán. Không dùng dự đoán mô hình. Hai biến thể của cùng khung được loại là bản trùng.",
+      "exact_duplicate": false,
+      "reviewer": "Codex manual visual review"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "train/IMG_5126_MOV-22_jpg.rf.2c7b581c2730cbf4eb1a3131925e6e8f.jpg",
+      "keep": "user_provided/video_5126/IMG_5126_MOV-22_scene_manual_v200.jpg",
+      "sha256": "3d5481d3cc0e8e8beda188da9e03e22cc72fd254b9724ac279e2c77bf6c43056",
+      "status": "duplicate",
+      "reason": "Manually reviewed as a transformed/near-identical variant of the same IMG_5126_MOV-22 frame. Canonical original retained once in dataset_v200."
+    },
+    {
+      "id": "train/IMG_5126_MOV-22_jpg.rf.80f0adc4b579135d25c79d20e3916360.jpg",
+      "keep": "user_provided/video_5126/IMG_5126_MOV-22_scene_manual_v200.jpg",
+      "sha256": "11c28229357628f131e93bb60d91203a43f745133aae91da620c17f4c3805f5f",
+      "status": "duplicate",
+      "reason": "Manually reviewed as a transformed/near-identical variant of the same IMG_5126_MOV-22 frame. Canonical original retained once in dataset_v200."
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. The source manifest has no public page, named author, standard license terms, or raw-video checksum; no open license is asserted."
+}

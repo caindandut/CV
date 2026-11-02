@@ -1,0 +1,17 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5126",
+  "source_row_id": "train/IMG_5126_MOV-22_jpg.rf.55550a4d6092f136e0973ae5860ab02b.jpg",
+  "source_frame_id": "IMG_5126_MOV-22",
+  "source_image_sha256": "dcbc21028123f8b5a6963d22d1e85301c69f0e5f46493fc561a6e16250e51b28",
+  "source_size": [
+    1280,
+    720
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country_evidence": "The parent manifest verifies DataSet2 video:img_5126 as Vietnam and records scene:campus_gate; this frame is from the same verified source. The full scene includes a Vietnamese school gate.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on the user-confirmed ownership or permission recorded above.",
+  "recorded_at": "2026-11-02"
+}

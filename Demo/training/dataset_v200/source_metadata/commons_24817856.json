@@ -1,0 +1,109 @@
+{
+  "title": "File:022209 saigon2 1484 (3301632768).jpg",
+  "pageid": 24817856,
+  "timestamp": "2013-02-22T22:55:47Z",
+  "size": 131676,
+  "width": 800,
+  "height": 605,
+  "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/022209_saigon2_1484_%283301632768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "thumbwidth": 1280,
+  "thumbheight": 968,
+  "thumbattribs": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/022209_saigon2_1484_%283301632768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "decoding": "async",
+    "loading": "lazy",
+    "width": 1280,
+    "height": 968
+  },
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/022209_saigon2_1484_%283301632768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:022209_saigon2_1484_(3301632768).jpg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24817856",
+  "sha1": "b9320d1c3f758eef7c1bc798b987a389d7793641",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2013-02-22 22:55:47",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "022209 saigon2 1484 (3301632768)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Canon EOS 5D Mark II|Flickr images reviewed by File Upload Bot (Magnus Manske)|Motor scooters in Vietnam|Motorcycles in Ho Chi Minh City|Photographs of Vietnam by Christopher Michel",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Men riding a scooter in Ho Chi Minh City",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2009-02-22 16:20",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/cmichel67/3301632768/\">022209_saigon2_1484.jpg</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Christopher_Michel\" class=\"extiw\" title=\"w:en:Christopher Michel\"><span title=\"American entrepreneur, photographer, and investor\">Christopher Michel</span></a></bdi>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "mime": "image/jpeg",
+  "provenance": [
+    "Category:Motor scooters in Vietnam"
+  ],
+  "review_status": "unreviewed",
+  "download_sha256": "d5491c7be5a97ad699a872ad000c414840b97358677f003906e3e0ba03f83787",
+  "downloaded_at_utc": "2026-11-01T06:32:18.767916+00:00",
+  "download_size": [
+    800,
+    605
+  ],
+  "local_image": "images/commons_24817856.jpg"
+}

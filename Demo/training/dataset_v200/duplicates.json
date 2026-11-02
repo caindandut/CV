@@ -1,0 +1,49 @@
+[
+  {
+    "id": "valid/IMG_5286_mp4-0_jpg.rf.8f28858ce95be8b62ba42c54f90b33b0.jpg",
+    "keep": "train/IMG_5286_mp4-0_jpg.rf.583a3afe80e443cfaf164b4bfe11ddf1.jpg",
+    "sha256": "8ab92ed22c57fa79fbf4c4a0182a6033bd06fadc71be53279ce176e4a5629316"
+  },
+  {
+    "id": "train/IMG_5286_mp4-6_jpg.rf.fe1dee33a2c808e719c29b04fd4a6718.jpg",
+    "keep": "train/IMG_5286_mp4-12_jpg.rf.226ae07f8767946f9405babad0a794e1.jpg",
+    "sha256": "9441e972e32f596a2bc7f34296e52849e5384ff9de089223b54e4cd42508d400"
+  },
+  {
+    "id": "train/IMG_5286_mp4-2_jpg.rf.0c6d8f3ab674e079527eda95db35d01c.jpg",
+    "keep": "train/IMG_5286_mp4-1_jpg.rf.e0df1ffe6fc6e61aaa5e431d601025e3.jpg",
+    "sha256": "b78bec81a59d2ddcb8d5ccc7cf90a7dd565ba7e2dd1260f568ac55bb9e43d507"
+  },
+  {
+    "id": "valid/IMG_5286_mp4-10_jpg.rf.406560277e0ce95f634f006673d20fbf.jpg",
+    "keep": "train/IMG_5286_mp4-5_jpg.rf.63359fea114876705a325dd0638842fa.jpg",
+    "sha256": "0ce3902b1b1c203ee9794068d2f82f4e85557e49641278ba397b5a32a120ba4d"
+  },
+  {
+    "id": "train/IMG_5286_mp4-6_jpg.rf.b770169a5c1ed8871fd73aa06a044f14.jpg",
+    "keep": "test/IMG_5286_mp4-3_jpg.rf.148ee53682e78438b17045a9a1fead60.jpg",
+    "sha256": "b83e73a4e6ced3d3e37164e0e37565157c83e534c0f5097b00b34884cc386fc1"
+  },
+  {
+    "id": "valid/IMG_5286_mp4-4_jpg.rf.cc34a28496c3d83b251e5d924f9aeb86.jpg",
+    "keep": "train/IMG_5286_mp4-8_jpg.rf.349efe8d672fa83445505d18fb32c5e4.jpg",
+    "sha256": "c8c14542c50bd5d50e00069ad8ad4710af07be52f65cbccf66cc5a9145c4378d"
+  },
+  {
+    "id": "valid/IMG_5286_mp4-4_jpg.rf.a80bb61eec1dabba77618a5aee7e5524.jpg",
+    "keep": "test/IMG_5286_mp4-2_jpg.rf.e90208f53b75dd64e149aad1753279d2.jpg",
+    "sha256": "32bf0d46440902ad38ddf155affa3687953be46a20deee6cd9d907c6e5ab4de0"
+  },
+  {
+    "id": "train/IMG_5126_MOV-22_jpg.rf.2c7b581c2730cbf4eb1a3131925e6e8f.jpg",
+    "keep": "user_provided/video_5126/IMG_5126_MOV-22_scene_manual_v200.jpg",
+    "sha256": "3d5481d3cc0e8e8beda188da9e03e22cc72fd254b9724ac279e2c77bf6c43056",
+    "reason": "Same source frame as accepted canonical original; transformed variant excluded to prevent duplicate leakage."
+  },
+  {
+    "id": "train/IMG_5126_MOV-22_jpg.rf.80f0adc4b579135d25c79d20e3916360.jpg",
+    "keep": "user_provided/video_5126/IMG_5126_MOV-22_scene_manual_v200.jpg",
+    "sha256": "11c28229357628f131e93bb60d91203a43f745133aae91da620c17f4c3805f5f",
+    "reason": "Same source frame as accepted canonical original; transformed variant excluded to prevent duplicate leakage."
+  }
+]
