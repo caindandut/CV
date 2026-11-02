@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-02",
+  "snapshot": "dataset_v201",
+  "parent": "dataset_v200",
+  "parent_manifest_sha256": "01823ff7a8a9aa5f5273141824f7e3baa221cec13b2375e1b331c0bfb8dc3df8",
+  "review_method": "Manual visual review of full-resolution image frames and source metadata; no model pseudo-labels.",
+  "accepted_new_images": 0,
+  "excluded_duplicates": 2,
+  "accepted": [],
+  "excluded": [
+    {
+      "id": "train/IMG_5142_MOV-8_jpg.rf.de05f58b2c66179fc50fa79eef89c5ba.jpg",
+      "keep": "train/IMG_5142_MOV-8_jpg.rf.b663502e8b2915f1fdbe765142f6268f.jpg",
+      "sha256": "a653a40e7bc85440dc991af5f733414f559189d90c1dfa8872ab8dbf841e47b7",
+      "label_sha256": "c96a8cd5e480d9fe3ed983fdd85458adea75ff053c3e7616583e0818cd619b81",
+      "phash": "1a64d83b4cce2cd7",
+      "status": "duplicate",
+      "source_image_id": "video:img_5142#IMG_5142_MOV-8",
+      "review_evidence": "review_evidence/manual_batch36/IMG_5142_MOV-8_duplicate_compare.jpg",
+      "reason": "Manual visual comparison at full 1280×720 resolution shows this file is the same IMG_5142_MOV-8 capture already retained in validation. It is a transformed JPEG variant; keep the clearer accepted canonical frame once and exclude this row."
+    },
+    {
+      "id": "train/IMG_5142_MOV-8_jpg.rf.fa2d7d4a6bd682c6cb60f662363e70dd.jpg",
+      "keep": "train/IMG_5142_MOV-8_jpg.rf.b663502e8b2915f1fdbe765142f6268f.jpg",
+      "sha256": "afe00b2b3df2439c4326e5dc55b2fe40ab22e2ec52caae7973919f11d34996b4",
+      "label_sha256": "320d5c43b7a4a54abb13a34e8ee115adfb47c97eafdc30ec2446bcfff9b7e468",
+      "phash": "1b28da3a4fce24d3",
+      "status": "duplicate",
+      "source_image_id": "video:img_5142#IMG_5142_MOV-8",
+      "review_evidence": "review_evidence/manual_batch36/IMG_5142_MOV-8_duplicate_compare.jpg",
+      "reason": "Manual visual comparison at full 1280×720 resolution shows this file is the same IMG_5142_MOV-8 capture already retained in validation. It is a transformed JPEG variant; keep the clearer accepted canonical frame once and exclude this row."
+    }
+  ],
+  "reviewed_candidates_not_added": [
+    {
+      "source_id": "commons:75820233",
+      "status": "source_already_represented",
+      "existing_dataset_id": "commons_vietnam/Motorbike_Egg_Delivery_HCMC_manual_v188.png",
+      "source_sha256": "10cb79db49ec2c8b0297e1090d1a9dcb5ffde822807e4f4c96f2d7cd4f9c4507",
+      "reason": "The exact Commons source image is already present as an accepted crop in dataset_v188. It cannot be counted again as a new image."
+    },
+    {
+      "source_id": "commons:529684",
+      "status": "excluded_ambiguous_background",
+      "record_url": "https://commons.wikimedia.org/wiki/File:HCMC_MotorcyclePolice_Jun2005.jpg",
+      "license": "CC BY-SA 2.5",
+      "reason": "Full image includes overlapping parked scooters behind a window and reflections, so the complete motorcycle inventory cannot be boxed confidently."
+    },
+    {
+      "source_id": "commons:17350778",
+      "status": "excluded_ambiguous_edges",
+      "record_url": "https://commons.wikimedia.org/wiki/File:Tourists_with_xe_om_in_Da_Lat.jpg",
+      "license": "CC BY 2.0",
+      "reason": "The full scene has overlapping bicycles/motorcycles, a standing person, and a clipped vehicle at the image edge; no crop cleanly isolates the target motorcycles."
+    },
+    {
+      "source_id": "commons:122475907",
+      "status": "excluded_dense_occlusion",
+      "record_url": "https://commons.wikimedia.org/wiki/File:Motorbike_queue.jpg",
+      "license": "CC0",
+      "reason": "Dense queue on a narrow bridge mixes many overlapping motorcycles/riders and a pedestrian; not clean enough for complete individual boxes."
+    }
+  ],
+  "external_downloads": 13,
+  "external_images_counted": 0,
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. No open license is asserted for them."
+}
