@@ -49,9 +49,11 @@
   "split_lock_sha256": "b1fb6b9c4cfe4f917c5a4f9dafcf4be692ac6ae6ba0c4a1672a95e096bae1f37",
   "statistics_sha256": "e1fa6d211074a7efb4e2d09df7de6400a1fbe3b24ccd0e76e019883148dd8faa",
   "review_batch_sha256": "7e309ed936c8d7c7f5e721dc3241a5c43ed85382a283a97486aea73150e875cc",
-  "duplicates_sha256": "5ccaf2bf3b44510be3830c71afceb22312d77e6dbc31943b603f1c9a2bce511f",
+  "duplicates_sha256": "9d63218b122755628689d6780bdf4933a274a7aeedc21725a9c84de593bd0b24",
   "changes_sha256": "c5f332b62f4a3e142cb9fc89d444aa8cc1938ade9892420eeab3a580213f0719",
   "attribution_sha256": "07feb6d943b18e9c3da9df54d50d717aba1a47d47b38cc3221062d9dfdd9da01",
   "usage_restrictions_sha256": "1db01a9638afd0ade80e8c2a967d87f2638891d9f70bba598287fce8a2d25f45",
-  "note": "Two individually reviewed train crops were added. Their source full frames remain pending, the locked test IDs are unchanged, and the reported 854 images remain unreconciled. The 5,000-image goal is not complete."
+  "note": "Two individually reviewed train crops were added. Their source full frames remain pending, the locked test IDs are unchanged, and the reported 854 images remain unreconciled. The 5,000-image goal is not complete. The unchanged duplicates.json blob was rehashed while verifying the parent snapshot; dataset_v201 reported a different duplicate-file checksum, so this report records the measured v202 input hash and preserves the parent value for audit.",
+  "parent_report_duplicates_sha256": "5ccaf2bf3b44510be3830c71afceb22312d77e6dbc31943b603f1c9a2bce511f",
+  "parent_duplicate_checksum_mismatch_corrected": true
 }
