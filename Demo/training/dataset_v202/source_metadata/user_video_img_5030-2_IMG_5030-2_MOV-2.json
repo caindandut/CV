@@ -1,0 +1,99 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5030-2",
+  "source_row_id": "train/IMG_5030-2_MOV-2_jpg.rf.b88c62d34a6cd8e594bee336e08e45ec.jpg",
+  "source_frame_id": "IMG_5030-2_MOV-2",
+  "source_image_sha256": "26891698b28cab84d5f3d1e967b53c854b8bd342190905b3d2baf81ad2b31d61",
+  "source_label_sha256": null,
+  "source_labels": [
+    [
+      0,
+      0.511072,
+      0.607925,
+      0.123634,
+      0.17658
+    ],
+    [
+      0,
+      0.320652,
+      0.59307,
+      0.104541,
+      0.167742
+    ],
+    [
+      0,
+      0.105008,
+      0.440133,
+      0.027154,
+      0.077821
+    ],
+    [
+      1,
+      0.320496,
+      0.537057,
+      0.064628,
+      0.194822
+    ],
+    [
+      1,
+      0.515684,
+      0.545446,
+      0.072213,
+      0.190458
+    ],
+    [
+      2,
+      0.117807,
+      0.408259,
+      0.016308,
+      0.079555
+    ],
+    [
+      2,
+      0.46616,
+      0.43907,
+      0.024409,
+      0.064825
+    ],
+    [
+      2,
+      0.349859,
+      0.466545,
+      0.021063,
+      0.109436
+    ],
+    [
+      1,
+      0.099244,
+      0.415175,
+      0.021502,
+      0.079563
+    ],
+    [
+      1,
+      0.289737,
+      0.499142,
+      0.048089,
+      0.136812
+    ]
+  ],
+  "source_size": [
+    1280,
+    720
+  ],
+  "crop": [
+    320,
+    290,
+    490,
+    510
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country": "VN",
+  "country_evidence": "The source manifest assigns this frame to group_0072 and scene:campus_forecourt. The dataset_v196 source metadata for video:img_5031-2 records Vietnam verification for the same group and scene; Vietnamese-language campus signage is also visible in this frame.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on user-confirmed ownership or permission.",
+  "review_method": "Manual visual review of the full 1280x720 frame and crop overlay; no model predictions.",
+  "review_reason": "The crop contains one motorcycle and two seated riders. The driver wears a hard-shell helmet; the passenger's exposed head is covered only by a fabric hood and has no helmet. A standing pedestrian at the right edge is not labeled. All visible target objects in the crop have separate boxes.",
+  "recorded_at": "2026-11-02"
+}

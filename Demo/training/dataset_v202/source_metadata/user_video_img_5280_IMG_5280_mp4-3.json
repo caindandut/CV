@@ -1,0 +1,18 @@
+{
+  "provider": "user-provided DataSet2",
+  "original_source": "video:img_5280",
+  "source_row_id": "valid/IMG_5280_mp4-3_jpg.rf.c76276283fd350e2b31da2a6ffce976c.jpg",
+  "source_frame_id": "IMG_5280_mp4-3",
+  "source_image_sha256": "bf8ae38bbaf6fba43b760a624f66bc76bcccb336fa310432f81308be7f4baeba",
+  "source_size": [
+    1280,
+    720
+  ],
+  "user_permission_confirmation": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+  "country": "VN",
+  "country_evidence": "The parent dataset identifies this DataSet2 image as scene:campus_parking in group_0585. Parent records for neighboring videos video:img_5279 and video:img_5290 in the same group verify Vietnam. This frame shows the same campus parking scene.",
+  "author": "Not separately documented in the source manifest.",
+  "public_source_url": null,
+  "standard_license": "Not separately documented; use is based on user-confirmed ownership or permission.",
+  "recorded_at": "2026-11-02"
+}

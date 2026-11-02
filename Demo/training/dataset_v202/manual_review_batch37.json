@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-02",
+  "parent": "dataset_v201",
+  "parent_manifest_sha256": "85a73dce7958172f6472750de2769597b7cd37069885601154238a0aa18a607f",
+  "review_method": "Manual visual review of both full 1280x720 DataSet2 source frames and final crop overlays; no model pseudo-labels.",
+  "accepted_new_images": 2,
+  "accepted": [
+    {
+      "batch": "manual_review_2026-11-02_batch37",
+      "id": "user_provided/video_5280/IMG_5280_mp4-3_rider_manual_v202.png",
+      "source_image_id": "video:img_5280#IMG_5280_mp4-3",
+      "source": "user_provided_DataSet2:img_5280",
+      "source_group": "group_0585",
+      "source_sha256": "bf8ae38bbaf6fba43b760a624f66bc76bcccb336fa310432f81308be7f4baeba",
+      "source_row_id": "valid/IMG_5280_mp4-3_jpg.rf.c76276283fd350e2b31da2a6ffce976c.jpg",
+      "crop": [
+        195,
+        195,
+        895,
+        720
+      ],
+      "image_sha256": "2c6d56ae7f094ab0563eea58b7a69353399a810e25506db73a32471aa1c7b207",
+      "label_sha256": "7354c3a185595a97c1b9b56a5454cc4dc3f918d305e322bd145f0b7aed180fd8",
+      "labels": [
+        [
+          0,
+          0.492857,
+          0.728571,
+          0.957143,
+          0.542857
+        ],
+        [
+          1,
+          0.382143,
+          0.502857,
+          0.607143,
+          0.95619
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.404187,
+          0.782652,
+          0.502227,
+          0.426165
+        ],
+        [
+          1,
+          0.35878,
+          0.640279,
+          0.305647,
+          0.70307
+        ]
+      ],
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "review_evidence": "review_evidence/manual_batch_37/user_provided__video_5280__IMG_5280_mp4-3_rider_manual_v202_overlay.jpg",
+      "reason": "Opened the full 1280x720 frame and reviewed the crop at source pixels. The foreground person is seated and driving, with a clearly visible hard-shell yellow helmet; the motorcycle is separately identifiable. Crop [195,195,895,720] removes the distant person and motorcycle at the upper left, retaining one clear rider and the visible motorcycle. Both boxes follow the visible extents and stop at the source frame boundary. No other target or pedestrian remains ambiguous inside the crop. No model predictions were used.",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 16,
+      "nearest_active_id": "kaggle-huan-v2/day_cam_24_00113.png",
+      "reviewer": "Codex manual visual review",
+      "phash": "e433e5963193836d",
+      "nearest_active_note": "Manual visual comparison: the nearest hash image is a different camera view with one small rider on an open road; this parking-lot rider/frame is visually distinct and remains in the same train partition.",
+      "source_label_sha256": null,
+      "country": "VN",
+      "country_evidence": "The parent dataset identifies this DataSet2 image as scene:campus_parking in group_0585. Parent records for neighboring videos video:img_5279 and video:img_5290 in the same group verify Vietnam. This frame shows the same campus parking scene.",
+      "metadata_file": "source_metadata/user_video_img_5280_IMG_5280_mp4-3.json",
+      "metadata_sha256": "42baa88cf632ef76ea2babf14e15c29d6ec84f3e84c30c02cadadf930285e55a"
+    },
+    {
+      "batch": "manual_review_2026-11-02_batch37",
+      "id": "user_provided/video_5030-2/IMG_5030-2_MOV-2_rider_manual_v202.png",
+      "source_image_id": "video:img_5030-2#IMG_5030-2_MOV-2",
+      "source": "user_provided_DataSet2:img_5030-2",
+      "source_group": "group_0072",
+      "source_sha256": "26891698b28cab84d5f3d1e967b53c854b8bd342190905b3d2baf81ad2b31d61",
+      "source_row_id": "train/IMG_5030-2_MOV-2_jpg.rf.b88c62d34a6cd8e594bee336e08e45ec.jpg",
+      "crop": [
+        320,
+        290,
+        490,
+        510
+      ],
+      "image_sha256": "2ff64d633c6d76e769079ac163dc662921daf97b415742cef4bc715d06bb25f4",
+      "label_sha256": "6a9f083c337be74df6a8cc0c0212bc39cad5664b529ea84f178c03b0e6222022",
+      "labels": [
+        [
+          0,
+          0.529412,
+          0.620455,
+          0.847059,
+          0.65
+        ],
+        [
+          1,
+          0.261765,
+          0.461364,
+          0.323529,
+          0.604545
+        ],
+        [
+          2,
+          0.561765,
+          0.454545,
+          0.429412,
+          0.654545
+        ]
+      ],
+      "source_labels_before_review": [
+        [
+          0,
+          0.511072,
+          0.607925,
+          0.123634,
+          0.17658
+        ],
+        [
+          0,
+          0.320652,
+          0.59307,
+          0.104541,
+          0.167742
+        ],
+        [
+          0,
+          0.105008,
+          0.440133,
+          0.027154,
+          0.077821
+        ],
+        [
+          1,
+          0.320496,
+          0.537057,
+          0.064628,
+          0.194822
+        ],
+        [
+          1,
+          0.515684,
+          0.545446,
+          0.072213,
+          0.190458
+        ],
+        [
+          2,
+          0.117807,
+          0.408259,
+          0.016308,
+          0.079555
+        ],
+        [
+          2,
+          0.46616,
+          0.43907,
+          0.024409,
+          0.064825
+        ],
+        [
+          2,
+          0.349859,
+          0.466545,
+          0.021063,
+          0.109436
+        ],
+        [
+          1,
+          0.099244,
+          0.415175,
+          0.021502,
+          0.079563
+        ],
+        [
+          1,
+          0.289737,
+          0.499142,
+          0.048089,
+          0.136812
+        ]
+      ],
+      "source_label_sha256": null,
+      "status": "corrected",
+      "source_verified": true,
+      "source_page_url": null,
+      "author": "Not separately documented",
+      "license": "User-confirmed permission; standard license terms not specified",
+      "license_basis": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
+      "country": "VN",
+      "country_evidence": "The source manifest assigns this frame to group_0072 and scene:campus_forecourt. The dataset_v196 source metadata for video:img_5031-2 records Vietnam verification for the same group and scene; Vietnamese-language campus signage is also visible in this frame.",
+      "metadata_file": "source_metadata/user_video_img_5030-2_IMG_5030-2_MOV-2.json",
+      "metadata_sha256": "ba194f31e2d3d03629ea3466b9dcbf454d4e6355a96819f4559052d1603b252d",
+      "review_evidence": "review_evidence/manual_batch_37/user_provided__video_5030-2__IMG_5030-2_MOV-2_rider_manual_v202_overlay.jpg",
+      "exact_duplicate": false,
+      "nearest_active_phash_distance": 20,
+      "nearest_active_id": "commons/commons_122488551.png",
+      "phash": "97bd5ce1f420289d",
+      "nearest_active_note": "Manual visual comparison with the closest active hash image shows a different single-rider view beside a canal; this crop contains a two-person motorcycle passing a campus forecourt. Same train partition; no cross-split group reuse.",
+      "reviewer": "Codex manual visual review",
+      "reason": "Opened the full 1280x720 source frame and reviewed the final crop overlay. Crop [320,290,490,510] isolates one complete visible scooter and its two seated riders, excluding nearby motorcycles/riders and leaving the standing pedestrian unannotated. The driver clearly wears a hard-shell blue helmet; the passenger has a visible head under a fabric hood and no helmet. Motorcycle and each rider have separate boxes. No model predictions were used."
+    }
+  ],
+  "source_note": "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos. Neither source manifest documents an author or standard license; no open license is asserted. Both full frames remain pending; only the two visually reviewed crops count."
+}
