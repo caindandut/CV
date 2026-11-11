@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1118,
-  "remaining_to_goal": 3882,
+  "accepted_clean_images": 1122,
+  "remaining_to_goal": 3878,
   "pending_review_images": 25,
-  "snapshot": "dataset_v210",
+  "snapshot": "dataset_v211",
   "accepted_split_counts": {
-    "train": 901,
-    "validation": 149,
+    "train": 904,
+    "validation": 150,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 8,
-    "1": 7,
-    "2": 2
+    "0": 9,
+    "1": 2,
+    "2": 3
   },
   "total_class_box_counts": {
-    "0": 1998,
-    "1": 1114,
-    "2": 595
+    "0": 2007,
+    "1": 1116,
+    "2": 598
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v210.json",
+  "verification_report": "../verification/dataset_v211.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -35,6 +35,7 @@
     "dataset_v207 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY-SA 2.0 / CC BY-SA 3.0), adding 23 clean bounding boxes including pillion passenger, father with unhelmeted child on Super Cub, pastry delivery carrier, and HCMC intersection. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,106.",
     "dataset_v208 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 4.0 / CC0), adding 20 clean bounding boxes including Sa Pa mountain highway, Hanoi intersection red light waiting line, and HCMC commuter traffic. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,110.",
     "dataset_v209 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 3.0 / CC BY-SA 3.0), adding 11 clean bounding boxes including coastal touring motorbiker, Hanoi Route 21A highway commuters, rural road commuter, and HCMC scooter parking. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,114.",
-    "dataset_v210 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.5 / CC BY 2.0 / CC BY-SA 3.0), adding 17 clean bounding boxes including mother with unhelmeted child on family motorbike (adding 2 rare class 2 boxes), HCMC commuter traffic, animal transport, and city street flow. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,118."
+    "dataset_v210 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.5 / CC BY 2.0 / CC BY-SA 3.0), adding 17 clean bounding boxes including mother with unhelmeted child on family motorbike (adding 2 rare class 2 boxes), HCMC commuter traffic, animal transport, and city street flow. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,118.",
+    "dataset_v211 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 3.0 / CC BY 2.0), adding 14 clean bounding boxes including Hanoi 1999 vintage commuter flow (adding 3 rare rider_without_helmet boxes), live animal transport on motorcycle, newspaper delivery on motorcycle with loudspeaker, and Hanoi guarded motorcycle parking. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,122."
   ]
 }

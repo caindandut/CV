@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch46",
+  "snapshot": "dataset_v211",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_1999_vintage_commuters_manual_v211.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rc1959_hanoi_vintage",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Rc1959",
+      "vietnam_context": "Hanoi 1999 vintage commuter traffic on street with 3 motorcycles and 3 riders without helmet.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_1999_vintage_commuters_manual_v211.png"
+    },
+    {
+      "image_id": "commons_vietnam/rural_animal_transport_cages_manual_v211.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bluesypete_pastry_delivery_northern",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "BluesyPete",
+      "vietnam_context": "Live animal transport on motorcycle with cage racks in rural Vietnam; rider with helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__rural_animal_transport_cages_manual_v211.png"
+    },
+    {
+      "image_id": "commons_vietnam/rural_newspaper_delivery_loudspeaker_manual_v211.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bluesypete_pastry_delivery_northern",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "BluesyPete",
+      "vietnam_context": "Newspaper delivery boy on motorcycle with loudspeaker in Vietnam; rider with helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__rural_newspaper_delivery_loudspeaker_manual_v211.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_guarded_motorcycle_parking_manual_v211.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_arian_zwegers_hanoi_parking",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Arian Zwegers",
+      "vietnam_context": "Guarded motorcycle parking in Hanoi with 4 clearly visible parked motorbikes.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_guarded_motorcycle_parking_manual_v211.png"
+    }
+  ]
+}

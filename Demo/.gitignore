@@ -50,3 +50,5 @@ __pycache__/
 !/training/dataset_v209/**
 !/training/dataset_v210/
 !/training/dataset_v210/**
+!/training/dataset_v211/
+!/training/dataset_v211/**
