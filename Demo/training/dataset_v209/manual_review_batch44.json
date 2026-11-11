@@ -1,0 +1,134 @@
+{
+  "batch": 44,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v209",
+  "parent": "dataset_v208",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 4,
+  "held_pending_or_excluded_count": 4,
+  "accepted": [
+    {
+      "id": "commons_vietnam/coastal_highway_motorbiker_manual_v209.png",
+      "pageid": 113561568,
+      "author": "Vinnie Cartabiano",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Coastal highway, Vietnam; touring motorbiker on motorcycle wearing full-face safety helmet."
+    },
+    {
+      "id": "commons_vietnam/Hanoi_route21A_highway_traffic_manual_v209.png",
+      "pageid": 29944501,
+      "author": "Obakeneko",
+      "license": "CC BY 3.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 2
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 2
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "National Route 21A, Hanoi, Vietnam; passing highway commuters on motorbikes."
+    },
+    {
+      "id": "commons_vietnam/rural_road_rider_cattle_manual_v209.png",
+      "pageid": 24817609,
+      "author": "Christopher Michel",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Rural Vietnam road with local commuter on motorcycle wearing helmet."
+    },
+    {
+      "id": "commons_vietnam/HCMC_DD01_motorcycle_parking_manual_v209.png",
+      "pageid": 30112783,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 0
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City, Vietnam; dedicated motorcycle parking area with parked commuter scooters."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 175452980,
+      "title": "File:Vietnam by Motorcycle Banner.jpg",
+      "reason": "Wide aspect banner with high crop distortion; excluded under quality contract."
+    },
+    {
+      "pageid": 79311754,
+      "title": "File:Vietnamese People's Army Motorcycle Vector.png",
+      "reason": "Synthetic SVG vector graphic; excluded under Rule 24 (photographic sensors only)."
+    },
+    {
+      "pageid": 86352166,
+      "title": "File:Vietnam Bike Run.jpg",
+      "reason": "US veteran motorcycle rally event outside Vietnam; excluded under geographic provenance rule."
+    },
+    {
+      "pageid": 145321181,
+      "title": "File:Vietnam 1999.Hanoi (33).jpg",
+      "reason": "Historical film photograph; deferred to separate historical domain sprint."
+    }
+  ]
+}
