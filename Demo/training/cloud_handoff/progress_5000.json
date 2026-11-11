@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1162,
-  "remaining_to_goal": 3838,
+  "accepted_clean_images": 1166,
+  "remaining_to_goal": 3834,
   "pending_review_images": 25,
-  "snapshot": "dataset_v221",
+  "snapshot": "dataset_v222",
   "accepted_split_counts": {
-    "train": 934,
-    "validation": 160,
+    "train": 937,
+    "validation": 161,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 6,
-    "1": 11,
+    "0": 14,
+    "1": 13,
     "2": 2
   },
   "total_class_box_counts": {
-    "0": 2086,
-    "1": 1187,
-    "2": 602
+    "0": 2100,
+    "1": 1200,
+    "2": 604
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v221.json",
+  "verification_report": "../verification/dataset_v222.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -46,6 +46,7 @@
     "dataset_v218 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0), adding 13 clean bounding boxes including Sa Pa mountain street commuter, Da Nang Con Market intersection traffic, Can Tho ferry commuters queue, and Hoi An ancient street parked motorcycle. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,150.",
     "dataset_v219 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including Da Nang Han Market intersection commuters, Can Tho 30 Thang 4 boulevard traffic, Quang Ngai street parked vintage Suzuki motorcycle, and Da Lat Khu Hoa Binh designated motorcycle parking. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,154.",
     "dataset_v220 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY 3.0 / CC BY-SA 4.0 / CC BY-SA 3.0), adding 18 clean bounding boxes including Hanoi Ta Hien Old Quarter parked scooter, HCMC Bach Dang Binh Thanh street commuters, central Ho Chi Minh City dense traffic commuters, and Da Lat Doi Cu lakefront commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,158.",
-    "dataset_v221 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY 2.0 / CC BY 4.0), adding 19 clean bounding boxes including Hanoi traffic police patrol motorcycle (2x CSGT helmeted officers), red Honda Future with 2 rare unhelmeted commuters (bucket hat and cloth cap), Ngo Gia Tu street touring commuters on Suzuki motorbike, and dense Ho Chi Minh City traffic flow. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,162."
+    "dataset_v221 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY 2.0 / CC BY 4.0), adding 19 clean bounding boxes including Hanoi traffic police patrol motorcycle (2x CSGT helmeted officers), red Honda Future with 2 rare unhelmeted commuters (bucket hat and cloth cap), Ngo Gia Tu street touring commuters on Suzuki motorbike, and dense Ho Chi Minh City traffic flow. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,162.",
+    "dataset_v222 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY-SA 3.0 / CC BY 4.0 / CC BY-SA 2.0), adding 29 clean bounding boxes including Ho Chi Minh City intersection commuters (with unhelmeted child standing on scooter), crosswalk intersection traffic commuters on scooters/motorcycles, HCMC dense street traffic flow, and Lang Son street unhelmeted man sitting on motorbike. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,166."
   ]
 }

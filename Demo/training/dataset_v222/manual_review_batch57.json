@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch57",
+  "snapshot": "dataset_v222",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/HCMC_Saigon_intersection_commuters_manual_v222.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_jorge_lascar_saigon",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Jorge Láscar",
+      "vietnam_context": "Dense urban commuter traffic approaching intersection in Ho Chi Minh City (Saigon), Vietnam, including helmeted commuters and an unhelmeted child standing on scooter.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_Saigon_intersection_commuters_manual_v222.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_city_intersection_traffic_manual_v222.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_christophe95_hcmc",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Christophe95",
+      "vietnam_context": "City traffic flow in Vietnam with motorcyclists and scooter riders wearing protective helmets waiting at crosswalk.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_city_intersection_traffic_manual_v222.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_street_life_traffic_flow_manual_v222.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_thomas_schoch_hcmc",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Thomas Schoch",
+      "vietnam_context": "Dense commuter motorcycle traffic flow in Ho Chi Minh City, Vietnam with commuters wearing helmets.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_street_life_traffic_flow_manual_v222.png"
+    },
+    {
+      "image_id": "commons_vietnam/LangSon_man_sitting_on_motorbike_manual_v222.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_adam_jones_langson",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Adam Jones",
+      "vietnam_context": "Unhelmeted man with bare head and sunglasses sitting on motorbike seat outside motorbike repair shop in Lang Son, Vietnam.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__LangSon_man_sitting_on_motorbike_manual_v222.png"
+    }
+  ]
+}

@@ -72,3 +72,5 @@ __pycache__/
 !/training/dataset_v220/**
 !/training/dataset_v221/
 !/training/dataset_v221/**
+!/training/dataset_v222/
+!/training/dataset_v222/**
