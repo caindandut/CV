@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch49",
+  "snapshot": "dataset_v214",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/HoiAn_chicken_transport_motorcycle_manual_v214.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_christophe95_hoian",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Christophe95",
+      "vietnam_context": "Chicken transportation on motorcycle loaded with transport cages in Hoi An; commuter rider with helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HoiAn_chicken_transport_motorcycle_manual_v214.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_art_of_transportation_manual_v214.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_staffan_scherz_hcmc",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Staffan Scherz",
+      "vietnam_context": "Art of Transportation in Ho Chi Minh City; motorcycle loaded with goods, rider with helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_art_of_transportation_manual_v214.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_motorcycles_for_hire_manual_v214.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rudolph_furtado_hcmc",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Rudolph.A.Furtado",
+      "vietnam_context": "Row of motorcycles for hire parked along street pavement in Ho Chi Minh City; 3 clearly visible vehicles.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_motorcycles_for_hire_manual_v214.png"
+    },
+    {
+      "image_id": "commons_vietnam/DaLat_3Thang2_street_commuters_manual_v214.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_diane_selwyn_dalat",
+      "license_verified": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "author": "Diane Selwyn",
+      "vietnam_context": "3 Tháng 2 Street in Da Lat, Vietnam; commuter rider with helmet riding motorcycle.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaLat_3Thang2_street_commuters_manual_v214.png"
+    }
+  ]
+}
