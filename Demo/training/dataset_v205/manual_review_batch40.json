@@ -1,0 +1,114 @@
+{
+  "batch": 40,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v205",
+  "parent": "dataset_v204",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 3,
+  "held_pending_or_excluded_count": 5,
+  "accepted": [
+    {
+      "id": "commons_vietnam/Saigon_motorbike_jam_reunification_manual_v205.png",
+      "pageid": 4479725,
+      "author": "Mike",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 5
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 4
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Saigon near Reunification Palace; license plates 52-T8 4555, 72-K3 6070, Vietnamese helmet law fine sign."
+    },
+    {
+      "id": "commons_vietnam/Hanoi_school_traffic_students_manual_v205.png",
+      "pageid": 142911212,
+      "author": "thalling55",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 6
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 0
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 7
+        }
+      ],
+      "location_evidence": "Hanoi school gate traffic, students with red scarves and uniforms, license plates 29-T7 1035, 29-K2 1102, 29-T9 0563."
+    },
+    {
+      "id": "commons_vietnam/HCMC_DD02_traffic_intersection_manual_v205.png",
+      "pageid": 30110166,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 5
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 5
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City intersection, QUÁN ĂN CÔNG ĐOÀN sign and Vietnamese traffic regulation signs."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 37247323,
+      "title": "Hanoi Vietnam Waiting-at-the-red-lights-01.jpg",
+      "reason": "Extreme close-up of rider head, motorcycle body not visible; excluded under Rule 24 and Rule 29."
+    },
+    {
+      "pageid": 131676313,
+      "title": "Motorbikes in Hanoi (22901065530).jpg",
+      "reason": "Parked motorcycles along West Lake with severe ultra-wide/fisheye distortion and no riders; held pending."
+    },
+    {
+      "pageid": 114818932,
+      "title": "Hàng Giầy Street, Hanoi, Vietnam 07.jpg",
+      "reason": "Low-light night street scene, pedestrians walking next to parked bike, no active riders; held pending."
+    },
+    {
+      "pageid": 24488443,
+      "title": "Hanoi, motorcycle parking (6222936861).jpg",
+      "reason": "Static parking lot with tightly packed motorbikes with covers, no active riders; held pending."
+    },
+    {
+      "pageid": 30110165,
+      "title": "Tráfico en Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.JPG",
+      "reason": "Extremely wide perspective with high occlusions; deferred to future batch."
+    }
+  ]
+}

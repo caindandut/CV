@@ -2,33 +2,34 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1095,
-  "remaining_to_goal": 3905,
+  "accepted_clean_images": 1098,
+  "remaining_to_goal": 3902,
   "pending_review_images": 25,
-  "snapshot": "dataset_v204",
+  "snapshot": "dataset_v205",
   "accepted_split_counts": {
-    "train": 884,
-    "validation": 143,
+    "train": 886,
+    "validation": 144,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 3,
   "new_batch_class_box_counts": {
-    "0": 3,
-    "1": 4,
-    "2": 0
+    "0": 16,
+    "1": 9,
+    "2": 7
   },
   "total_class_box_counts": {
-    "0": 1936,
-    "1": 1066,
-    "2": 583
+    "0": 1952,
+    "1": 1075,
+    "2": 590
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v204.json",
+  "verification_report": "../verification/dataset_v205.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
-    "dataset_v204 ingested 3 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY / CC-BY-SA), verified Vietnam location context, zero leakage between splits, and test split locked at 68 images. Total clean images reaches 1,095."
+    "dataset_v204 ingested 3 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY / CC-BY-SA), verified Vietnam location context, zero leakage between splits, and test split locked at 68 images. Total clean images reaches 1,095.",
+    "dataset_v205 ingested 3 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY / CC-BY-SA), adding 32 clean bounding boxes (including 7 rare rider_without_helmet boxes in Hanoi school traffic). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,098."
   ]
 }
