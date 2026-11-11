@@ -1,0 +1,134 @@
+{
+  "batch": 42,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v207",
+  "parent": "dataset_v206",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 4,
+  "held_pending_or_excluded_count": 4,
+  "accepted": [
+    {
+      "id": "commons_vietnam/Hanoi_HangBong_moto_pillion_manual_v207.png",
+      "pageid": 23467070,
+      "author": "McKay Savage",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Hanoi Hàng Bông street, plate 90-H5 2391, commuter motorcycle with green helmet pillion passenger."
+    },
+    {
+      "id": "commons_vietnam/Hanoi_LanOng_father_child_cub_manual_v207.png",
+      "pageid": 31660225,
+      "author": "Clay Gilliland",
+      "license": "CC BY-SA 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 4
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 2
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 1
+        }
+      ],
+      "location_evidence": "Hanoi Lãn Ông herbal medicine street, father and unhelmeted child on Honda Super Cub, parked scooters."
+    },
+    {
+      "id": "commons_vietnam/Northern_road_pastry_delivery_cub_manual_v207.png",
+      "pageid": 115770745,
+      "author": "BluesyPete",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Northern Vietnam rural road, pastry delivery rider with dark helmet and mask on Honda Super Cub with carrier baskets."
+    },
+    {
+      "id": "commons_vietnam/HCMC_DD01_traffic_intersection_manual_v207.png",
+      "pageid": 30110165,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 4
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 4
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City traffic intersection DD 01, dense motorcycle commuters, yellow helmet rider, blue jacket rider."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 29944501,
+      "title": "Vietnam-0539.jpg",
+      "reason": "Water buffalo crossing rural highway; rider on distant motorcycle partially obscured; held pending."
+    },
+    {
+      "pageid": 114818932,
+      "title": "Vietnam, Saigon, Street scene (48866763567).jpg",
+      "reason": "Wide shot with high motion blur on passing scooters; held pending resolution."
+    },
+    {
+      "pageid": 131676313,
+      "title": "Saigon Vietnam Street Scene 2018.jpg",
+      "reason": "Extremely dense cluster (>40 motorbikes); requires high-magnification sub-tiling; deferred to later sprint."
+    },
+    {
+      "pageid": 24488443,
+      "title": "Bikes in Hue, Vietnam.jpg",
+      "reason": "Overwhelmingly bicycles rather than motorized two-wheelers; excluded under Rule 24."
+    }
+  ]
+}

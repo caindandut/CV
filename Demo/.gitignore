@@ -42,3 +42,5 @@ __pycache__/
 !/training/dataset_v205/**
 !/training/dataset_v206/
 !/training/dataset_v206/**
+!/training/dataset_v207/
+!/training/dataset_v207/**
