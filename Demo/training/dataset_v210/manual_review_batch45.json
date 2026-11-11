@@ -1,0 +1,134 @@
+{
+  "batch": 45,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v210",
+  "parent": "dataset_v209",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 4,
+  "held_pending_or_excluded_count": 4,
+  "accepted": [
+    {
+      "id": "commons_vietnam/HCMC_mother_child_motorbike_manual_v210.png",
+      "pageid": 530295,
+      "author": "Roderick Divilbiss",
+      "license": "CC BY-SA 2.5",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 0
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 2
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City, Vietnam; mother with sun visor and child without helmet on commuter motorcycle."
+    },
+    {
+      "id": "commons_vietnam/HCMC_commuter_motorcycles_street_manual_v210.png",
+      "pageid": 17515132,
+      "author": "Nam-ho Park",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City street traffic, commuter motorbikes with helmeted riders."
+    },
+    {
+      "id": "commons_vietnam/HCMC_animal_transport_motorcycle_manual_v210.png",
+      "pageid": 196365,
+      "author": "Kordian Kassner",
+      "license": "CC BY-SA 2.5",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City, Vietnam; motorcycle animal transport with pig in iron basket cage."
+    },
+    {
+      "id": "commons_vietnam/HCMC_urban_verkehr_traffic_manual_v210.png",
+      "pageid": 124405,
+      "author": "Andre Lettau",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City urban traffic flow with commuters on Honda/Yamaha motorbikes."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 1960733,
+      "title": "File:Motorcycles of Ho Chi Minh City.jpg",
+      "reason": "Low resolution (640x427) below minimum threshold; excluded under quality contract."
+    },
+    {
+      "pageid": 17529717,
+      "title": "File:Xích lô.jpg",
+      "reason": "Cyclo passenger pedal transport; excluded under Rule 24 (non-motorcycle)."
+    },
+    {
+      "pageid": 40539018,
+      "title": "File:Vietnam (3998449040).jpg",
+      "reason": "Extreme motion blur on night traffic; held pending."
+    },
+    {
+      "pageid": 24297296,
+      "title": "File:SAIGON (2042419908).jpg",
+      "reason": "Overexposed street panorama; motorcycles >100m in distance; held pending."
+    }
+  ]
+}
