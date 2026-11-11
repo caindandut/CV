@@ -1,0 +1,134 @@
+{
+  "batch": 43,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v208",
+  "parent": "dataset_v207",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 4,
+  "held_pending_or_excluded_count": 4,
+  "accepted": [
+    {
+      "id": "commons_vietnam/SaPa_TaPhin_mountain_motorcycle_manual_v208.png",
+      "pageid": 88854334,
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Sa Pa to Tả Phìn mountain highway, motorcycle with rider in helmet."
+    },
+    {
+      "id": "commons_vietnam/Hanoi_intersection_red_light_manual_v208.png",
+      "pageid": 37247323,
+      "author": "Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Hanoi traffic intersection waiting line at red light, multiple motorcycle riders in helmets."
+    },
+    {
+      "id": "commons_vietnam/HCMC_commuter_motorbikes_traffic_manual_v208.png",
+      "pageid": 86056481,
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City street commuters on motorcycles with helmets."
+    },
+    {
+      "id": "commons_vietnam/HCMC_avenue_motorbikers_manual_v208.png",
+      "pageid": 61737989,
+      "author": "Frank McKenna",
+      "license": "CC0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City avenue motorbikers traveling in daytime traffic."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 185887572,
+      "title": "File:Minsk Motorcycle Vietnam Tourist.jpg",
+      "reason": "Tourist polishing parked Minsk motorcycle beside building; no active traffic rider; held pending."
+    },
+    {
+      "pageid": 64630100,
+      "title": "File:Vietnam-bike-tours.jpg",
+      "reason": "Bicycle tour on Highway 1; excluded under Rule 24 (bicycles)."
+    },
+    {
+      "pageid": 115770740,
+      "title": "File:Vietnam-0648.jpg",
+      "reason": "Near-duplicate sequence frame of 115770739 (BluesyPete pig transport); held pending."
+    },
+    {
+      "pageid": 17186618,
+      "title": "File:Bridge motorcycle Vietnam.jpg",
+      "reason": "Long shot bridge panorama; motorcycles represent <15px bounding width; deferred to high-res sprint."
+    }
+  ]
+}
