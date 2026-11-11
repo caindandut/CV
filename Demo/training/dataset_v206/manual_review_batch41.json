@@ -1,0 +1,134 @@
+{
+  "batch": 41,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v206",
+  "parent": "dataset_v205",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 4,
+  "held_pending_or_excluded_count": 4,
+  "accepted": [
+    {
+      "id": "commons_vietnam/HCMC_motorcycle_police_patrol_manual_v206.png",
+      "pageid": 529684,
+      "author": "Roderick Divilbiss",
+      "license": "CC BY-SA 2.5",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 2
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "HCMC police patrol motorcycle, CSGT & CSCD officers, license 31-A1 0455."
+    },
+    {
+      "id": "commons_vietnam/Northern_highway_pig_transport_manual_v206.png",
+      "pageid": 115770739,
+      "author": "BluesyPete",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 4
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 2
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 2
+        }
+      ],
+      "location_evidence": "Northern Vietnam national highway, pig cargo transport, truck plate 29X-2070, cap/non coi riders."
+    },
+    {
+      "id": "commons_vietnam/Northern_road_tree_cargo_rider_manual_v206.png",
+      "pageid": 115770748,
+      "author": "BluesyPete",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 1
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 1
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Northern Vietnam road, tree nursery delivery on Honda Super Cub with front basket."
+    },
+    {
+      "id": "commons_vietnam/HCMC_DD04_traffic_yamaha_honda_manual_v206.png",
+      "pageid": 30110168,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "count": 3
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "count": 3
+        },
+        {
+          "cls": 2,
+          "name": "rider_without_helmet",
+          "count": 0
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City traffic, Vinasun Taxi in background, Yamaha scooter and Honda motorcycles."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 115770742,
+      "title": "Vietnam-0778.jpg",
+      "reason": "Bicycle carrying newspapers with loudspeaker, not a motorcycle; excluded under Rule 24."
+    },
+    {
+      "pageid": 145321196,
+      "title": "Vietnam 1999.Hanoi.Motocyclettes (8).jpg",
+      "reason": "Historical 1999 monochrome film photo, out of distribution with modern color traffic sensor data; deferred."
+    },
+    {
+      "pageid": 85840491,
+      "title": "Vietnam, Hanoi, Life on the streets of Hanoi.jpg",
+      "reason": "Parked motorcycles along Old Quarter street with high obstruction by cyclos and pedestrians; held pending."
+    },
+    {
+      "pageid": 115770740,
+      "title": "Vietnam-0648.jpg",
+      "reason": "Same sequence as 115770739; held pending to avoid near-duplicate redundancy within the same batch."
+    }
+  ]
+}
