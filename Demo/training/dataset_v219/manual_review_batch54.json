@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch54",
+  "snapshot": "dataset_v219",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/DaNang_HanMarket_intersection_manual_v219.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_dragfyre_danang",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Dragfyre",
+      "vietnam_context": "Commuter motorcyclists navigating the bustling street intersection outside Han Market in central Da Nang, Vietnam.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaNang_HanMarket_intersection_manual_v219.png"
+    },
+    {
+      "image_id": "commons_vietnam/CanTho_XuanTanMao_boulevard_traffic_manual_v219.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_dragfyre_danang",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Dragfyre",
+      "vietnam_context": "Commuters wearing helmets riding motorcycles along 30 Thang 4 boulevard beneath promotional banner in Can Tho, Mekong Delta.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__CanTho_XuanTanMao_boulevard_traffic_manual_v219.png"
+    },
+    {
+      "image_id": "commons_vietnam/QuangNgai_street_parked_vintage_bike_manual_v219.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Vintage Suzuki street motorcycle (license plate 76-V2 4806) parked in front of residential metal folding gate in Quang Ngai, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_street_parked_vintage_bike_manual_v219.png"
+    },
+    {
+      "image_id": "commons_vietnam/DaLat_KhuHoaBinh_designated_parking_manual_v219.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_diane_selwyn_dalat",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Diane Selwyn",
+      "vietnam_context": "Four prominent motorcycles parked in designated parking spaces along Khu Hoa Binh central street in Da Lat, Lam Dong, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaLat_KhuHoaBinh_designated_parking_manual_v219.png"
+    }
+  ]
+}
