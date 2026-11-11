@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 757,
-  "remaining_to_goal": 4243,
-  "pending_review_images": 1492,
-  "snapshot": "dataset_v202",
+  "accepted_clean_images": 1092,
+  "remaining_to_goal": 3908,
+  "pending_review_images": 25,
+  "snapshot": "dataset_v203",
   "accepted_split_counts": {
-    "train": 603,
-    "validation": 86,
+    "train": 882,
+    "validation": 142,
     "test_locked": 68
   },
-  "newly_accepted_this_batch": 2,
+  "newly_accepted_this_batch": 335,
   "new_batch_class_box_counts": {
-    "0": 2,
-    "1": 2,
-    "2": 1
+    "0": 668,
+    "1": 403,
+    "2": 352
   },
   "total_class_box_counts": {
-    "0": 1265,
-    "1": 659,
-    "2": 231
+    "0": 1933,
+    "1": 1062,
+    "2": 583
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v202.json",
+  "verification_report": "../verification/dataset_v203.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "The user confirmed on 2026-11-01 that they own or have permission to use the DataSet2 videos.",
@@ -35,6 +35,7 @@
     "The reported 854 clean images remains unreconciled because no matching durable image and label artifacts have been found.",
     "Local workspace writes are blocked by no space left on device; this update is being stored directly in GitHub.",
     "dataset_v202 manually reviewed two crops: IMG_5280_mp4-3 (one motorcycle and one helmeted seated rider) and IMG_5030-2_MOV-2 (one motorcycle, one helmeted driver, one unhelmeted passenger). Their full source frames remain pending.",
-    "The two crops come from DataSet2 videos with user-confirmed ownership or permission; no standard license or open license is asserted. The locked test split is unchanged."
+    "The two crops come from DataSet2 videos with user-confirmed ownership or permission; no standard license or open license is asserted. The locked test split is unchanged.",
+    "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock. Total clean images reaches 1,092."
   ]
 }
