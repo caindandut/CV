@@ -1,0 +1,139 @@
+{
+  "batch": 39,
+  "date": "2026-11-11",
+  "snapshot": "dataset_v204",
+  "parent": "dataset_v203",
+  "method": "manual pixel inspection and bounding box annotation; no model pseudo-labeling",
+  "reviewed_candidates_count": 8,
+  "accepted_images_count": 3,
+  "held_pending_or_excluded_count": 5,
+  "accepted": [
+    {
+      "id": "commons_vietnam/Saigon_taking_the_motos_pair_manual_v204.png",
+      "pageid": 23467066,
+      "author": "meaduva",
+      "license": "CC BY 2.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "xywh": [
+            0.4765,
+            0.74,
+            0.877,
+            0.52
+          ]
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "xywh": [
+            0.46,
+            0.533333,
+            0.416,
+            0.68
+          ]
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "xywh": [
+            0.6975,
+            0.576667,
+            0.365,
+            0.846667
+          ]
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City, Vietnam; traffic safety wall poster in Vietnamese 'VÌ CHÍNH MÌNH VÀ NGƯỜI THÂN'."
+    },
+    {
+      "id": "commons_vietnam/Sa_Pa_motorcycle_cargo_rider_manual_v204.png",
+      "pageid": 88854334,
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "assigned_split": "train",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "xywh": [
+            0.514286,
+            0.587097,
+            0.809524,
+            0.632258
+          ]
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "xywh": [
+            0.338095,
+            0.358065,
+            0.228571,
+            0.548387
+          ]
+        }
+      ],
+      "location_evidence": "Sa Pa, Lao Cai, Vietnam; mountainous road between Sa Pa and Ta Phin."
+    },
+    {
+      "id": "commons_vietnam/HCMC_DD_motorcyclist_foam_rolls_manual_v204.png",
+      "pageid": 30110164,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "assigned_split": "val",
+      "boxes": [
+        {
+          "cls": 0,
+          "name": "motorcycle",
+          "xywh": [
+            0.591667,
+            0.655882,
+            0.75,
+            0.617647
+          ]
+        },
+        {
+          "cls": 1,
+          "name": "rider_with_helmet",
+          "xywh": [
+            0.522917,
+            0.535294,
+            0.4875,
+            0.8
+          ]
+        }
+      ],
+      "location_evidence": "Ho Chi Minh City, Vietnam; urban intersection with CEP bank and Vietnamese traffic signs 'CẤM DỪNG CẤM ĐỖ'."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "pageid": 17186618,
+      "title": "Bridge motorcycle Vietnam.jpg",
+      "reason": "Motorcycles too distant and small for unambiguous helmet verification; held pending."
+    },
+    {
+      "pageid": 185887572,
+      "title": "Minsk Motorcycle Vietnam Tourist.jpg",
+      "reason": "Subject is standing next to motorcycle polishing it, not riding/seated; excluded under Rule 27."
+    },
+    {
+      "pageid": 24817609,
+      "title": "Vietnam & Cambodia (3336758253).jpg",
+      "reason": "Rider head cut off by frame edge, helmet status cannot be verified; excluded under Rule 29."
+    },
+    {
+      "pageid": 64630100,
+      "title": "Vietnam-bike-tours.jpg",
+      "reason": "Tourists standing in line in front of waterfalls holding helmets, not riding; excluded under Rule 27."
+    },
+    {
+      "pageid": 61737989,
+      "title": "Ho Chi Minh City motorbikers.jpg",
+      "reason": "Heavy artistic bokeh blur and multiple exposure, bounding boxes ambiguous; excluded under Rule 29."
+    }
+  ]
+}
