@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch53",
+  "snapshot": "dataset_v218",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/SaPa_mountain_street_commuter_manual_v218.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_christophe95_sapa",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Christophe95",
+      "vietnam_context": "Commuter wearing dark helmet riding Honda Wave motorcycle down a mountain street in Sa Pa, Lao Cai, Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__SaPa_mountain_street_commuter_manual_v218.png"
+    },
+    {
+      "image_id": "commons_vietnam/DaNang_ConMarket_intersection_commuters_manual_v218.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_dragfyre_danang",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Dragfyre",
+      "vietnam_context": "Multiple commuter motorcyclists wearing helmets navigating the intersection in front of Con Market in Da Nang, Vietnam.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaNang_ConMarket_intersection_commuters_manual_v218.png"
+    },
+    {
+      "image_id": "commons_vietnam/CanTho_ferry_commuters_manual_v218.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_yun_huang_yong_cantho",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Yun Huang Yong",
+      "vietnam_context": "Commuter motorcyclists wearing helmets waiting in queue at the Can Tho ferry terminal across the Hau River in the Mekong Delta.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__CanTho_ferry_commuters_manual_v218.png"
+    },
+    {
+      "image_id": "commons_vietnam/HoiAn_ancient_street_parked_bike_manual_v218.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_andrea_schaffer_hoian",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Andrea Schaffer",
+      "vietnam_context": "Motorcycle parked along ancient shopfront sidewalk in Hoi An, Quang Nam, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HoiAn_ancient_street_parked_bike_manual_v218.png"
+    }
+  ]
+}
