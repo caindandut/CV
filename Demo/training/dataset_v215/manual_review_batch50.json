@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch50",
+  "snapshot": "dataset_v215",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/NhaTrang_BinhTan_bridge_commuters_01_manual_v215.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_martin_lewison_nhatrang",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Martin Lewison",
+      "vietnam_context": "Bình Tân Bridge, Nha Trang; commuter rider with helmet riding motorcycle.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_BinhTan_bridge_commuters_01_manual_v215.png"
+    },
+    {
+      "image_id": "commons_vietnam/NhaTrang_BinhTan_bridge_commuters_02_manual_v215.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_martin_lewison_nhatrang",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Martin Lewison",
+      "vietnam_context": "Bình Tân Bridge, Nha Trang 02; commuter rider with helmet riding motorcycle.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_BinhTan_bridge_commuters_02_manual_v215.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_2024_commuters_manual_v215.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Hanoi's Old Quarter street commuters in November 2024; commuter with helmet on motorbike.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_2024_commuters_manual_v215.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_DongAnh_street_commuters_manual_v215.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_siriusblack299_donganh",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "SiriusBlack299",
+      "vietnam_context": "A street in Đông Anh Commune, Hanoi, Vietnam; commuter rider with bright red helmet on motorbike.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_DongAnh_street_commuters_manual_v215.png"
+    }
+  ]
+}
