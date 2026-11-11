@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch56",
+  "snapshot": "dataset_v221",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_police_patrol_motorcycle_manual_v221.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_jame_healy_police",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Jame Healy",
+      "vietnam_context": "Two Vietnamese traffic police officers (CSGT) in uniform and protective helmets on a white police patrol motorcycle in Vietnam.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_police_patrol_motorcycle_manual_v221.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_red_honda_unhelmeted_commuters_manual_v221.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_andrew_kneebone_redhonda",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Andrew Kneebone",
+      "vietnam_context": "Commuters traveling on red Honda Future in Vietnam with unhelmeted driver wearing bucket hat and passenger wearing cloth cap, plus background commuter.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_red_honda_unhelmeted_commuters_manual_v221.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_NgoGiaTu_touring_commuters_manual_v221.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_vinnie_cartabiano_vietnam",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Vinnie Cartabiano",
+      "vietnam_context": "Two touring motorcyclists wearing protective safety helmets on Suzuki motorcycle on Ngo Gia Tu street in Vietnam.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_NgoGiaTu_touring_commuters_manual_v221.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_heavy_traffic_commuters_manual_v221.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_thomas_schoch_hcmc",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Thomas Schoch",
+      "vietnam_context": "Dense commuter motorcycle traffic in Ho Chi Minh City, Vietnam with motorcyclists wearing helmets.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_heavy_traffic_commuters_manual_v221.png"
+    }
+  ]
+}
