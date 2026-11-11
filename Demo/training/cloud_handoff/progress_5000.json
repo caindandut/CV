@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1154,
-  "remaining_to_goal": 3846,
+  "accepted_clean_images": 1158,
+  "remaining_to_goal": 3842,
   "pending_review_images": 25,
-  "snapshot": "dataset_v219",
+  "snapshot": "dataset_v220",
   "accepted_split_counts": {
-    "train": 928,
-    "validation": 158,
+    "train": 931,
+    "validation": 159,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 12,
-    "1": 7,
+    "0": 9,
+    "1": 9,
     "2": 0
   },
   "total_class_box_counts": {
-    "0": 2071,
-    "1": 1167,
+    "0": 2080,
+    "1": 1176,
     "2": 600
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v219.json",
+  "verification_report": "../verification/dataset_v220.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -44,6 +44,7 @@
     "dataset_v216 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY-SA 4.0 / Public domain), adding 20 clean bounding boxes including HCMC water jugs transport on scooter, Nha Trang Tran Phu Boulevard traffic (2 images), and Da Lat Le Dai Hanh street commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,142.",
     "dataset_v217 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 3.0 / CC BY 2.0), adding 27 clean bounding boxes including HCMC Dien Bien Phu wet road commuters (10 boxes), HCMC Ly Tu Trong intersection traffic stop (8 boxes), Hue Imperial Citadel bridge traffic (7 boxes), and Da Lat Market commuter on white Honda Lead (2 boxes). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,146.",
     "dataset_v218 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0), adding 13 clean bounding boxes including Sa Pa mountain street commuter, Da Nang Con Market intersection traffic, Can Tho ferry commuters queue, and Hoi An ancient street parked motorcycle. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,150.",
-    "dataset_v219 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including Da Nang Han Market intersection commuters, Can Tho 30 Thang 4 boulevard traffic, Quang Ngai street parked vintage Suzuki motorcycle, and Da Lat Khu Hoa Binh designated motorcycle parking. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,154."
+    "dataset_v219 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including Da Nang Han Market intersection commuters, Can Tho 30 Thang 4 boulevard traffic, Quang Ngai street parked vintage Suzuki motorcycle, and Da Lat Khu Hoa Binh designated motorcycle parking. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,154.",
+    "dataset_v220 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY 3.0 / CC BY-SA 4.0 / CC BY-SA 3.0), adding 18 clean bounding boxes including Hanoi Ta Hien Old Quarter parked scooter, HCMC Bach Dang Binh Thanh street commuters, central Ho Chi Minh City dense traffic commuters, and Da Lat Doi Cu lakefront commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,158."
   ]
 }

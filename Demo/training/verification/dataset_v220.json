@@ -1,0 +1,36 @@
+{
+  "snapshot": "dataset_v220",
+  "parent": "dataset_v219",
+  "passed": true,
+  "goal_target": 5000,
+  "goal_complete": false,
+  "status": "in_progress",
+  "parent_manifest_rows": 2315,
+  "rows_total": 2319,
+  "accepted_clean_images": 1158,
+  "remaining_to_5000": 3842,
+  "pending_review_images": 25,
+  "excluded_duplicate_rows": 1136,
+  "new_images": 4,
+  "new_box_counts": {
+    "0": 9,
+    "1": 9,
+    "2": 0
+  },
+  "split_counts": {
+    "train": 931,
+    "val": 159,
+    "test": 68,
+    "pending": 25
+  },
+  "locked_test_ids_unchanged": true,
+  "locked_test_ids": 68,
+  "cross_split_group_leakage_passed": true,
+  "manual_review_batch": "manual_review_batch55.json",
+  "manifest_sha256": "5b720c6f8db0b0c4da07b6ebb1d7f8b6b2e9b5f628f22d1820b8638722414072",
+  "split_lock_sha256": "8dc35e8ecc47853d79fb13dee6effd0e043cb52082ca22943e07b16697971e8f",
+  "statistics_sha256": "ad26b6c0fe4c312354c76f6dd6d6483d664de33335b9dcfc51c8b1cbe75db607",
+  "attribution_sha256": "60c7d83776de2dc89921935faaea8fc991779a55382c3ae12309e359e7325032",
+  "duplicates_sha256": "d573132e0acd11458ad1c0d2da54043e35c2741fc3e212d1a5da1bf51c9a18fb",
+  "changes_sha256": "3b0ca3547803ce4cb86204a9485ea04702266a10d8b01154fafc2a439e479eff"
+}

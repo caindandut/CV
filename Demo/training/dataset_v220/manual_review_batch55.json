@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch55",
+  "snapshot": "dataset_v220",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_TaHien_parked_scooter_manual_v220.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Honda Lead scooter parked along sidewalk in Ta Hien street in Hanoi Old Quarter, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TaHien_parked_scooter_manual_v220.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BachDang_commuters_manual_v220.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_trungydang_hcmc",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "trungydang",
+      "vietnam_context": "Commuter motorcyclists wearing helmets traveling down Bach Dang street in Binh Thanh district, Ho Chi Minh City.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BachDang_commuters_manual_v220.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_downtown_traffic_commuters_manual_v220.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_christophe95_hcmc",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Christophe95",
+      "vietnam_context": "Heavy motorcycle traffic flow in central Ho Chi Minh City with commuters wearing safety helmets.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_downtown_traffic_commuters_manual_v220.png"
+    },
+    {
+      "image_id": "commons_vietnam/DaLat_DoiCu_commuters_manual_v220.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_diane_selwyn_dalat",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Diane Selwyn",
+      "vietnam_context": "Commuters wearing helmets riding motorcycles alongside Xuan Huong lake / Doi Cu in Da Lat, Lam Dong, Vietnam.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaLat_DoiCu_commuters_manual_v220.png"
+    }
+  ]
+}
