@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch47",
+  "snapshot": "dataset_v212",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_street_commuters_manual_v212.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_vyacheslav_argenberg_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Vyacheslav Argenberg",
+      "vietnam_context": "Life on the streets of Hanoi Old Quarter, Vietnam; commuter rider with helmet on motorbike.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_street_commuters_manual_v212.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HangGiay_street_traffic_manual_v212.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_ltn12345_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Ltn12345",
+      "vietnam_context": "Hàng Giầy Street, Hanoi, Vietnam; 2 commuter riders with helmets on motorbikes.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HangGiay_street_traffic_manual_v212.png"
+    },
+    {
+      "image_id": "commons_vietnam/Minsk_tourist_motorcycle_manual_v212.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_ryansheldonholliday_minsk",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Ryansheldonholliday",
+      "vietnam_context": "Tourist polishing a classic Minsk motorcycle in Vietnam; vehicle clearly framed.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Minsk_tourist_motorcycle_manual_v212.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_barrel_cargo_motorcycle_manual_v212.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_uwe_aranas_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "CEphoto, Uwe Aranas",
+      "vietnam_context": "Hanoi, Vietnam: Motorcycle carrying a blue barrel on custom transport frame.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_barrel_cargo_motorcycle_manual_v212.png"
+    }
+  ]
+}
