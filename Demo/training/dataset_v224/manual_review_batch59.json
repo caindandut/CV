@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch59",
+  "snapshot": "dataset_v224",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Northern_highway_pig_transport_02_manual_v224.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bluesypete_transport",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "BluesyPete",
+      "vietnam_context": "Rural highway in Northern Vietnam showing a motorcyclist wearing a baseball cap backwards (no safety helmet) transporting cargo on motorcycle.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Northern_highway_pig_transport_02_manual_v224.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_woman_scooter_sunhood_manual_v224.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_daderot_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Daderot",
+      "vietnam_context": "Woman commuter in Hanoi, Vietnam riding a silver Honda Lead scooter wearing a camouflage sun hoodie and cloth visor cap with no safety helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_woman_scooter_sunhood_manual_v224.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_waiting_red_light_father_son_manual_v224.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_uwe_aranas_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "CEphoto, Uwe Aranas",
+      "vietnam_context": "Father and young child waiting at red lights on motorbike in Hanoi, Vietnam; father wears a helmet, child wears a mesh baseball cap without helmet.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_waiting_red_light_father_son_manual_v224.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_intersection_traffic_commuters_manual_v224.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_mckay_savage_saigon",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "McKay Savage",
+      "vietnam_context": "Urban commuters waiting at traffic stop in Ho Chi Minh City (Saigon), Vietnam, wearing protective helmets on various Honda and Yamaha motorbikes.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_intersection_traffic_commuters_manual_v224.png"
+    }
+  ]
+}
