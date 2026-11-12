@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch64",
+  "snapshot": "dataset_v229",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/CaiVon_river_motorbike_ferry_commuters_manual_v229.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_gzzz_caivon_ferry",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gzzz",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets waiting aboard a river ferry crossing Cai Von River in the Mekong Delta region, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__CaiVon_river_motorbike_ferry_commuters_manual_v229.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_NguyenChiThanh_commuters_manual_v229.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_dragfyre_vietnam",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Dragfyre",
+      "vietnam_context": "Commuters on motorbikes and scooters wearing safety helmets navigating traffic on Nguyen Chi Thanh street outside the Daewoo Hotel in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_NguyenChiThanh_commuters_manual_v229.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_scooter_incense_sticks_cargo_manual_v229.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dinkum_incense_scooter",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Dinkum",
+      "vietnam_context": "Parked transport scooter carrying huge stacked cargo bundles of pink incense sticks along a village road in Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_scooter_incense_sticks_cargo_manual_v229.png"
+    },
+    {
+      "image_id": "commons_vietnam/CatBa_xe_om_motorbike_taxi_drivers_manual_v229.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_binh_giang_catba_taxidrivers",
+      "license_verified": "Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "author": "Binh Giang",
+      "vietnam_context": "Xe om (motorbike taxi) drivers wearing safety helmets seated on their motorbikes with red flags in Cat Ba island town, Hai Phong, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__CatBa_xe_om_motorbike_taxi_drivers_manual_v229.png"
+    }
+  ]
+}
