@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch61",
+  "snapshot": "dataset_v226",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Saigon_rain_poncho_commuters_manual_v226.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_pete_sluijs_saigon_rain",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Peter van der Sluijs",
+      "vietnam_context": "Commuters in colorful rain ponchos riding scooters and motorbikes wearing safety helmets on Cach Mang Thang 8, Ho Chi Minh City during tropical rain.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_rain_poncho_commuters_manual_v226.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_william_whyte_motorbikes_manual_v226.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_william_whyte_hanoi_motorbikes",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "William Whyte",
+      "vietnam_context": "Designated motorbike parking area on street pavement in Hanoi, Vietnam showing parked Honda and Yamaha motorbikes.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_william_whyte_motorbikes_manual_v226.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_vespa_haibatrung_manual_v226.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_flowcomm_hanoi_vespa",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "flowcomm",
+      "vietnam_context": "Vespa tour leader wearing safety helmet seated on vintage Vespa scooter outside Hai Ba Trung health center in Hanoi, Vietnam, alongside parked tour Vespas.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_vespa_haibatrung_manual_v226.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_vespa_countryside_canal_manual_v226.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_flowcomm_hanoi_vespa",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "flowcomm",
+      "vietnam_context": "Vespa motorcycle tour convoy riding along countryside canal road between flooded agricultural fields in Hanoi rural district, riders and pillion passengers wearing safety helmets.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_vespa_countryside_canal_manual_v226.png"
+    }
+  ]
+}
