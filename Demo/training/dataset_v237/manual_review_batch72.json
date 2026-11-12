@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch72",
+  "snapshot": "dataset_v237",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_white_Vespa_scooter_parked_manual_v237.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_peachyeung316_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Peachyeung316",
+      "vietnam_context": "A white Piaggio Vespa motor scooter parked neatly on the pedestrian sidewalk next to decorative potted plants outside a banquet hall in Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_white_Vespa_scooter_parked_manual_v237.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_red_Minsk_motorcycle_parked_manual_v237.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_ian_armstrong_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Ian Armstrong",
+      "vietnam_context": "A classic red Soviet-era Minsk 125 motorcycle parked on a rural unpaved ground in Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_red_Minsk_motorcycle_parked_manual_v237.png"
+    },
+    {
+      "image_id": "commons_vietnam/BacNinh_VinFast_Klara_Cargo_unhelmeted_rider_manual_v237.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_nguyen_trung_kien_vinfast",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Nguyễn Trung Kiên",
+      "vietnam_context": "Man in white dress shirt and sunglasses sitting on a dedicated yellow VinFast Klara S Cargo freight electric scooter without a helmet in Bac Ninh, Vietnam, with a blue electric scooter parked nearby.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BacNinh_VinFast_Klara_Cargo_unhelmeted_rider_manual_v237.png"
+    },
+    {
+      "image_id": "commons_vietnam/MuiNe_fishing_village_beach_parked_motorcycles_manual_v237.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_erwin_verbruggen_muine",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Erwin Verbruggen",
+      "vietnam_context": "Parked motorcycles (Honda Super Cub and Honda Win 110 with resting helmet) parked on the sandy coastal fishing beach in Mui Ne, Phan Thiet, southern Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__MuiNe_fishing_village_beach_parked_motorcycles_manual_v237.png"
+    }
+  ]
+}

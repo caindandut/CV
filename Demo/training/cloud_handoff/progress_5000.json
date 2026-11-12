@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1222,
-  "remaining_to_goal": 3778,
+  "accepted_clean_images": 1226,
+  "remaining_to_goal": 3774,
   "pending_review_images": 25,
-  "snapshot": "dataset_v236",
+  "snapshot": "dataset_v237",
   "accepted_split_counts": {
-    "train": 969,
-    "validation": 185,
+    "train": 971,
+    "validation": 187,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 10,
-    "1": 10,
+    "0": 6,
+    "1": 0,
     "2": 1
   },
   "total_class_box_counts": {
-    "0": 2210,
+    "0": 2216,
     "1": 1295,
-    "2": 613
+    "2": 614
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v236.json",
+  "verification_report": "../verification/dataset_v237.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -61,6 +61,7 @@
     "dataset_v233 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY-SA 3.0), adding 16 clean bounding boxes including Hanoi Hoan Kiem Lake commuters, Hanoi Hotel Metropole commuters, Hanoi urban street traffic commuters, and Hanoi Straßenverkehr intersection commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,210.",
     "dataset_v234 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC0), adding 9 clean bounding boxes including Hanoi Hoan Kiem Lake street commuters, Hanoi Presidential Palace parked scooter, Vietnam bridge motorcycle commuter, and Tuyen Quang scooter road trip commuter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,214.",
     "dataset_v235 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY 2.0 / CC BY-SA 3.0 / CC BY-SA 4.0), adding 15 clean bounding boxes including Hanoi blue Honda Future with rare unhelmeted female commuter, Ha Giang misty mountain pass motorcycle commuter with white safety helmet, Phu Quoc female commuter riding Suzuki motorcycle with protective helmet and sun gloves, and Ho Chi Minh City Bui Vien street Grab motorcycle taxi with passenger both wearing safety helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,218.",
-    "dataset_v236 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 4.0 / CC0), adding 21 clean bounding boxes including Buon Ma Thuot city square roundabout commuters with helmets, Binh Duong Thuan An market street commuters (including rare unhelmeted commuter in baseball cap), vintage Soviet Minsk motorcycle in northern Vietnam mountain roadway, and Hanoi Vu Pham Ham commuters passing yellow postal delivery trucks. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,222."
+    "dataset_v236 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 4.0 / CC0), adding 21 clean bounding boxes including Buon Ma Thuot city square roundabout commuters with helmets, Binh Duong Thuan An market street commuters (including rare unhelmeted commuter in baseball cap), vintage Soviet Minsk motorcycle in northern Vietnam mountain roadway, and Hanoi Vu Pham Ham commuters passing yellow postal delivery trucks. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,222.",
+    "dataset_v237 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 2.0), adding 7 clean bounding boxes including Hanoi parked white Vespa scooter, Vietnam parked red Soviet Minsk motorcycle, Bac Ninh VinFast Klara S Cargo yellow electric scooter with rare unhelmeted rider in sunglasses, and Mui Ne fishing village beach parked motorcycles. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,226."
   ]
 }
