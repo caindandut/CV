@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch74",
+  "snapshot": "dataset_v239",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/BatTrang_pottery_delivery_cub_manual_v239.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Delivery woman wearing helmet riding a Honda Super Cub loaded with red pottery transport crates through Bat Trang pottery village, Hanoi, Vietnam, with parked motorbikes along the street.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BatTrang_pottery_delivery_cub_manual_v239.png"
+    },
+    {
+      "image_id": "commons_vietnam/MaiChau_mountain_pass_scooter_rider_manual_v239.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Commuter wearing red helmet riding a motor scooter around a paved curve on the mountain pass road in Mai Chau District, Hoa Binh Province, Northern Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__MaiChau_mountain_pass_scooter_rider_manual_v239.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_National_Day_street_parked_motorcycles_manual_v239.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_preetam_rai_hanoi",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Preetam Rai",
+      "vietnam_context": "Old Quarter street in Hanoi decorated with Vietnamese national flags on National Day, with row of parked motorbikes along the sidewalk.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_National_Day_street_parked_motorcycles_manual_v239.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_NewYear_Yamaha_NVX_scooter_parked_manual_v239.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gispenni_vuphamham",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gispenni",
+      "vietnam_context": "A customized dark metallic Yamaha NVX 155 motor scooter parked on its kickstand along an alley wall in Hanoi, Vietnam, on New Year's Day.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_NewYear_Yamaha_NVX_scooter_parked_manual_v239.png"
+    }
+  ]
+}
