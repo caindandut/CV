@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch60",
+  "snapshot": "dataset_v225",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_soviet_minsk_commuters_manual_v225.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_soviet_minsk_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Vietnam traditional soviet motorbikes",
+      "vietnam_context": "Street scene in Hanoi, Vietnam showing a motorcyclist riding a vintage Soviet Minsk motorcycle with safety helmet and vest, beside a commuter on a Honda Blade.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_soviet_minsk_commuters_manual_v225.png"
+    },
+    {
+      "image_id": "commons_vietnam/LongBien_bridge_motorbike_queue_manual_v225.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_longbien_queue_commuters",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Bikepacking Adventure",
+      "vietnam_context": "Commuters on motorbikes wearing safety helmets queuing across a railway bridge in Vietnam.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__LongBien_bridge_motorbike_queue_manual_v225.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_office_motorcycle_parking_manual_v225.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_mckay_savage_saigon",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "McKay Savage",
+      "vietnam_context": "Designated motorcycle parking area outside office in Ho Chi Minh City (Saigon), Vietnam showing clearly parked motorbikes and scooters.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_office_motorcycle_parking_manual_v225.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_rooster_parked_scooter_manual_v225.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_coq_scooter_vietnam",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Daderot",
+      "vietnam_context": "Street scene in Vietnam showing parked Honda Dream and Honda Lead scooters with a rooster perched on the front basket.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_rooster_parked_scooter_manual_v225.png"
+    }
+  ]
+}
