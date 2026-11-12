@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch68",
+  "snapshot": "dataset_v233",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_HoanKiem_lake_traffic_commuters_manual_v233.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_caitriana_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Caitriana Nicholson",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets riding past Hoan Kiem Lake in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HoanKiem_lake_traffic_commuters_manual_v233.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HotelMetropole_traffic_commuters_manual_v233.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_caitriana_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Caitriana Nicholson",
+      "vietnam_context": "Commuters on motorbikes and scooters wearing safety helmets navigating street traffic outside the Hotel Metropole in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HotelMetropole_traffic_commuters_manual_v233.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_urban_traffic_commuters_manual_v233.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_greg_willis_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Greg Willis",
+      "vietnam_context": "Motorcycle commuters wearing protective helmets riding on an urban thoroughfare in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_urban_traffic_commuters_manual_v233.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_Strassenverkehr_intersection_commuters_manual_v233.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_franzfoto_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Franzfoto",
+      "vietnam_context": "Dense flow of commuters on motor scooters wearing safety helmets at an urban intersection in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_Strassenverkehr_intersection_commuters_manual_v233.png"
+    }
+  ]
+}
