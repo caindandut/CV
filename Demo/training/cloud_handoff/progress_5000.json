@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1182,
-  "remaining_to_goal": 3818,
+  "accepted_clean_images": 1186,
+  "remaining_to_goal": 3814,
   "pending_review_images": 25,
-  "snapshot": "dataset_v226",
+  "snapshot": "dataset_v227",
   "accepted_split_counts": {
-    "train": 947,
-    "validation": 167,
+    "train": 950,
+    "validation": 168,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 12,
-    "1": 10,
+    "0": 9,
+    "1": 8,
     "2": 0
   },
   "total_class_box_counts": {
-    "0": 2133,
-    "1": 1235,
+    "0": 2142,
+    "1": 1243,
     "2": 607
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v226.json",
+  "verification_report": "../verification/dataset_v227.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -51,6 +51,7 @@
     "dataset_v223 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 2.0), adding 19 clean bounding boxes including HCMC heavy traffic commuters (helmeted commuters and pillion riders), HCMC street traffic flow at Hai Ba Trung / Nam Ky Khoi Nghia, Lang Son market woman vendor resting on motorcycle handlebars, and Dien Bien Phu mother and daughter both wearing protective helmets on motorbike. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,170.",
     "dataset_v224 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC0 / CC BY 2.0), adding 16 clean bounding boxes and critically contributing 3 rare Class 2 instances (unhelmeted highway pig transport rider with backwards baseball cap, unhelmeted Hanoi woman commuter on Honda Lead wearing anti-sun camouflage hood with cloth visor, and unhelmeted young boy in mesh baseball cap waiting at red light). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,174.",
     "dataset_v225 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC0 / CC BY 2.0), adding 14 clean bounding boxes including Hanoi vintage Soviet Minsk motorcycle commuter alongside a commuter on Honda Blade, Long Bien bridge railway motorcycle queue with helmeted commuters, designated office building motorcycle parking in Saigon, and parked Honda Dream and Lead scooters in Hanoi. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,178.",
-    "dataset_v226 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 2.0 / CC BY 2.0), adding 22 clean bounding boxes including Saigon rain poncho commuters on Cach Mang Thang 8, designated Hanoi street motorbike parking lot, Hanoi Hai Ba Trung Vespa tour leader, and Hanoi rural countryside canal road Vespa convoy riders with safety helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,182."
+    "dataset_v226 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 2.0 / CC BY 2.0), adding 22 clean bounding boxes including Saigon rain poncho commuters on Cach Mang Thang 8, designated Hanoi street motorbike parking lot, Hanoi Hai Ba Trung Vespa tour leader, and Hanoi rural countryside canal road Vespa convoy riders with safety helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,182.",
+    "dataset_v227 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY-SA 3.0), adding 17 clean bounding boxes including Hanoi countryside street Vespa tour riders and pillions, Saigon traffic intersection commuters, Saigon two-wheeler street traffic, and Ho Chi Minh City motorbike parking lot after rain. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,186."
   ]
 }
