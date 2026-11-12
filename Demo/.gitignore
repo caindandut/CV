@@ -92,3 +92,5 @@ __pycache__/
 !/training/dataset_v230/**
 !/training/dataset_v231/
 !/training/dataset_v231/**
+!/training/dataset_v232/
+!/training/dataset_v232/**

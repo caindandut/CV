@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch67",
+  "snapshot": "dataset_v232",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_TruongChinh_street_commuters_manual_v232.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_ltn12345_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Ltn12345",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets riding on Truong Chinh Street in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TruongChinh_street_commuters_manual_v232.png"
+    },
+    {
+      "image_id": "commons_vietnam/YenHoa_ParkviewCity_parked_yellow_scooter_manual_v232.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_kedassio_yenhoa",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Kedassio5538i",
+      "vietnam_context": "A bright yellow motor scooter parked outside Yen Hoa Parkview City in Hanoi, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__YenHoa_ParkviewCity_parked_yellow_scooter_manual_v232.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_street_traffic_commuters_2008_manual_v232.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_marcel_oosterwijk_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Marcel Oosterwijk",
+      "vietnam_context": "Commuters on motor scooters wearing safety helmets navigating urban traffic in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_street_traffic_commuters_2008_manual_v232.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_typical_moped_traffic_flow_manual_v232.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_northboer_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Northboer",
+      "vietnam_context": "Dense traffic flow of commuters riding motorbikes and mopeds wearing safety helmets on Hanoi street, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_typical_moped_traffic_flow_manual_v232.png"
+    }
+  ]
+}
