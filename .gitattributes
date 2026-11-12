@@ -63,3 +63,4 @@ Demo/training/dataset_v230/**/images/* filter=lfs diff=lfs merge=lfs -text
 Demo/training/dataset_v231/**/images/* filter=lfs diff=lfs merge=lfs -text
 Demo/training/dataset_v232/**/images/* filter=lfs diff=lfs merge=lfs -text
 Demo/training/dataset_v233/**/images/* filter=lfs diff=lfs merge=lfs -text
+Demo/training/dataset_v234/**/images/* filter=lfs diff=lfs merge=lfs -text

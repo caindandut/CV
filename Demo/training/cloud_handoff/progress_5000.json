@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1210,
-  "remaining_to_goal": 3790,
+  "accepted_clean_images": 1214,
+  "remaining_to_goal": 3786,
   "pending_review_images": 25,
-  "snapshot": "dataset_v233",
+  "snapshot": "dataset_v234",
   "accepted_split_counts": {
-    "train": 963,
-    "validation": 179,
+    "train": 965,
+    "validation": 181,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 8,
-    "1": 8,
+    "0": 5,
+    "1": 4,
     "2": 0
   },
   "total_class_box_counts": {
-    "0": 2186,
-    "1": 1277,
+    "0": 2191,
+    "1": 1281,
     "2": 610
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v233.json",
+  "verification_report": "../verification/dataset_v234.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -58,6 +58,7 @@
     "dataset_v230 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0), adding 12 clean bounding boxes including Da Nang countdown traffic light commuters, Hue airport road motorcycle commuter with helmet, Vietnamese market commuter transporting pork cargo on scooter, and Hanoi motorcycle tour riders. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,198.",
     "dataset_v231 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 4.0 / CC BY 2.0), adding 14 clean bounding boxes including Hanoi Ba Dinh traffic commuters, Hanoi Le Huu Tuu road commuters, Vietnamese commuters on scooters, and Old Town Hanoi parked scooters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,202.",
     "dataset_v232 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY-SA 2.0), adding 13 clean bounding boxes including Hanoi Truong Chinh street commuters, Yen Hoa Parkview City parked yellow scooter, Hanoi street traffic commuters 2008, and Hanoi typical moped traffic flow. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,206.",
-    "dataset_v233 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY-SA 3.0), adding 16 clean bounding boxes including Hanoi Hoan Kiem Lake commuters, Hanoi Hotel Metropole commuters, Hanoi urban street traffic commuters, and Hanoi Straßenverkehr intersection commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,210."
+    "dataset_v233 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY-SA 3.0), adding 16 clean bounding boxes including Hanoi Hoan Kiem Lake commuters, Hanoi Hotel Metropole commuters, Hanoi urban street traffic commuters, and Hanoi Straßenverkehr intersection commuters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,210.",
+    "dataset_v234 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC0), adding 9 clean bounding boxes including Hanoi Hoan Kiem Lake street commuters, Hanoi Presidential Palace parked scooter, Vietnam bridge motorcycle commuter, and Tuyen Quang scooter road trip commuter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,214."
   ]
 }

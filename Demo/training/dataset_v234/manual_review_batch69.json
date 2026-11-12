@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch69",
+  "snapshot": "dataset_v234",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_HoanKiem_street_commuters_02_manual_v234.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_caitriana_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Caitriana Nicholson",
+      "vietnam_context": "Commuters wearing protective helmets riding motor scooters past Hoan Kiem Lake in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HoanKiem_street_commuters_02_manual_v234.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_PresidentialPalace_parked_scooter_manual_v234.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_caitriana_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Caitriana Nicholson",
+      "vietnam_context": "A motor scooter parked along the street opposite the Presidential Palace in Hanoi, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_PresidentialPalace_parked_scooter_manual_v234.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_bridge_motorcycle_commuter_manual_v234.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_chris_phan_bridge",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Chris Phan",
+      "vietnam_context": "Motorcycle commuter wearing safety helmet crossing a roadway bridge in Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_bridge_motorcycle_commuter_manual_v234.png"
+    },
+    {
+      "image_id": "commons_vietnam/TuyenQuang_scooter_road_trip_commuter_manual_v234.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_peter_hershey_tuyenquang",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Peter Hershey",
+      "vietnam_context": "Commuter wearing a safety helmet riding a motor scooter along a scenic rural road in Tuyen Quang province, northern Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__TuyenQuang_scooter_road_trip_commuter_manual_v234.png"
+    }
+  ]
+}
