@@ -30,6 +30,14 @@ TARGET_CATEGORIES = [
     "Category:Motorcycles in Vietnam",
     "Category:Motorcycles in Hanoi",
     "Category:Motorcycles in Ho Chi Minh City",
+    "Category:Motorcycles in Can Tho",
+    "Category:Motorcycles in Da Lat",
+    "Category:Motorcycles in Da Nang",
+    "Category:Motorcycles in Hoi An",
+    "Category:Motorcycles in Huế",
+    "Category:Motorcycles in Nha Trang",
+    "Category:Motorcycles in Quang Ngai",
+    "Category:Motorcycles in Sa Pa",
     "Category:Street scenes in Vietnam",
     "Category:Traffic congestion in Vietnam",
     "Category:Police motorcycles in Vietnam",
@@ -171,7 +179,7 @@ def main():
 
     print(f"Candidates ready for download: {len(candidates_to_download)}")
     downloaded_count = 0
-    for c in candidates_to_download[:8]:
+    for c in candidates_to_download[:16]:
         pid = c["pageid"]
         out_file = DOWNLOAD_DIR / f"commons_{pid}.jpg"
         print(f"Downloading [{c['license']}] {c['title']} -> {out_file.name}...")

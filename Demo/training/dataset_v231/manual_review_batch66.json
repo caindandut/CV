@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch66",
+  "snapshot": "dataset_v231",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_BaDinh_traffic_commuters_manual_v231.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_dragfyre_vietnam",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Dragfyre",
+      "vietnam_context": "Commuters on scooters wearing safety helmets navigating street traffic in Ba Dinh District, Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_BaDinh_traffic_commuters_manual_v231.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_LeHuuTuu_road_commuters_manual_v231.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_ltn12345_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Ltn12345",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets riding along Le Huu Tuu Road in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_LeHuuTuu_road_commuters_manual_v231.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_commuters_scooters_riders_manual_v231.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gtknj_vietnam_scooters",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "gtknj",
+      "vietnam_context": "Vietnamese commuters wearing safety helmets riding scooters at an urban road intersection in Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_commuters_scooters_riders_manual_v231.png"
+    },
+    {
+      "image_id": "commons_vietnam/OldTown_Hanoi_parked_scooters_manual_v231.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_jakubhal_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jakub Hałun",
+      "vietnam_context": "Parked motor scooters along a street in the historic Old Quarter of Hanoi, Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__OldTown_Hanoi_parked_scooters_manual_v231.png"
+    }
+  ]
+}
