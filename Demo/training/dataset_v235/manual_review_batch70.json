@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch70",
+  "snapshot": "dataset_v235",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_Honda_Future_woman_rider_manual_v235.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_william_whyte_hanoi_motorbikes",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "William Whyte",
+      "vietnam_context": "Young woman seated on a blue Honda Future 110 motorcycle without a helmet at night in Hanoi, Vietnam, with a passing scooter behind.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_Honda_Future_woman_rider_manual_v235.png"
+    },
+    {
+      "image_id": "commons_vietnam/HaGiang_misty_mountain_pass_motorcycle_manual_v235.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_khanh_hmoong_hagiang",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Khánh Hmoong",
+      "vietnam_context": "Motorcycle commuter wearing a white safety helmet traveling on a misty mountain pass road in Ha Giang, northern Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HaGiang_misty_mountain_pass_motorcycle_manual_v235.png"
+    },
+    {
+      "image_id": "commons_vietnam/PhuQuoc_female_motorcyclist_gloves_manual_v235.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_avenue_phuquoc",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Avenue",
+      "vietnam_context": "Female commuter wearing safety helmet and protective sun gloves riding a black Suzuki motorcycle in Phu Quoc, Vietnam, with parked motorbikes along the street.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__PhuQuoc_female_motorcyclist_gloves_manual_v235.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BuiVien_street_commuters_manual_v235.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_bahnfrend_buivien",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Bahnfrend",
+      "vietnam_context": "Grab motorcycle taxi rider and passenger wearing safety helmets navigating Bui Vien Street in Ho Chi Minh City, Vietnam, with parked motorbikes alongside.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BuiVien_street_commuters_manual_v235.png"
+    }
+  ]
+}
