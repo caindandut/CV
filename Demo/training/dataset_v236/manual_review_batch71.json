@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch71",
+  "snapshot": "dataset_v236",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/BuonMaThuot_city_square_traffic_commuters_manual_v236.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rdavout_buonmathuot",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Rdavout",
+      "vietnam_context": "Motorcycle commuters with safety helmets circulating around the iconic Victory Monument roundabout in Buon Ma Thuot city square, Dak Lak, Vietnam.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BuonMaThuot_city_square_traffic_commuters_manual_v236.png"
+    },
+    {
+      "image_id": "commons_vietnam/BinhDuong_ThuanAn_market_street_commuters_manual_v236.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_kieprongbuon812_binhduong",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Kieprongbuon812",
+      "vietnam_context": "Motorcycle commuters outside Binh Chuan market in Thuan An, Binh Duong, southern Vietnam, featuring a young man on a white Honda Wave with helmet and a commuter in a baseball cap without helmet.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BinhDuong_ThuanAn_market_street_commuters_manual_v236.png"
+    },
+    {
+      "image_id": "commons_vietnam/NorthernVietnam_mountain_road_parked_Minsk_manual_v236.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_ryansheldonholliday_minsk",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Ryansheldonholliday",
+      "vietnam_context": "A classic vintage blue Soviet Minsk 125 motorcycle parked on a scenic mountain roadway during a motorcycle touring trip across northern Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NorthernVietnam_mountain_road_parked_Minsk_manual_v236.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_VuPhamHam_commuters_postal_trucks_manual_v236.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gispenni_vuphamham",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gispenni",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets, including a Grab bike driver, passing yellow postal delivery trucks on Vu Pham Ham Street in Cau Giay, Hanoi, Vietnam.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_VuPhamHam_commuters_postal_trucks_manual_v236.png"
+    }
+  ]
+}
