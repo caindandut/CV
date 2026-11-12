@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch73",
+  "snapshot": "dataset_v238",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/BatTrang_motorcycle_commuter_unhelmeted_manual_v238.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street in Bat Trang pottery village, Hanoi, Vietnam, with a woman driver and passenger holding cargo box on a red scooter without helmets, and parked motorcycles along the street.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BatTrang_motorcycle_commuter_unhelmeted_manual_v238.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_GiaMinh_motorcycle_repair_shop_parked_manual_v238.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Parked motorcycles outside Gia Minh Motor repair shop at 372 Minh Khai, Hanoi, Vietnam.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_GiaMinh_motorcycle_repair_shop_parked_manual_v238.png"
+    },
+    {
+      "image_id": "commons_vietnam/Halong_Soviet_Minsk_cargo_pigs_manual_v238.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_kowloonzai_halong",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Kowloonzai",
+      "vietnam_context": "A classic blue Soviet Minsk 125 motorcycle parked on a ferry deck in Halong Bay, Vietnam, equipped with cargo rack loaded with pigs.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Halong_Soviet_Minsk_cargo_pigs_manual_v238.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_street_commuters_floral_suit_manual_v238.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_chuttersnap_hcmc",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "chuttersnap",
+      "vietnam_context": "Urban commuters riding motorcycles and scooters on a street in Ho Chi Minh City, Vietnam, including a female commuter wearing a floral sun protective suit and passenger.",
+      "box_count": 14,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_street_commuters_floral_suit_manual_v238.png"
+    }
+  ]
+}
