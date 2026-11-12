@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1194,
-  "remaining_to_goal": 3806,
+  "accepted_clean_images": 1198,
+  "remaining_to_goal": 3802,
   "pending_review_images": 25,
-  "snapshot": "dataset_v229",
+  "snapshot": "dataset_v230",
   "accepted_split_counts": {
-    "train": 955,
-    "validation": 171,
+    "train": 957,
+    "validation": 173,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 7,
+    "0": 6,
     "1": 6,
     "2": 0
   },
   "total_class_box_counts": {
-    "0": 2157,
-    "1": 1251,
+    "0": 2163,
+    "1": 1257,
     "2": 610
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v229.json",
+  "verification_report": "../verification/dataset_v230.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -54,6 +54,7 @@
     "dataset_v226 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY-SA 2.0 / CC BY 2.0), adding 22 clean bounding boxes including Saigon rain poncho commuters on Cach Mang Thang 8, designated Hanoi street motorbike parking lot, Hanoi Hai Ba Trung Vespa tour leader, and Hanoi rural countryside canal road Vespa convoy riders with safety helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,182.",
     "dataset_v227 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY-SA 3.0), adding 17 clean bounding boxes including Hanoi countryside street Vespa tour riders and pillions, Saigon traffic intersection commuters, Saigon two-wheeler street traffic, and Ho Chi Minh City motorbike parking lot after rain. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,186.",
     "dataset_v228 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 2.5 / Public Domain), adding 13 clean bounding boxes including Da Nang countdown traffic light commuters with helmets, Saigon motorbike ferry loading with 3 rare unhelmeted riders (Class 2), official Vietnam traffic police patrol motorcycle, and parked scooters at a Vietnam motorcycle wash/service shop. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,190.",
-    "dataset_v229 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC0 / Public Domain), adding 13 clean bounding boxes including Cai Von river motorbike ferry commuters with helmets, Hanoi Nguyen Chi Thanh commuters outside Daewoo Hotel, a parked transport scooter heavily loaded with incense bundles, and Cat Ba island xe om motorbike taxi drivers with red flags. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,194."
+    "dataset_v229 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC0 / Public Domain), adding 13 clean bounding boxes including Cai Von river motorbike ferry commuters with helmets, Hanoi Nguyen Chi Thanh commuters outside Daewoo Hotel, a parked transport scooter heavily loaded with incense bundles, and Cat Ba island xe om motorbike taxi drivers with red flags. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,194.",
+    "dataset_v230 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0), adding 12 clean bounding boxes including Da Nang countdown traffic light commuters, Hue airport road motorcycle commuter with helmet, Vietnamese market commuter transporting pork cargo on scooter, and Hanoi motorcycle tour riders. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,198."
   ]
 }

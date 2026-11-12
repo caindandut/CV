@@ -27,7 +27,15 @@ TARGET_CATEGORIES = [
     "Category:Parked motorcycles in Vietnam",
     "Category:Transport motorcycles in Vietnam",
     "Category:Motorcycle taxis in Vietnam",
-    "Category:Motorcycles in Vietnam"
+    "Category:Motorcycles in Vietnam",
+    "Category:Motorcycles in Hanoi",
+    "Category:Motorcycles in Ho Chi Minh City",
+    "Category:Street scenes in Vietnam",
+    "Category:Traffic congestion in Vietnam",
+    "Category:Police motorcycles in Vietnam",
+    "Category:Three-wheeled motorcycles in Vietnam",
+    "Category:Streets in Ho Chi Minh City",
+    "Category:Motorcycling in Vietnam"
 ]
 
 def get_category_files(cat_title, limit=50):
@@ -71,7 +79,7 @@ def main():
     print("=== Harvesting High-Quality Vietnam Motorcycle Candidates ===")
     
     # 1. Load manifest used pageids
-    manifest_path = TRAINING_DIR / "dataset_v224" / "manifest.json"
+    manifest_path = TRAINING_DIR / "dataset_v229" / "manifest.json"
     with open(manifest_path, "r", encoding="utf-8") as f:
         manifest = json.load(f)
     used_pageids = {r.get("pageid") for r in manifest if r.get("pageid")}

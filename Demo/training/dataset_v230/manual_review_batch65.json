@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch65",
+  "snapshot": "dataset_v230",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-11",
+  "items": [
+    {
+      "image_id": "commons_vietnam/DaNang_green_countdown_traffic_light_commuters_manual_v230.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_marc_mongenet_danang",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Marc Mongenet",
+      "vietnam_context": "Motorcycle commuters wearing safety helmets waiting at the stop line before a green countdown traffic timer on Ton Duc Thang Street, Da Nang, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__DaNang_green_countdown_traffic_light_commuters_manual_v230.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hue_airport_road_motorcycle_commuter_manual_v230.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_thang_nguyen_hue",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Thang Nguyen",
+      "vietnam_context": "Commuter riding a motorcycle while wearing a safety helmet on the airport road in Hue, Thua Thien Hue province, Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hue_airport_road_motorcycle_commuter_manual_v230.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_meat_transport_scooter_manual_v230.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dinkum_incense_scooter",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Dinkum",
+      "vietnam_context": "Vietnamese motorcycle commuter wearing safety helmet transporting fresh market goods on a scooter in Vietnam.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_meat_transport_scooter_manual_v230.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_tour_motorcycle_riders_manual_v230.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_flowcomm_hanoi_vespa",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "flowcomm",
+      "vietnam_context": "Motorcycle riders wearing safety helmets on scooters during a street tour in Hanoi, Vietnam.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_tour_motorcycle_riders_manual_v230.png"
+    }
+  ]
+}
