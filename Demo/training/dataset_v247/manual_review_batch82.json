@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch82",
+  "snapshot": "dataset_v247",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/NhaTrang_TranPhu_boulevard_commuters_manual_v247.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Tran Phu coastal boulevard in Nha Trang, Vietnam, showing commuters traveling in lanes on scooters and motorbikes wearing safety helmets.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_TranPhu_boulevard_commuters_manual_v247.png"
+    },
+    {
+      "image_id": "commons_vietnam/VungTau_avenue_commuters_traffic_manual_v247.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street scene in Vung Tau coastal city, Vietnam, showing commuters on motorbikes and scooters traveling down the road with protective helmets.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__VungTau_avenue_commuters_traffic_manual_v247.png"
+    },
+    {
+      "image_id": "commons_vietnam/LangDinhAn_vegetable_cargo_motorcycle_manual_v247.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dinkum_incense_scooter",
+      "license_verified": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Dinkum",
+      "vietnam_context": "Rural market vegetable transport in Lang Dinh An, Vietnam, showing a parked motorcycle heavily loaded with baskets and crates of fresh vegetables on its kickstand.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__LangDinhAn_vegetable_cargo_motorcycle_manual_v247.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_urban_street_commuters_traffic_manual_v247.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_felix_stahlberg_vietnam",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Felix Stahlberg",
+      "vietnam_context": "Urban street scene in Hanoi, Vietnam, showing commuters on motorbikes and scooters flowing through traffic wearing helmets.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_urban_street_commuters_traffic_manual_v247.png"
+    }
+  ]
+}

@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1262,
-  "remaining_to_goal": 3738,
+  "accepted_clean_images": 1266,
+  "remaining_to_goal": 3734,
   "pending_review_images": 25,
-  "snapshot": "dataset_v246",
+  "snapshot": "dataset_v247",
   "accepted_split_counts": {
-    "train": 989,
-    "validation": 205,
+    "train": 991,
+    "validation": 207,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 12,
-    "1": 10,
-    "2": 1
+    "0": 10,
+    "1": 9,
+    "2": 0
   },
   "total_class_box_counts": {
-    "0": 2359,
-    "1": 1391,
+    "0": 2379,
+    "1": 1409,
     "2": 639
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v246.json",
+  "verification_report": "../verification/dataset_v247.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -74,6 +74,8 @@
     "dataset_v245 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY 4.0 / CC BY 3.0 / CC BY-SA 3.0), adding 26 clean bounding boxes including 2 rare unhelmeted riders (Class 2): Hanoi Hoan Kiem street commuters in traffic with unhelmeted boy passenger, Hanoi Old Quarter Hang Ma intersection young man riding electric scooter without helmet, Hanoi avenue commuters driving in traffic with helmets, and HCMC Bui Vien street scene outside Santa Cafe with parked vintage red/white Honda Super Cub. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,258.",
     "dataset_v246 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (Public domain / CC BY-SA 4.0 / CC BY 4.0 / CC BY 4.0), adding 23 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Hanoi street pause as Secretary Kerry crosses street (featuring unhelmeted waving man in red shirt on Repsol Honda Wave), Vietnam cafe street view with parked yellow SYM Attila scooter and passing commuters, Hanoi Hang Dau street female commuters on scooter with pink and blue helmets, and Hanoi Old Town street shop front with parked red/black Honda Wave on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,262.",
     "dataset_v246 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (Public domain / CC BY-SA 4.0 / CC BY 4.0 / CC BY 4.0), adding 23 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Hanoi street pause as Secretary Kerry crosses street (featuring unhelmeted waving man in red shirt on Repsol Honda Wave), Vietnam cafe street view with parked yellow SYM Attila scooter and passing commuters, Hanoi Hang Dau street female commuters on scooter with pink and blue helmets, and Hanoi Old Town street shop front with parked red/black Honda Wave on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,262.",
-    "dataset_v246 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (Public domain / CC BY-SA 4.0 / CC BY 4.0 / CC BY 4.0), adding 23 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Hanoi street pause as Secretary Kerry crosses street (featuring unhelmeted waving man in red shirt on Repsol Honda Wave), Vietnam cafe street view with parked yellow SYM Attila scooter and passing commuters, Hanoi Hang Dau street female commuters on scooter with pink and blue helmets, and Hanoi Old Town street shop front with parked red/black Honda Wave on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,262."
+    "dataset_v246 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (Public domain / CC BY-SA 4.0 / CC BY 4.0 / CC BY 4.0), adding 23 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Hanoi street pause as Secretary Kerry crosses street (featuring unhelmeted waving man in red shirt on Repsol Honda Wave), Vietnam cafe street view with parked yellow SYM Attila scooter and passing commuters, Hanoi Hang Dau street female commuters on scooter with pink and blue helmets, and Hanoi Old Town street shop front with parked red/black Honda Wave on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,262.",
+    "dataset_v247 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC0 / CC BY 2.0), adding 19 clean bounding boxes: Nha Trang Tran Phu boulevard street traffic commuters, Vung Tau coastal avenue street commuters, Lang Dinh An vegetable transport motorcycle loaded with fresh produce crates, and Hanoi urban street traffic commuters flowing through traffic wearing helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,266.",
+    "dataset_v247 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC0 / CC BY 2.0), adding 19 clean bounding boxes: Nha Trang Tran Phu boulevard street traffic commuters, Vung Tau coastal avenue street commuters, Lang Dinh An vegetable transport motorcycle loaded with fresh produce crates, and Hanoi urban street traffic commuters flowing through traffic wearing helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,266."
   ]
 }

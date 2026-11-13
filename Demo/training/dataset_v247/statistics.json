@@ -1,0 +1,40 @@
+{
+  "train": {
+    "images": 991,
+    "classes": {
+      "0": 1808,
+      "1": 965,
+      "2": 535
+    },
+    "groups": 123
+  },
+  "val": {
+    "images": 207,
+    "classes": {
+      "0": 436,
+      "1": 352,
+      "2": 93
+    },
+    "groups": 38
+  },
+  "test": {
+    "images": 68,
+    "classes": {
+      "0": 92,
+      "1": 59,
+      "2": 9
+    },
+    "groups": 20
+  },
+  "pending": {
+    "images": 25,
+    "classes": {
+      "0": 64,
+      "1": 40,
+      "2": 25
+    },
+    "groups": 1
+  },
+  "accepted_clean_images": 1266,
+  "remaining_to_goal": 3734
+}
