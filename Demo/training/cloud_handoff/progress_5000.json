@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1270,
-  "remaining_to_goal": 3730,
+  "accepted_clean_images": 1274,
+  "remaining_to_goal": 3726,
   "pending_review_images": 25,
-  "snapshot": "dataset_v248",
+  "snapshot": "dataset_v249",
   "accepted_split_counts": {
-    "train": 995,
-    "validation": 207,
+    "train": 997,
+    "validation": 209,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
     "0": 8,
-    "1": 5,
-    "2": 4
+    "1": 11,
+    "2": 2
   },
   "total_class_box_counts": {
-    "0": 2387,
-    "1": 1414,
-    "2": 643
+    "0": 2395,
+    "1": 1425,
+    "2": 645
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v248.json",
+  "verification_report": "../verification/dataset_v249.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -77,6 +77,7 @@
     "dataset_v246 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (Public domain / CC BY-SA 4.0 / CC BY 4.0 / CC BY 4.0), adding 23 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Hanoi street pause as Secretary Kerry crosses street (featuring unhelmeted waving man in red shirt on Repsol Honda Wave), Vietnam cafe street view with parked yellow SYM Attila scooter and passing commuters, Hanoi Hang Dau street female commuters on scooter with pink and blue helmets, and Hanoi Old Town street shop front with parked red/black Honda Wave on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,262.",
     "dataset_v247 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC0 / CC BY 2.0), adding 19 clean bounding boxes: Nha Trang Tran Phu boulevard street traffic commuters, Vung Tau coastal avenue street commuters, Lang Dinh An vegetable transport motorcycle loaded with fresh produce crates, and Hanoi urban street traffic commuters flowing through traffic wearing helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,266.",
     "dataset_v247 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC0 / CC BY 2.0), adding 19 clean bounding boxes: Nha Trang Tran Phu boulevard street traffic commuters, Vung Tau coastal avenue street commuters, Lang Dinh An vegetable transport motorcycle loaded with fresh produce crates, and Hanoi urban street traffic commuters flowing through traffic wearing helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,266.",
-    "dataset_v248 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY 2.0 / CC BY-SA 4.0), adding 17 clean bounding boxes including 4 rare unhelmeted riders (Class 2): Mai Chau mountain roadway curve commuter, Mai Chau rural unhelmeted scooter driver with unhelmeted passenger, Hanoi motorcycle taxi traffic flow with helmeted commuters, and Hanoi street corner with two unhelmeted xe om drivers resting on their motorbikes alongside a parked Honda Wave. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,270."
+    "dataset_v248 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY 2.0 / CC BY-SA 4.0), adding 17 clean bounding boxes including 4 rare unhelmeted riders (Class 2): Mai Chau mountain roadway curve commuter, Mai Chau rural unhelmeted scooter driver with unhelmeted passenger, Hanoi motorcycle taxi traffic flow with helmeted commuters, and Hanoi street corner with two unhelmeted xe om drivers resting on their motorbikes alongside a parked Honda Wave. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,270.",
+    "dataset_v249 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / Public domain), adding 21 clean bounding boxes including 2 rare unhelmeted children (Class 2): Nha Trang Tran Phu coastal boulevard traffic commuters with helmets, Danang Monkey Mountain scenic sunset parked Honda Air Blade, Ho Chi Minh City Vietnamese family of four on red motorcycle (with two unhelmeted children in straw/pink hats) alongside women commuters on white Honda Super Cub, and Ho Chi Minh City street scene with mother and daughter on blue scooter flashing peace sign. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,274."
   ]
 }

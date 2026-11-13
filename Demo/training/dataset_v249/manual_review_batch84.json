@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch84",
+  "snapshot": "dataset_v249",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/NhaTrang_TranPhu_boulevard_commuters_flow_manual_v249.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Tran Phu coastal boulevard in Nha Trang, Vietnam, showing commuters traveling along the avenue on scooters and motorbikes wearing safety helmets.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_TranPhu_boulevard_commuters_flow_manual_v249.png"
+    },
+    {
+      "image_id": "commons_vietnam/Danang_MonkeyMountain_parked_AirBlade_manual_v249.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_beelerb_danang",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Beelerb",
+      "vietnam_context": "Scenic view of a parked blue Honda Air Blade scooter overlooking Danang city at sunset from Son Tra Peninsula (Monkey Mountain), Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Danang_MonkeyMountain_parked_AirBlade_manual_v249.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_family_four_motorcycle_cub_commuters_manual_v249.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dennis_jarvis_saigon",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Dennis G. Jarvis",
+      "vietnam_context": "Ho Chi Minh City street scene showing a Vietnamese family of four on a red motorcycle (father and mother with helmets, two young children in sun hats without helmets) traveling alongside two women commuters on a white Honda Super Cub.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_family_four_motorcycle_cub_commuters_manual_v249.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_mother_daughter_peacesign_scooter_manual_v249.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_us_state_dept_hanoi",
+      "license_verified": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "author": "U.S. Department of State",
+      "vietnam_context": "Ho Chi Minh City street view showing a mother and daughter flashing a peace sign from their blue scooter with helmets, alongside waiting scooter commuters.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_mother_daughter_peacesign_scooter_manual_v249.png"
+    }
+  ]
+}
