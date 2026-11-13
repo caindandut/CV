@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch80",
+  "snapshot": "dataset_v245",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_street_commuters_leopard_polkadot_manual_v245.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_nicolas_lannuzel_hanoi",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Nicolas Lannuzel",
+      "vietnam_context": "Dense urban street traffic in Hoan Kiem district, Hanoi, Vietnam, showing commuters on scooters and motorcycles with helmeted drivers and an unhelmeted young passenger.",
+      "box_count": 11,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_street_commuters_leopard_polkadot_manual_v245.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HangMa_electric_scooter_unhelmeted_manual_v245.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Street intersection in Hanoi Old Quarter, Vietnam, showing young man on electric scooter without helmet crossing street alongside commuter in helmet.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HangMa_electric_scooter_unhelmeted_manual_v245.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_avenue_commuters_traffic_helmets_manual_v245.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_benjamin_arnold_hanoi",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "Benjamin Arnold",
+      "vietnam_context": "Urban traffic along a Hanoi avenue in Vietnam, showing commuters on motorbikes and scooters traveling in lane wearing helmets.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_avenue_commuters_traffic_helmets_manual_v245.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BuiVien_santacafe_supercub_manual_v245.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_matsuoka_buivien",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "松岡明芳",
+      "vietnam_context": "Bui Vien street scene outside Santa Cafe in Ho Chi Minh City, Vietnam, showing parked vintage red and white Honda Super Cub and street cafe tables.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BuiVien_santacafe_supercub_manual_v245.png"
+    }
+  ]
+}

@@ -118,3 +118,5 @@ __pycache__/
 !/training/dataset_v243/**
 !/training/dataset_v244/
 !/training/dataset_v244/**
+!/training/dataset_v245/
+!/training/dataset_v245/**
