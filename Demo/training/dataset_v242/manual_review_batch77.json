@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch77",
+  "snapshot": "dataset_v242",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Saigon_traffic_cub_wave_unhelmeted_manual_v242.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_lucas_jans_saigon",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Lucas Jans",
+      "vietnam_context": "Dense urban motorcycle traffic on a street in Saigon / Ho Chi Minh City, Vietnam, showing commuters on Honda Super Cub and Wave without helmets.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_traffic_cub_wave_unhelmeted_manual_v242.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BenThanh_traffic_police_motorcycle_manual_v242.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_mb_one_hcmc",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "MB-one",
+      "vietnam_context": "Ben Thanh Traffic Police Honda CB250 motorcycle parked on the sidewalk with passing motorcycle commuters at an intersection in District 1, Ho Chi Minh City, Vietnam (GPS: 10.768100, 106.695213).",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BenThanh_traffic_police_motorcycle_manual_v242.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HangDau_commuters_traffic_intersection_manual_v242.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_jakubhal_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jakub Hałun",
+      "vietnam_context": "Traffic intersection on Hang Dau street in Hanoi, Vietnam, with commuters on motorbikes and scooters stopped at red light (GPS: 21.039894, 105.847743).",
+      "box_count": 14,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HangDau_commuters_traffic_intersection_manual_v242.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_OldTown_citron_seller_scooter_street_manual_v242.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_jakubhal_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jakub Hałun",
+      "vietnam_context": "Street scene in Old Town of Hanoi, Vietnam, showing Buddha's hand citron seller, commuter pair on scooter, unhelmeted woman in baseball cap seated on scooter, and parked motorbikes.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldTown_citron_seller_scooter_street_manual_v242.png"
+    }
+  ]
+}
