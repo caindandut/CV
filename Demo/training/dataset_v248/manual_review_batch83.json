@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch83",
+  "snapshot": "dataset_v248",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/MaiChau_mountain_pass_scooter_curve_manual_v248.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Mountain roadway in Mai Chau, Hoa Binh province, Vietnam, showing a commuter in a blue jacket riding a motorbike around a paved mountain curve wearing a red safety helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__MaiChau_mountain_pass_scooter_curve_manual_v248.png"
+    },
+    {
+      "image_id": "commons_vietnam/MaiChau_unhelmeted_scooter_commuters_manual_v248.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Rural mountain roadway in Mai Chau, Vietnam, showing two unhelmeted commuters (driver in cloth hat and pillion passenger) traveling on a scooter past heavy trucks.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__MaiChau_unhelmeted_scooter_commuters_manual_v248.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_mototaxi_traffic_commuters_manual_v248.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_mckay_savage_saigon",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "McKay Savage",
+      "vietnam_context": "Hanoi street traffic scene captured from a motorcycle taxi, showing commuters wearing safety helmets riding motorbikes and scooters through city streets.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_mototaxi_traffic_commuters_manual_v248.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_xeom_drivers_resting_street_manual_v248.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street corner in Hanoi, Vietnam, showing two unhelmeted xe om motorcycle taxi drivers resting and waiting on their motorbikes, alongside a parked Honda Wave.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_xeom_drivers_resting_street_manual_v248.png"
+    }
+  ]
+}
