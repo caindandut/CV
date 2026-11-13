@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch81",
+  "snapshot": "dataset_v246",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_Kerry_crossing_motorbikes_manual_v246.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_us_state_dept_hanoi",
+      "license_verified": "Public domain",
+      "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+      "author": "U.S. Department of State",
+      "vietnam_context": "Hanoi street scene with motorbikes and scooters stopped at crosswalk as Secretary of State John Kerry crosses street, featuring waving unhelmeted rider on Repsol Honda Wave and helmeted commuters.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_Kerry_crossing_motorbikes_manual_v246.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_coffee_street_scooters_manual_v246.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_everyday_english_vietnam",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Everyday English",
+      "vietnam_context": "Street view from a cafe in Vietnam showing parked yellow SYM Attila scooter and passing commuters on scooters with helmets.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_coffee_street_scooters_manual_v246.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HangDau_two_women_scooter_manual_v246.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_jakubhal_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jakub Hałun",
+      "vietnam_context": "Hang Dau street in Hanoi Old Quarter, Vietnam, showing female commuters on scooter with pink and blue helmets alongside other street motorbike traffic.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HangDau_two_women_scooter_manual_v246.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_OldTown_shop_parked_wave_manual_v246.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_jakubhal_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jakub Hałun",
+      "vietnam_context": "Traditional street shop front in Hanoi Old Town, Vietnam, with a parked red and black Honda Wave on its kickstand.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldTown_shop_parked_wave_manual_v246.png"
+    }
+  ]
+}
