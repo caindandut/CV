@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch76",
+  "snapshot": "dataset_v241",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/HCMC_scooter_power_commuters_manual_v241.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_matheus_riolfi_hcmc",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "Matheus Riolfi",
+      "vietnam_context": "Large crowd of motorcycle commuters stopping at traffic in Ho Chi Minh City, Vietnam, including riders in helmets and a female passenger wearing a cap visor without helmet (GPS: 10.823099, 106.629664).",
+      "box_count": 14,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_scooter_power_commuters_manual_v241.png"
+    },
+    {
+      "image_id": "commons_vietnam/BatTrang_village_cargo_trailer_motorcycle_manual_v241.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street in Bat Trang ceramic craft village, Gia Lam district, Hanoi, Vietnam, showing a delivery motorcycle with cargo flatbed towing rolled insulation and background commuter riding in a sun hat.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__BatTrang_village_cargo_trailer_motorcycle_manual_v241.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_NewYear_Yamaha_NVX_scooter_side_profile_manual_v241.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gispenni_vuphamham",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gispenni",
+      "vietnam_context": "Side profile of parked purple Yamaha NVX 155 scooter on kickstand against a brick wall along Rue Trung Kinh on New Year's Day in Hanoi, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_NewYear_Yamaha_NVX_scooter_side_profile_manual_v241.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_tunnel_mural_couple_motorbike_night_manual_v241.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_syced_saigon",
+      "license_verified": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Syced",
+      "vietnam_context": "Young Vietnamese couple riding a red Honda scooter at night past the Thu Thiem Tunnel wall mural in Saigon / Ho Chi Minh City, Vietnam, both wearing helmets (GPS: 10.725406, 106.724006; Saigon plate 59-ZA 065.51).",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_tunnel_mural_couple_motorbike_night_manual_v241.png"
+    }
+  ]
+}
