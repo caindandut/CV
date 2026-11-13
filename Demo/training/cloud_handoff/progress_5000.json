@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1234,
-  "remaining_to_goal": 3766,
+  "accepted_clean_images": 1238,
+  "remaining_to_goal": 3762,
   "pending_review_images": 25,
-  "snapshot": "dataset_v239",
+  "snapshot": "dataset_v240",
   "accepted_split_counts": {
-    "train": 975,
-    "validation": 191,
+    "train": 977,
+    "validation": 193,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 9,
-    "1": 2,
-    "2": 0
+    "0": 10,
+    "1": 10,
+    "2": 3
   },
   "total_class_box_counts": {
-    "0": 2249,
-    "1": 1308,
-    "2": 616
+    "0": 2259,
+    "1": 1318,
+    "2": 619
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v239.json",
+  "verification_report": "../verification/dataset_v240.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -65,6 +65,7 @@
     "dataset_v237 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 2.0), adding 7 clean bounding boxes including Hanoi parked white Vespa scooter, Vietnam parked red Soviet Minsk motorcycle, Bac Ninh VinFast Klara S Cargo yellow electric scooter with rare unhelmeted rider in sunglasses, and Mui Ne fishing village beach parked motorcycles. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,226.",
     "dataset_v238 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC0), adding 24 clean bounding boxes including Bat Trang street female commuter with unhelmeted passenger, Hanoi Minh Khai motorcycle repair shop parked motorbikes, Halong Bay ferry deck vintage blue Soviet Minsk motorcycle loaded with cargo pigs, and Ho Chi Minh City street traffic commuters with floral sun suit and passengers. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,230.",
     "dataset_v239 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0), adding 13 clean bounding boxes including Bat Trang pottery delivery woman on Honda Super Cub with crates, Mai Chau mountain pass curve scooter commuter in red helmet, Vietnam coastal mountain pass Suzuki touring motorcycle with thumbs up riders, and Hanoi Old Quarter street on National Day lined with flags and parked motorbikes. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,234.",
-    "dataset_v239 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0), adding 11 clean bounding boxes including Bat Trang pottery delivery woman on Honda Super Cub with crates, Mai Chau mountain pass curve scooter commuter in red helmet, Hanoi Old Quarter street on National Day lined with flags and parked motorbikes, and Hanoi New Year's Day parked Yamaha NVX 155 scooter on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,234."
+    "dataset_v239 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0), adding 11 clean bounding boxes including Bat Trang pottery delivery woman on Honda Super Cub with crates, Mai Chau mountain pass curve scooter commuter in red helmet, Hanoi Old Quarter street on National Day lined with flags and parked motorbikes, and Hanoi New Year's Day parked Yamaha NVX 155 scooter on kickstand. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,234.",
+    "dataset_v240 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 4.0 / CC BY-SA 4.0 / CC BY 3.0), adding 23 clean bounding boxes including Vietnam coastal mountain pass Suzuki touring motorcycle with thumbs up riders, Hanoi Old Quarter Hang Buom street commuters with 3 unhelmeted riders, Hanoi Tran Kim Xuyen junction commuters waiting at red light with Grab driver, and Hanoi Dong Anh commune street commuters on Honda Wave and red scooter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,238."
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch75",
+  "snapshot": "dataset_v240",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Vietnam_coastal_pass_Suzuki_touring_pair_manual_v240.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_vinnie_cartabiano_vietnam",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Vinnie Cartabiano",
+      "vietnam_context": "Touring motorcycle riders giving thumbs up on a blue Suzuki motorcycle stopped along a scenic coastal mountain pass overlooking the sea in Vietnam.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_coastal_pass_Suzuki_touring_pair_manual_v240.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_HangBuom_commuters_manual_v240.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Urban commuters riding motorbikes on Hang Buom street in the Old Quarter of Hanoi, Vietnam, featuring riders with and without helmets.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_HangBuom_commuters_manual_v240.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_TranKimXuyen_junction_commuters_waiting_manual_v240.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gispenni_vuphamham",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gispenni",
+      "vietnam_context": "Motorcycle commuters including Grab ride-hail driver waiting at the traffic light intersection of Tran Kim Xuyen and Vu Pham Ham streets in Hanoi, Vietnam.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TranKimXuyen_junction_commuters_waiting_manual_v240.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_DongAnh_street_commuters_manual_v240.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_siriusblack299_donganh",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "SiriusBlack299",
+      "vietnam_context": "Commuters riding motorcycles and scooters along a street in Dong Anh commune, Hanoi, Vietnam.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_DongAnh_street_commuters_manual_v240.png"
+    }
+  ]
+}
