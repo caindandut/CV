@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch85",
+  "snapshot": "dataset_v250",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_street_traffic_unhelmeted_commuters_manual_v250.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Hanoi Old Quarter street traffic scene in November 2024, showing commuters on motorbikes including multiple unhelmeted riders (women on white scooter and woman in red jacket), a heavily loaded cargo motorcycle, and street flow.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_street_traffic_unhelmeted_commuters_manual_v250.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_tire_express_cargo_delivery_manual_v250.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bluesypete_delivery",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "BluesyPete",
+      "vietnam_context": "Vietnamese express cargo delivery showing a commuter on a red motorcycle transporting massive truck tires strapped around the rear chassis while wearing a blue safety helmet and face mask.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_tire_express_cargo_delivery_manual_v250.png"
+    },
+    {
+      "image_id": "commons_vietnam/MuiNe_beach_promenade_parked_touring_motorbikes_manual_v250.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_kento_muine",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Kento0023",
+      "vietnam_context": "Mui Ne coastal beach promenade in Vietnam, showing two touring Honda Wave motorbikes with rear luggage packs parked on kickstands under tropical palm trees.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__MuiNe_beach_promenade_parked_touring_motorbikes_manual_v250.png"
+    },
+    {
+      "image_id": "commons_vietnam/NhaTrang_cultural_center_roundabout_commuters_manual_v250.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street roundabout in front of Khanh Hoa Provincial Cultural Center in Nha Trang, Vietnam, showing commuters navigating traffic on scooters and motorbikes wearing safety helmets.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_cultural_center_roundabout_commuters_manual_v250.png"
+    }
+  ]
+}
