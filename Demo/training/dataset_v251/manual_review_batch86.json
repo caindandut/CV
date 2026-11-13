@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch86",
+  "snapshot": "dataset_v251",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/QuangNgai_highway_flooding_police_checkpoint_scooter_commuters_manual_v251.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Highway intersection in Quang Ngai during 2013 flooding where police blocked the roadway, showing commuters on motorbikes including a woman and boy on a white SYM scooter and a family of three on a brown Honda scooter wearing safety helmets.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_highway_flooding_police_checkpoint_scooter_commuters_manual_v251.png"
+    },
+    {
+      "image_id": "commons_vietnam/QuangNgai_man_on_Honda_Dream_police_car_flooding_manual_v251.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Man riding a Honda Super Dream motorcycle with front basket next to a Toyota Corolla traffic police patrol car blocking the flooded highway in Quang Ngai, both riders wearing safety helmets.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_man_on_Honda_Dream_police_car_flooding_manual_v251.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnamese_rooster_transporter_motorcycle_manual_v251.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_harald_hoyer_vietnam",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Harald Hoyer from Schwerin, Germany",
+      "vietnam_context": "Vietnamese rural motorcycle transport showing a rider wearing a full-face motorcycle helmet with visor driving a red SYM Angel motorcycle carrying wicker and wire cages loaded with live roosters along the highway.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnamese_rooster_transporter_motorcycle_manual_v251.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_road_safety_family_and_commuters_manual_v251.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dfat_australia_vietnam",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Department of Foreign Affairs and Trade (AusAID / DFAT)",
+      "vietnam_context": "Vietnam road safety demonstration scene along a highway with scenic mountains in background, showing multiple commuters on motorbikes wearing safety helmets, including a mother carrying two young children with helmets on a motorcycle loaded with school backpacks, a man on a bright cyan Honda Wave, and a woman in orange on a red scooter.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_road_safety_family_and_commuters_manual_v251.png"
+    }
+  ]
+}

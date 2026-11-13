@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1278,
-  "remaining_to_goal": 3722,
+  "accepted_clean_images": 1282,
+  "remaining_to_goal": 3718,
   "pending_review_images": 25,
-  "snapshot": "dataset_v250",
+  "snapshot": "dataset_v251",
   "accepted_split_counts": {
-    "train": 1000,
-    "validation": 210,
+    "train": 1002,
+    "validation": 212,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 11,
-    "1": 5,
-    "2": 3
+    "0": 8,
+    "1": 13,
+    "2": 0
   },
   "total_class_box_counts": {
-    "0": 2406,
-    "1": 1430,
+    "0": 2414,
+    "1": 1443,
     "2": 648
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v250.json",
+  "verification_report": "../verification/dataset_v251.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -79,6 +79,7 @@
     "dataset_v247 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC0 / CC BY 2.0), adding 19 clean bounding boxes: Nha Trang Tran Phu boulevard street traffic commuters, Vung Tau coastal avenue street commuters, Lang Dinh An vegetable transport motorcycle loaded with fresh produce crates, and Hanoi urban street traffic commuters flowing through traffic wearing helmets. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,266.",
     "dataset_v248 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY 2.0 / CC BY-SA 4.0), adding 17 clean bounding boxes including 4 rare unhelmeted riders (Class 2): Mai Chau mountain roadway curve commuter, Mai Chau rural unhelmeted scooter driver with unhelmeted passenger, Hanoi motorcycle taxi traffic flow with helmeted commuters, and Hanoi street corner with two unhelmeted xe om drivers resting on their motorbikes alongside a parked Honda Wave. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,270.",
     "dataset_v249 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / Public domain), adding 21 clean bounding boxes including 2 rare unhelmeted children (Class 2): Nha Trang Tran Phu coastal boulevard traffic commuters with helmets, Danang Monkey Mountain scenic sunset parked Honda Air Blade, Ho Chi Minh City Vietnamese family of four on red motorcycle (with two unhelmeted children in straw/pink hats) alongside women commuters on white Honda Super Cub, and Ho Chi Minh City street scene with mother and daughter on blue scooter flashing peace sign. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,274.",
-    "dataset_v250 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 3.0 / CC BY-SA 4.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including 3 rare unhelmeted riders (Class 2): Hanoi Old Quarter street traffic scene with multiple unhelmeted women on scooters alongside a heavy cargo motorcycle, express cargo tire delivery on motorbike in Vietnam with helmeted rider, Mui Ne coastal promenade parked touring motorbikes under palm trees, and Nha Trang provincial cultural center roundabout commuters. Train split reaches a major milestone of exactly 1,000 accepted clean images. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,278."
+    "dataset_v250 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 3.0 / CC BY-SA 4.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including 3 rare unhelmeted riders (Class 2): Hanoi Old Quarter street traffic scene with multiple unhelmeted women on scooters alongside a heavy cargo motorcycle, express cargo tire delivery on motorbike in Vietnam with helmeted rider, Mui Ne coastal promenade parked touring motorbikes under palm trees, and Nha Trang provincial cultural center roundabout commuters. Train split reaches a major milestone of exactly 1,000 accepted clean images. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,278.",
+    "dataset_v251 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / CC BY 2.0), adding 21 clean bounding boxes (8 Class 0, 13 Class 1): Quang Ngai flooding police checkpoint scooter commuters (RG72, train), Quang Ngai man on Honda Dream 100 next to police car (RG72, train), Vietnamese rural rooster transporter on red SYM Angel motorcycle (Harald Hoyer, val), and Vietnam road safety highway commuters including mother with two helmeted children and man on cyan Wave (DFAT, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,282."
   ]
 }
