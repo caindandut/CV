@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch78",
+  "snapshot": "dataset_v243",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Saigon_family_airblade_unhelmeted_children_manual_v243.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_staffan_scherz_hcmc",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Staffan Scherz",
+      "vietnam_context": "Ho Chi Minh City street scene showing a Vietnamese family of five riding a Honda Air Blade scooter with helmeted parents/older daughter and two unhelmeted young children, alongside a passing workhorse motorcycle.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_family_airblade_unhelmeted_children_manual_v243.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_street_parked_scooters_manual_v243.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Hanoi Old Quarter pedestrian street with tourists and parked motorcycles including a blue Honda Wave 110 on kickstand in the foreground and a parked Honda Vision scooter in the background.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_street_parked_scooters_manual_v243.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BuiVien_commuters_piaggio_scooters_manual_v243.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_matsuoka_buivien",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "松岡明芳",
+      "vietnam_context": "Bui Vien Street in District 1, Ho Chi Minh City, Vietnam, showing commuters on Piaggio scooters and motorcycles wearing helmets, with pedestrians and shophouses.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BuiVien_commuters_piaggio_scooters_manual_v243.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BuiVien_alley_parked_supercub_scooters_manual_v243.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_matsuoka_buivien",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "松岡明芳",
+      "vietnam_context": "Narrow residential alleyway off Bui Vien Street in Ho Chi Minh City, Vietnam, featuring parked vintage Honda Super Cub and scooters parked outside food vendors.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BuiVien_alley_parked_supercub_scooters_manual_v243.png"
+    }
+  ]
+}
