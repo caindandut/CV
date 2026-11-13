@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch79",
+  "snapshot": "dataset_v244",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_OldQuarter_fruitseller_supercub_manual_v244.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_alexkom000_hanoi",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Alexkom000",
+      "vietnam_context": "Pedestrian street scene in Old Quarter of Hanoi, Vietnam, showing fruit vendor on Honda Super Cub without helmet, passing commuter scooter, and row of parked scooters along curb.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_OldQuarter_fruitseller_supercub_manual_v244.png"
+    },
+    {
+      "image_id": "commons_vietnam/NorthVietnam_street_hondawave_yawning_manual_v244.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street scene in Northern Vietnam showing a young man sitting on a parked Honda Wave motorcycle without a helmet, a passing commuter on a scooter wearing a helmet, and parked motorcycles.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NorthVietnam_street_hondawave_yawning_manual_v244.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_TuMo_street_unhelmeted_commuters_manual_v244.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_gispenni_vuphamham",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Gispenni",
+      "vietnam_context": "Afternoon on Tu Mo Street in Cau Giay district, Hanoi, Vietnam, showing commuters riding scooters without helmets alongside a Que Lua / Xanh SM taxi.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TuMo_street_unhelmeted_commuters_manual_v244.png"
+    },
+    {
+      "image_id": "commons_vietnam/HCMC_BuiVien_green_supercub_street_manual_v244.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_matsuoka_buivien",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "松岡明芳",
+      "vietnam_context": "Bui Vien Street in District 1, Ho Chi Minh City, Vietnam, with a parked green vintage Honda Super Cub on kickstand, parked red motorcycle, and street commerce.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HCMC_BuiVien_green_supercub_street_manual_v244.png"
+    }
+  ]
+}

@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1250,
-  "remaining_to_goal": 3750,
+  "accepted_clean_images": 1254,
+  "remaining_to_goal": 3746,
   "pending_review_images": 25,
-  "snapshot": "dataset_v243",
+  "snapshot": "dataset_v244",
   "accepted_split_counts": {
-    "train": 983,
-    "validation": 199,
+    "train": 985,
+    "validation": 201,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 12,
-    "1": 7,
-    "2": 2
+    "0": 14,
+    "1": 1,
+    "2": 5
   },
   "total_class_box_counts": {
-    "0": 2296,
-    "1": 1349,
-    "2": 629
+    "0": 2310,
+    "1": 1350,
+    "2": 634
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v243.json",
+  "verification_report": "../verification/dataset_v244.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -69,6 +69,7 @@
     "dataset_v240 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 4.0 / CC BY-SA 4.0 / CC BY 3.0), adding 23 clean bounding boxes including Vietnam coastal mountain pass Suzuki touring motorcycle with thumbs up riders, Hanoi Old Quarter Hang Buom street commuters with 3 unhelmeted riders, Hanoi Tran Kim Xuyen junction commuters waiting at red light with Grab driver, and Hanoi Dong Anh commune street commuters on Honda Wave and red scooter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,238.",
     "dataset_v241 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 3.0 / CC BY-SA 4.0 / CC0), adding 22 clean ground-truth bounding boxes including HCMC traffic crowd with unhelmeted cap-wearing passenger, Bat Trang ceramic village street delivery motorcycle towing insulation flatbed and background commuter, Hanoi Rue Trung Kinh parked purple Yamaha NVX 155 scooter side profile on kickstand, and Saigon Thu Thiem tunnel wall mural night couple on red Honda scooter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,242.",
     "dataset_v242 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 2.0 / CC BY-SA 4.0 / CC BY 4.0), adding 35 clean bounding boxes including 6 rare unhelmeted riders (Class 2): Saigon traffic commuters on Super Cub and Wave without helmets, District 1 HCMC Ben Thanh Traffic Police Honda CB250 motorcycle with passing traffic, Hanoi Hang Dau street intersection commuters lined up at red light, and Hanoi Old Town citron seller street scene with unhelmeted woman on scooter. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,246.",
-    "dataset_v243 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 4.0 / CC BY-SA 3.0), adding 21 clean bounding boxes including 2 rare unhelmeted young children (Class 2): Saigon family of 5 on Honda Air Blade scooter, Hanoi Old Quarter pedestrian street with parked Honda Wave 110, HCMC Bui Vien street commuters on Piaggio scooters and motorcycles, and HCMC Bui Vien alleyway food stall with vintage Honda Super Cub and parked scooters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,250 (25.0% of 5,000 milestone)."
+    "dataset_v243 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 4.0 / CC BY-SA 3.0), adding 21 clean bounding boxes including 2 rare unhelmeted young children (Class 2): Saigon family of 5 on Honda Air Blade scooter, Hanoi Old Quarter pedestrian street with parked Honda Wave 110, HCMC Bui Vien street commuters on Piaggio scooters and motorcycles, and HCMC Bui Vien alleyway food stall with vintage Honda Super Cub and parked scooters. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,250 (25.0% of 5,000 milestone).",
+    "dataset_v244 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 4.0 / CC BY-SA 3.0), adding 20 clean bounding boxes including 5 rare unhelmeted riders (Class 2): Hanoi Old Quarter street fruit vendor on Super Cub without helmet, North Vietnam street scene with young man yawning on Honda Wave, Hanoi Tu Mo street commuters on scooters without helmets, and HCMC Bui Vien street scene with vintage green Honda Super Cub on kickstand and parked bikes. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,254."
   ]
 }
