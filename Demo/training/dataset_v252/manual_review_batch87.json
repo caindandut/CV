@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch87",
+  "snapshot": "dataset_v252",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-13",
+  "items": [
+    {
+      "image_id": "commons_vietnam/NhaTrang_roundabout_street_traffic_scooter_commuters_manual_v252.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Street roundabout in Nha Trang, Vietnam, showing commuters navigating traffic on scooters and motorbikes wearing safety helmets, including a woman in lilac shirt on a black scooter negotiating a painted traffic barrier block.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_roundabout_street_traffic_scooter_commuters_manual_v252.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_porcelain_transport_heavy_cargo_motorbike_manual_v252.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bluesypete_delivery",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "BluesyPete",
+      "vietnam_context": "Fragile porcelain bowl transport on a motorcycle in Vietnam, showing a commuter wearing a safety helmet driving a Honda Super Dream motorcycle loaded with massive side-mounted stacks of blue-and-white porcelain ceramic bowls.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_porcelain_transport_heavy_cargo_motorbike_manual_v252.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_xe_om_carrying_unhelmeted_passenger_manual_v252.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_bao_tri_nguyen_xe_om",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Bảo Trí Nguyễn",
+      "vietnam_context": "Vietnamese motorcycle taxi (xe om) driver in white shirt and safety helmet carrying a smiling female passenger wearing a cloth sun cap without a motorcycle helmet on a Honda Wave in front of a parking sign (Bai Giu Xe).",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_xe_om_carrying_unhelmeted_passenger_manual_v252.png"
+    },
+    {
+      "image_id": "commons_vietnam/Tourists_with_xe_om_touring_motorbikes_DaLat_manual_v252.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_letsgoeverywhere_dalat",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "letsgoeverywhere",
+      "vietnam_context": "Da Lat motorcycle touring scene with Easy Rider xe om guides and tourists on loaded Honda Win motorbikes wearing safety helmets, standing tourist beside bike excluded.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Tourists_with_xe_om_touring_motorbikes_DaLat_manual_v252.png"
+    }
+  ]
+}
