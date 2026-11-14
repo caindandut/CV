@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch92",
+  "snapshot": "dataset_v257",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_intersection_traffic_commuters_RG72_manual_v257.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Hanoi intersection street traffic with commuters waiting and flowing on motorbikes and scooters, including man talking on mobile phone on parked motorcycle and woman in yellow helmet and sun hood on blue scooter.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_intersection_traffic_commuters_RG72_manual_v257.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_boulevard_stopped_women_commuters_manual_v257.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_paris16_hanoi",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Paris 16",
+      "vietnam_context": "Commuters on motorbikes and scooters stopped at Hanoi street intersection in front of tree-lined boulevard, showing women wearing protective safety helmets and face masks.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_boulevard_stopped_women_commuters_manual_v257.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_traffic_crosswalk_commuters_Tet_flowers_manual_v257.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dennis_jarvis_saigon",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Dennis G. Jarvis",
+      "vietnam_context": "Dense Ho Chi Minh City street traffic flow moving across pedestrian crosswalk under yellow and pink Tet flower decorations strung between street trees.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_traffic_crosswalk_commuters_Tet_flowers_manual_v257.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_TranPhu_billboard_commuters_unhelmeted_girls_manual_v257.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_michelle_hanoi",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Michelle",
+      "vietnam_context": "Hanoi Tran Phu street intersection traffic outside commemorative 30-4 liberation billboard, showing bus 33, two young women riding red scooter without helmets alongside commuters on Honda Super Cub, dark motorcycle, and Honda Wave.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TranPhu_billboard_commuters_unhelmeted_girls_manual_v257.png"
+    }
+  ]
+}
