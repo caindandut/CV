@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch93",
+  "snapshot": "dataset_v258",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/NhaTrang_boy_sleeping_on_Honda_Wave_manual_v258.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Nha Trang street scene with a young boy sleeping across the seat of a parked black Honda Wave motorcycle without a helmet, parked beside a Honda Dream motorcycle.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_boy_sleeping_on_Honda_Wave_manual_v258.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_WestLake_commuters_Nouvo_Lead_Spacy_manual_v258.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_amenoc_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Amenoc",
+      "vietnam_context": "Hanoi West Lake circular road intersection in front of the Ministry of Defence building, showing commuters on Yamaha Nouvo, Honda Lead, Honda Spacy, and a red-shirt passenger without a helmet.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_WestLake_commuters_Nouvo_Lead_Spacy_manual_v258.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_AuCo_road_commuters_traffic_duo_manual_v258.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_david_mckelvey_hanoi",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "David McKelvey",
+      "vietnam_context": "Au Co Road in Tay Ho District, Hanoi, showing roadway commuters riding motorbikes with helmets, including a duo in winter coats with red helmet, a courier transporting bundled cargo boxes, and commuters flowing along the avenue.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_AuCo_road_commuters_traffic_duo_manual_v258.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_TranDuyHung_Agribank_parked_motorbikes_manual_v258.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_phanminhtuan_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Phan Minh Tuấn",
+      "vietnam_context": "Sidewalk in front of Agribank branch at 61 Tran Duy Hung, Cau Giay, Hanoi, with parked red Honda Wave and motorbikes along Pho Do Quang street sign, and commuter riding scooter with safety helmet on the street.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_TranDuyHung_Agribank_parked_motorbikes_manual_v258.png"
+    }
+  ]
+}
