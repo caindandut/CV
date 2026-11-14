@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch90",
+  "snapshot": "dataset_v255",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_LongBien_bridge_custom_cafe_racer_parked_manual_v255.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_therollo76_longbien",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "TheRollo76",
+      "vietnam_context": "Custom black cafe-racer commuter motorcycle parked on its kickstand on the pedestrian walkway of the historic Long Bien Bridge in Hanoi, Vietnam, overlooking the Red River.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_LongBien_bridge_custom_cafe_racer_parked_manual_v255.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_traditional_shopfront_parked_Honda_scooters_manual_v255.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Hanoi Old Quarter street shopfront with traditional Chinese characters and red decorative lanterns, showing a dark blue Honda scooter with Hanoi registration 29-X9 9546 parked on kickstand at the curb and a silver scooter parked at the entrance.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_traditional_shopfront_parked_Honda_scooters_manual_v255.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_YenHoa_white_Honda_Wave_parked_manual_v255.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_ferdimm_hanoi",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Ferdimma9A",
+      "vietnam_context": "White Honda Wave commuter motorcycle parked on its center stand at Yen Hoa Parkview City in Hanoi, Vietnam, in front of a landscaped garden bed.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_YenHoa_white_Honda_Wave_parked_manual_v255.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_street_elderly_man_unhelmeted_Honda_Dream_manual_v255.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_ducmanh_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Đức Mạnh",
+      "vietnam_context": "Hanoi street scene outside Sentia Camp showing an elderly grey-haired man seated sidesaddle without a helmet on a parked black Honda Dream II motorcycle (license plate 29-D1 545.37) on the street corner.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_street_elderly_man_unhelmeted_Honda_Dream_manual_v255.png"
+    }
+  ]
+}

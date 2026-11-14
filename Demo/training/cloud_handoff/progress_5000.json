@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1294,
-  "remaining_to_goal": 3706,
+  "accepted_clean_images": 1298,
+  "remaining_to_goal": 3702,
   "pending_review_images": 25,
-  "snapshot": "dataset_v254",
+  "snapshot": "dataset_v255",
   "accepted_split_counts": {
-    "train": 1009,
-    "validation": 217,
+    "train": 1011,
+    "validation": 219,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 7,
-    "1": 3,
+    "0": 5,
+    "1": 0,
     "2": 1
   },
   "total_class_box_counts": {
-    "0": 2437,
+    "0": 2442,
     "1": 1457,
-    "2": 650
+    "2": 651
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v254.json",
+  "verification_report": "../verification/dataset_v255.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -83,6 +83,7 @@
     "dataset_v251 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / CC BY 2.0), adding 21 clean bounding boxes (8 Class 0, 13 Class 1): Quang Ngai flooding police checkpoint scooter commuters (RG72, train), Quang Ngai man on Honda Dream 100 next to police car (RG72, train), Vietnamese rural rooster transporter on red SYM Angel motorcycle (Harald Hoyer, val), and Vietnam road safety highway commuters including mother with two helmeted children and man on cyan Wave (DFAT, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,282.",
     "dataset_v252 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0 / CC BY 2.0), adding 14 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Nha Trang roundabout street traffic scooter commuters (RG72, train), Vietnam porcelain transport on heavy cargo motorcycle (BluesyPete, train), Vietnamese xe om driver carrying smiling woman passenger without helmet in cloth sun cap (Bảo Trí Nguyễn, val), and Da Lat motorcycle touring scene with Easy Rider xe om guides and tourists on loaded Honda Win motorbikes (letsgoeverywhere, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,286.",
     "dataset_v253 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 2.0 / CC BY-SA 4.0 / CC0), adding 14 clean bounding boxes (10 Class 0, 4 Class 1): Vietnam urban street commuters on white Honda scooter (Christopher Michel, train), 1967 Tran Hung Dao street machinery workshop parked vintage mopeds in Phan Thiet (Bob Kelly, train), Hoi An yellow wall street female commuter on dark blue motorbike and parked motorbikes row (Pauloleong2002, val), and classic parked Honda Dream II against weathered wall in Hanoi (Đức Mạnh, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,290.",
-    "dataset_v254 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY 2.0), adding 11 clean bounding boxes (7 Class 0, 3 Class 1, 1 Class 2): Quang Ngai flooded street commuter riding motorbike with helmet (RG72, train), Quang Ngai floodwaters red Honda Wave carrying cargo with driver in helmet and pillion passenger without helmet (RG72, train), Quang Ngai residential patio four parked motorbikes behind children playing cards (RG72, train), and Vietnam road safety highway commuter riding red/black motorcycle past overturned truck (DFAT, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,294."
+    "dataset_v254 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 3.0 / CC BY 2.0), adding 11 clean bounding boxes (7 Class 0, 3 Class 1, 1 Class 2): Quang Ngai flooded street commuter riding motorbike with helmet (RG72, train), Quang Ngai floodwaters red Honda Wave carrying cargo with driver in helmet and pillion passenger without helmet (RG72, train), Quang Ngai residential patio four parked motorbikes behind children playing cards (RG72, train), and Vietnam road safety highway commuter riding red/black motorcycle past overturned truck (DFAT, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,294.",
+    "dataset_v255 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC0), adding 6 clean bounding boxes (5 Class 0, 0 Class 1, 1 Class 2): Hanoi Long Bien bridge custom cafe racer parked on walkway (TheRollo76, train), Hanoi traditional shopfront parked Honda scooters (RG72, train), Hanoi Yen Hoa Parkview City white Honda Wave parked on kickstand (Ferdimma9A, val), and Hanoi street scene outside Sentia Camp with elderly grey-haired man seated sidesaddle without helmet on parked Honda Dream II (Đức Mạnh, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,298."
   ]
 }
