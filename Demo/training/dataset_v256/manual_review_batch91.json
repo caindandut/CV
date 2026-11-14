@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch91",
+  "snapshot": "dataset_v256",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_crossroad_commuters_waiting_AtsushiYamaoka_manual_v256.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_atsushi_yamaoka_hanoi",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Atsushi Yamaoka",
+      "vietnam_context": "Hanoi crossroad under pedestrian bridge outside pharmacy with queue of commuters waiting at red light on Honda Super Cub, Honda Wave, and scooters wearing safety helmets.",
+      "box_count": 10,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_crossroad_commuters_waiting_AtsushiYamaoka_manual_v256.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_traffic_commuters_TytoAlbatraoz_manual_v256.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_tyto_saigon",
+      "license_verified": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Tyto Albatraoz",
+      "vietnam_context": "Ho Chi Minh City street traffic commuters viewed from behind, featuring a red Piaggio Vespa, black scooter carrying adult driver with helmet and unhelmeted young girl passenger in green t-shirt, scooter with yellow jacket commuter, and midground commuter motorcycle.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_traffic_commuters_TytoAlbatraoz_manual_v256.png"
+    },
+    {
+      "image_id": "commons_vietnam/ceramic_pedestal_cargo_transporter_manual_v256.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_harald_hoyer",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Harald Hoyer",
+      "vietnam_context": "Vietnamese street transporter commuting on motorcycle loaded with large ceramic pedestal planters, wearing dark protective helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__ceramic_pedestal_cargo_transporter_manual_v256.png"
+    },
+    {
+      "image_id": "commons_vietnam/Saigon_CSGT_police_checkpoint_CB250_scooter_manual_v256.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dennis_jarvis_saigon",
+      "license_verified": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "author": "Dennis G. Jarvis",
+      "vietnam_context": "CSGT Vietnam traffic police motorcycle checkpoint in Saigon, showing official Honda CB250 police motorcycle on front kickstand and parked maroon scooter on the sidewalk.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Saigon_CSGT_police_checkpoint_CB250_scooter_manual_v256.png"
+    }
+  ]
+}
