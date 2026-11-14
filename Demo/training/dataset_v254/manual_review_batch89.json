@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch89",
+  "snapshot": "dataset_v254",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/QuangNgai_flooded_street_motorcycle_commuter_helmet_manual_v254.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "RG72",
+      "vietnam_context": "Flooded street scene in Quang Ngai, Vietnam following typhoon rains, showing a male commuter wearing a black safety helmet driving a dark motorcycle through deep floodwaters.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_flooded_street_motorcycle_commuter_helmet_manual_v254.png"
+    },
+    {
+      "image_id": "commons_vietnam/QuangNgai_floodwaters_red_Wave_cargo_driver_pillion_manual_v254.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "RG72",
+      "vietnam_context": "Tu Nghia, Quang Ngai street during flooding in Vietnam, showing two men on a red Honda Wave motorcycle carrying a heavy bundle of green palm fruit through water: driver wearing a grey safety helmet and pillion passenger seated behind cargo without a helmet.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_floodwaters_red_Wave_cargo_driver_pillion_manual_v254.png"
+    },
+    {
+      "image_id": "commons_vietnam/QuangNgai_four_parked_motorbikes_residential_patio_manual_v254.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "RG72",
+      "vietnam_context": "Quang Ngai, Vietnam residential scene showing four motorbikes parked neatly in a row on kickstands in front of an open workshop doorway, with Vietnamese registration plates visible on all four vehicles.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__QuangNgai_four_parked_motorbikes_residential_patio_manual_v254.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_road_safety_highway_red_Sirius_commuter_manual_v254.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_dfat_roadsafety",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Cao Hoàng Cần, Vietnam Roads Administration (DFAT / AusAID)",
+      "vietnam_context": "Road safety survey scene on a rural highway in Vietnam documenting an overturned logging truck, showing a male commuter riding a red and black commuter motorcycle past in the foreground wearing a white safety helmet.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_road_safety_highway_red_Sirius_commuter_manual_v254.png"
+    }
+  ]
+}
