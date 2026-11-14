@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1286,
-  "remaining_to_goal": 3714,
+  "accepted_clean_images": 1290,
+  "remaining_to_goal": 3710,
   "pending_review_images": 25,
-  "snapshot": "dataset_v252",
+  "snapshot": "dataset_v253",
   "accepted_split_counts": {
-    "train": 1004,
-    "validation": 214,
+    "train": 1006,
+    "validation": 216,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 6,
-    "1": 7,
-    "2": 1
+    "0": 10,
+    "1": 4,
+    "2": 0
   },
   "total_class_box_counts": {
-    "0": 2420,
-    "1": 1450,
+    "0": 2430,
+    "1": 1454,
     "2": 649
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v252.json",
+  "verification_report": "../verification/dataset_v253.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -81,6 +81,7 @@
     "dataset_v249 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / Public domain), adding 21 clean bounding boxes including 2 rare unhelmeted children (Class 2): Nha Trang Tran Phu coastal boulevard traffic commuters with helmets, Danang Monkey Mountain scenic sunset parked Honda Air Blade, Ho Chi Minh City Vietnamese family of four on red motorcycle (with two unhelmeted children in straw/pink hats) alongside women commuters on white Honda Super Cub, and Ho Chi Minh City street scene with mother and daughter on blue scooter flashing peace sign. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,274.",
     "dataset_v250 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 4.0 / CC BY-SA 3.0 / CC BY-SA 4.0 / CC BY-SA 4.0), adding 19 clean bounding boxes including 3 rare unhelmeted riders (Class 2): Hanoi Old Quarter street traffic scene with multiple unhelmeted women on scooters alongside a heavy cargo motorcycle, express cargo tire delivery on motorbike in Vietnam with helmeted rider, Mui Ne coastal promenade parked touring motorbikes under palm trees, and Nha Trang provincial cultural center roundabout commuters. Train split reaches a major milestone of exactly 1,000 accepted clean images. Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,278.",
     "dataset_v251 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 2.0 / CC BY 2.0), adding 21 clean bounding boxes (8 Class 0, 13 Class 1): Quang Ngai flooding police checkpoint scooter commuters (RG72, train), Quang Ngai man on Honda Dream 100 next to police car (RG72, train), Vietnamese rural rooster transporter on red SYM Angel motorcycle (Harald Hoyer, val), and Vietnam road safety highway commuters including mother with two helmeted children and man on cyan Wave (DFAT, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,282.",
-    "dataset_v252 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0 / CC BY 2.0), adding 14 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Nha Trang roundabout street traffic scooter commuters (RG72, train), Vietnam porcelain transport on heavy cargo motorcycle (BluesyPete, train), Vietnamese xe om driver carrying smiling woman passenger without helmet in cloth sun cap (Bảo Trí Nguyễn, val), and Da Lat motorcycle touring scene with Easy Rider xe om guides and tourists on loaded Honda Win motorbikes (letsgoeverywhere, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,286."
+    "dataset_v252 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0 / CC BY 2.0), adding 14 clean bounding boxes including 1 rare unhelmeted rider (Class 2): Nha Trang roundabout street traffic scooter commuters (RG72, train), Vietnam porcelain transport on heavy cargo motorcycle (BluesyPete, train), Vietnamese xe om driver carrying smiling woman passenger without helmet in cloth sun cap (Bảo Trí Nguyễn, val), and Da Lat motorcycle touring scene with Easy Rider xe om guides and tourists on loaded Honda Win motorbikes (letsgoeverywhere, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,286.",
+    "dataset_v253 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 2.0 / CC BY 2.0 / CC BY-SA 4.0 / CC0), adding 14 clean bounding boxes (10 Class 0, 4 Class 1): Vietnam urban street commuters on white Honda scooter (Christopher Michel, train), 1967 Tran Hung Dao street machinery workshop parked vintage mopeds in Phan Thiet (Bob Kelly, train), Hoi An yellow wall street female commuter on dark blue motorbike and parked motorbikes row (Pauloleong2002, val), and classic parked Honda Dream II against weathered wall in Hanoi (Đức Mạnh, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,290."
   ]
 }

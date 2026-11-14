@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch88",
+  "snapshot": "dataset_v253",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-14",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Vietnam_urban_street_commuters_white_scooter_manual_v253.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_christopher_michel",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Christopher Michel",
+      "vietnam_context": "Urban street scene in Vietnam showing commuters on motorbikes wearing safety helmets, including two young men riding a white scooter and a commuter on a green motorbike wearing a helmet and protective face mask.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_urban_street_commuters_white_scooter_manual_v253.png"
+    },
+    {
+      "image_id": "commons_vietnam/TranHungDao_workshop_parked_vintage_mopeds_1967_manual_v253.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_bob_kelly_phanthiet",
+      "license_verified": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Bob Kelly / tommy japan",
+      "vietnam_context": "Historical 1967 street photograph of Tran Hung Dao Street in Phan Thiet, Binh Thuan, Vietnam, showing a vintage white Honda 50 moped and a vintage grey Lambretta scooter parked outside a machinery workshop.",
+      "box_count": 2,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__TranHungDao_workshop_parked_vintage_mopeds_1967_manual_v253.png"
+    },
+    {
+      "image_id": "commons_vietnam/HoiAn_yellow_wall_street_commuter_parked_motorbikes_manual_v253.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_pauloleong_hoian",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Pauloleong2002",
+      "vietnam_context": "Street scene in historic Hoi An, Vietnam, in front of a yellow colonial wall with blue shutters, showing a female commuter on a dark blue motorcycle wearing a helmet and multiple motorbikes parked neatly in a row on kickstands.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__HoiAn_yellow_wall_street_commuter_parked_motorbikes_manual_v253.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_weathered_wall_parked_Honda_Dream_manual_v253.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_duc_manh_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Đức Mạnh (duzmanh26)",
+      "vietnam_context": "Classic vintage Honda Dream II motorcycle with Hanoi registration plate parked on its center kickstand against a weathered urban wall stenciled with concrete drilling phone numbers in Hanoi, Vietnam.",
+      "box_count": 1,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_weathered_wall_parked_Honda_Dream_manual_v253.png"
+    }
+  ]
+}
