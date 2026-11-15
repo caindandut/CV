@@ -2,30 +2,30 @@
   "schema_version": 1,
   "as_of": "2026-11-11",
   "goal_images": 5000,
-  "accepted_clean_images": 1314,
-  "remaining_to_goal": 3686,
+  "accepted_clean_images": 1318,
+  "remaining_to_goal": 3682,
   "pending_review_images": 25,
-  "snapshot": "dataset_v259",
+  "snapshot": "dataset_v260",
   "accepted_split_counts": {
-    "train": 1019,
-    "validation": 227,
+    "train": 1021,
+    "validation": 229,
     "test_locked": 68
   },
   "newly_accepted_this_batch": 4,
   "new_batch_class_box_counts": {
-    "0": 12,
-    "1": 9,
-    "2": 0
+    "0": 14,
+    "1": 10,
+    "2": 2
   },
   "total_class_box_counts": {
-    "0": 2499,
-    "1": 1505,
-    "2": 656
+    "0": 2513,
+    "1": 1515,
+    "2": 658
   },
   "original_dataset_unchanged": true,
   "test_split_locked": true,
   "pending_counts_toward_goal": false,
-  "verification_report": "../verification/dataset_v259.json",
+  "verification_report": "../verification/dataset_v260.json",
   "notes": [
     "Counts are individually reviewed images, not boxes; duplicate and pending rows do not count.",
     "dataset_v203 audited all 1,492 pending DataSet2 items: 335 unique canonical frames accepted (279 train, 56 val), 1,132 redundant variants excluded, 25 items held pending in group_0000 to maintain test lock.",
@@ -88,6 +88,7 @@
     "dataset_v256 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY 3.0 / CC BY-SA 2.0), adding 22 clean bounding boxes (12 Class 0, 9 Class 1, 1 Class 2): Hanoi crossroad waiting commuters under pedestrian footbridge (Atsushi Yamaoka, train), Saigon traffic flow commuters viewed from behind with unhelmeted girl passenger (Tyto Albatraoz, train), Vietnamese ceramic pedestal cargo transporter (Harald Hoyer, val), and Saigon CSGT traffic police checkpoint Honda CB250 motorcycle & parked scooter (Dennis G. Jarvis, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,302.",
     "dataset_v257 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY 2.0 / CC BY-SA 2.0), adding 40 clean bounding boxes (19 Class 0, 19 Class 1, 2 Class 2): Hanoi intersection street commuters waiting & flowing on motorbikes (RG72, train), Hanoi street intersection stopped commuters in front of tree-lined boulevard (Paris 16, train), Ho Chi Minh City street traffic flow moving across pedestrian crosswalk (Dennis G. Jarvis, val), and Hanoi Tran Phu street traffic commuters outside commemorative 30-4 billboard with 2 unhelmeted young girl commuters (Michelle, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,306.",
     "dataset_v258 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC0 / CC BY 2.0 / CC BY-SA 4.0), adding 27 clean bounding boxes (14 Class 0, 11 Class 1, 2 Class 2): Nha Trang boy sleeping on Honda Wave motorcycle seat without helmet (RG72, train), Hanoi West Lake commuters Nouvo duo, Lead, Spacy, unhelmeted woman (Amenoc, train), Au Co Road Hanoi commuters traffic duo, cargo courier (David McKelvey, val), and Hanoi Tran Duy Hung Agribank parked red Wave and street commuter (Phan Minh Tuấn, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,310.",
-    "dataset_v259 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC0 / CC BY-SA 3.0 / CC BY-SA 3.0), adding 21 clean bounding boxes (12 Class 0, 9 Class 1, 0 Class 2): Hanoi Old Quarter intersection commuters on Super Dream, Vespa, white scooter (RG72, train), Hanoi West Lake temple commuters motorcycle duo (Amenoc, train), Viet Tri traffic light stopped commuters on motorbikes with helmets (Hungvuongking, val), and Downtown Hanoi cafe sidewalk parked Honda Dream, scooters, motorbikes (Abai2k, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,314."
+    "dataset_v259 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC0 / CC BY-SA 3.0 / CC BY-SA 3.0), adding 21 clean bounding boxes (12 Class 0, 9 Class 1, 0 Class 2): Hanoi Old Quarter intersection commuters on Super Dream, Vespa, white scooter (RG72, train), Hanoi West Lake temple commuters motorcycle duo (Amenoc, train), Viet Tri traffic light stopped commuters on motorbikes with helmets (Hungvuongking, val), and Downtown Hanoi cafe sidewalk parked Honda Dream, scooters, motorbikes (Abai2k, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,314.",
+    "dataset_v260 ingested 4 newly manually reviewed Vietnam motorcycle images from Wikimedia Commons with open licenses (CC BY-SA 4.0 / CC BY-SA 4.0 / CC BY-SA 3.0 / CC0), adding 26 clean bounding boxes (14 Class 0, 10 Class 1, 2 Class 2): Hanoi hostel unhelmeted couple on Honda Wave with 2 rare Class 2 unhelmeted riders and parked bikes (RG72, train), Hanoi Hang Bo street commuters on red Wave, black scooter and Super Dream (RG72, train), Vietnam CSGT traffic police patrol motorcycle with seated officer & street commuters (Ngô Trung, val), and Hanoi Dong Kinh Nghia Thuc square traffic commuters outside Shark Jaws building (Arnaud Matar, val). Zero leakage between splits, test split locked at 68 images. Total clean images reaches 1,318."
   ]
 }

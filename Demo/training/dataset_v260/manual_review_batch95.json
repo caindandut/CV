@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch95",
+  "snapshot": "dataset_v260",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-15",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_hostel_unhelmeted_couple_HondaWave_manual_v260.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Hanoi street scene outside Hanoi Nonprofit House Hostel & Travel showing young Vietnamese couple on a black Honda Wave motorcycle without safety helmets (man bareheaded, woman wearing white baseball cap), alongside parked white scooter and parked black motorcycle.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_hostel_unhelmeted_couple_HondaWave_manual_v260.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_HangBo_street_commuters_manual_v260.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Hang Bo Street in Hanoi Old Quarter outside district social affairs office, showing commuter traffic including woman riding red Honda Wave with red helmet, man in blue shirt riding black scooter with blue helmet, and commuter in plaid shirt riding Honda Super Dream with white helmet.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_HangBo_street_commuters_manual_v260.png"
+    },
+    {
+      "image_id": "commons_vietnam/Vietnam_CSGT_traffic_police_patrol_motorcycle_manual_v260.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_ngotrung_csgt",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Ngô Trung",
+      "vietnam_context": "High-angle street view in Vietnam showing Traffic Police (CSGT) officer on white Honda patrol motorcycle with emergency lights wearing helmet, alongside street commuters riding motorbikes with safety helmets and a parked sidewalk motorcycle.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Vietnam_CSGT_traffic_police_patrol_motorcycle_manual_v260.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_DongKinhNghiaThuc_square_traffic_commuters_manual_v260.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_arnaud_matar_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Arnaud Matar",
+      "vietnam_context": "Dong Kinh Nghia Thuc Square in Hanoi Old Quarter outside the iconic Shark Jaws building, showing motorcycle commuters with protective safety helmets flowing through the open intersection past a traditional cyclorickshaw.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_DongKinhNghiaThuc_square_traffic_commuters_manual_v260.png"
+    }
+  ]
+}
