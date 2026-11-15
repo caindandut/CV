@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch96",
+  "snapshot": "dataset_v261",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-15",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_CauGo_street_women_commuters_manual_v261.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Cau Go Street in Hanoi Old Quarter showing two young Vietnamese women riding a black scooter with safety helmets (driver in orange sweater, pillion in striped top) alongside designated rows of parked scooters outside a traditional clothing store.",
+      "box_count": 7,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_CauGo_street_women_commuters_manual_v261.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_shaded_street_parked_AirBlade_SuperDream_manual_v261.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Tree-shaded street in Hanoi showing parked white Honda Air Blade scooter and black Honda Super Dream on kickstands along the curb, alongside passing street commuters wearing helmets.",
+      "box_count": 6,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_shaded_street_parked_AirBlade_SuperDream_manual_v261.png"
+    },
+    {
+      "image_id": "commons_vietnam/Cholon_TrangTu_street_heavy_cargo_commuters_manual_v261.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_mileivencel_cholon",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Milei.vencel",
+      "vietnam_context": "Trang Tu Street in Cho Lon (District 5, Ho Chi Minh City) showing motorcycle traffic flow including woman commuter transporting large green mesh cargo sack on motorcycle rack, alongside commuters riding scooters and motorbikes wearing safety helmets.",
+      "box_count": 11,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Cholon_TrangTu_street_heavy_cargo_commuters_manual_v261.png"
+    },
+    {
+      "image_id": "commons_vietnam/NhaTrang_coastal_boulevard_traffic_commuters_manual_v261.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_rayrayokocha_nhatrang",
+      "license_verified": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Rayrayokocha",
+      "vietnam_context": "Tran Phu coastal boulevard in Nha Trang lined with manicured tropical greenery and commemorative banners, showing multiple lanes of motorcycle commuters traveling smoothly wearing protective safety helmets.",
+      "box_count": 8,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__NhaTrang_coastal_boulevard_traffic_commuters_manual_v261.png"
+    }
+  ]
+}
