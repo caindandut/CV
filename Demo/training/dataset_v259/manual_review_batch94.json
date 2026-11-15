@@ -1,0 +1,56 @@
+{
+  "batch_id": "manual_review_batch94",
+  "snapshot": "dataset_v259",
+  "reviewer": "antigravity_cloud_codex",
+  "date": "2026-11-15",
+  "items": [
+    {
+      "image_id": "commons_vietnam/Hanoi_intersection_SuperDream_Vespa_commuters_manual_v259.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_rg72_quangngai",
+      "license_verified": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "RG72",
+      "vietnam_context": "Busy Hanoi Old Quarter intersection street traffic with commuter riding black Honda Super Dream wearing red helmet, woman commuter on white scooter wearing white helmet, and red Vespa scooter.",
+      "box_count": 5,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_intersection_SuperDream_Vespa_commuters_manual_v259.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_WestLake_temple_commuters_motorcycle_manual_v259.png",
+      "decision": "accept",
+      "assigned_split": "train",
+      "assigned_group": "group_amenoc_hanoi",
+      "license_verified": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Amenoc",
+      "vietnam_context": "Hanoi circular West Lake roadway outside an ornate traditional temple gate, showing two women riding a motorcycle with safety helmets past a parked white car.",
+      "box_count": 3,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_WestLake_temple_commuters_motorcycle_manual_v259.png"
+    },
+    {
+      "image_id": "commons_vietnam/VietTri_traffic_light_stopped_commuters_manual_v259.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_hungvuongking_viettri",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Hungvuongking",
+      "vietnam_context": "Viet Tri city boulevard intersection in Phu Tho province, showing commuters on motorbikes and scooters stopped at a red traffic light, all wearing protective safety helmets.",
+      "box_count": 9,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__VietTri_traffic_light_stopped_commuters_manual_v259.png"
+    },
+    {
+      "image_id": "commons_vietnam/Hanoi_downtown_cafe_street_parked_motorbikes_manual_v259.png",
+      "decision": "accept",
+      "assigned_split": "val",
+      "assigned_group": "group_abai2k_hanoi",
+      "license_verified": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Abai2k",
+      "vietnam_context": "Downtown Hanoi tree-lined sidewalk street outside cafe with designated rows of parked motorcycles including classic Honda Dream, white scooter, and vintage standard motorbikes.",
+      "box_count": 4,
+      "evidence_overlay": "review_evidence/evidence_commons_vietnam__Hanoi_downtown_cafe_street_parked_motorbikes_manual_v259.png"
+    }
+  ]
+}
